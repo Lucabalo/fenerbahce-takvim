@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fenerbahçe Maç Takvimi</title>
+  <meta name="description" content="Fenerbahçe futbol + basketbol maç takvimi. Tek tıkla takvime abone ol." />
+  <meta property="og:title" content="Fenerbahçe Maç Takvimi" />
+  <meta property="og:description" content="Tek tıkla takvime abone ol. Otomatik güncellenir." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --bg1:#070B1A;
+      --bg2:#0B1633;
+      --card: rgba(255,255,255,.08);
+      --card2: rgba(255,255,255,.12);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.7);
+      --stroke: rgba(255,255,255,.14);
+      --shadow: 0 20px 60px rgba(0,0,0,.35);
+      --radius: 22px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 800px at 20% 10%, rgba(255,210,0,.18), transparent 55%),
+        radial-gradient(900px 700px at 80% 20%, rgba(0,87,183,.22), transparent 55%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:28px 16px;
+    }
+    .wrap{width:min(980px,100%); position:relative;}
+    .top{
+      display:flex; flex-wrap:wrap;
+      gap:14px; align-items:center; justify-content:space-between;
+      margin-bottom:18px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px;
+    }
+    .badge{
+      width:44px; height:44px; border-radius:14px;
+      background: linear-gradient(135deg, rgba(255,210,0,.9), rgba(0,87,183,.9));
+      box-shadow: 0 12px 30px rgba(0,0,0,.35);
+    }
+    h1{font-size: clamp(22px, 3.3vw, 34px); margin:0; letter-spacing:.2px;}
+    .sub{margin:0; color:var(--muted); font-size:14px}
+    .grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:16px;
+    }
+    @media (max-width: 880px){
+      .grid{grid-template-columns:1fr;}
+    }
+    .card{
+      background: linear-gradient(180deg, var(--card), transparent);
+      border: 1px solid var(--stroke);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    .card::before{
+      content:"";
+      position:absolute; inset:0;
+      background: radial-gradient(600px 180px at 20% 0%, rgba(255,255,255,.10), transparent 55%);
+      pointer-events:none;
+    }
+    .pad{padding:22px;}
+    .hero{
+      display:flex; flex-direction:column; gap:14px;
+    }
+    .kpis{
+      display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;
+    }
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:10px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.07);
+      border:1px solid rgba(255,255,255,.12);
+      color: var(--muted);
+      font-size:13px;
+    }
+    .btnRow{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:12px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(255,255,255,.08);
+      color: var(--text);
+      text-decoration:none;
+      font-weight: 650;
+      letter-spacing:.2px;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+      user-select:none;
+    }
+    .btn:hover{transform: translateY(-1px); background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.22);}
+    .btnPrimary{
+      background: linear-gradient(135deg, rgba(255,210,0,.92), rgba(0,87,183,.92));
+      border-color: transparent;
+      box-shadow: 0 18px 40px rgba(0,0,0,.28);
+    }
+    .btnPrimary:hover{transform: translateY(-1px) scale(1.01);}
+    .small{
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .steps{display:flex; flex-direction:column; gap:10px; margin:0; padding-left:18px;}
+    .steps li{color: var(--muted); line-height:1.5;}
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      background: rgba(0,0,0,.28);
+      border: 1px solid rgba(255,255,255,.12);
+      padding: 2px 6px;
+      border-radius: 8px;
+      color: rgba(255,255,255,.9);
+    }
+    .footer{
+      margin-top:14px;
+      display:flex; gap:10px; flex-wrap:wrap;
+      align-items:center; justify-content:space-between;
+      color: var(--muted);
+      font-size:12.5px;
+    }
+    .link{color: rgba(255,255,255,.85); text-decoration:underline; text-underline-offset:3px;}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <div class="brand">
+        <div class="badge" aria-hidden="true"></div>
+        <div>
+          <h1>Fenerbahçe Maç Takvimi</h1>
+          <p class="sub">Futbol + Basketbol • Otomatik güncellenen abonelik</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <div class="pad hero">
+          <p class="small">
+            Tek link ile takvime <b>abone ol</b> — saatler/etkinlikler güncellendikçe takvimin de güncellenir.
+          </p>
+
+          <div class="kpis">
+            <span class="pill">⚽ Futbol: Süper Lig / Avrupa / Türkiye Kupası</span>
+            <span class="pill">🏀 Basketbol: BSL / EuroLeague</span>
+            <span class="pill">📺 Açıklamada yayın kanalı</span>
+          </div>
+
+          <div class="btnRow">
+            <!-- ABONELİK LİNKİ -->
+            <a class="btn btnPrimary" href="./fenerbahce.ics">
+              📅 Takvime Abone Ol
+            </a>
+            <a class="btn" href="./fenerbahce.ics" download>
+              ⬇️ ICS İndir
+            </a>
+          </div>
+
+          <p class="small">
+            Abonelik linki: <code>https://lucabalo.github.io/fenerbahce-takvim/fenerbahce.ics</code>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="pad">
+          <h2 style="margin:0 0 10px 0; font-size:18px;">Nasıl eklenir?</h2>
+          <ol class="steps">
+            <li><b>iPhone/Mac (Apple Takvim):</b> Takvim → Dosya → <i>Yeni Takvim Aboneliği</i> → linki yapıştır.</li>
+            <li><b>Google Calendar:</b> Ayarlar → <i>Takvim ekle</i> → <i>URL ile</i> → linki yapıştır.</li>
+            <li>Güncellemeler cihazına göre birkaç saat içinde yansıyabilir.</li>
+          </ol>
+
+          <div class="footer">
+            <span>Made for 💛💙</span>
+            <span>
+              Repo: <a class="link" href="https://github.com/Lucabalo/fenerbahce-takvim" target="_blank" rel="noreferrer">GitHub</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
