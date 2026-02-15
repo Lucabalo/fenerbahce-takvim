@@ -3,1283 +3,11 @@ VERSION:2.0
 PRODID:-//Lucabalo//Fenerbahce Takvim//TR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Fenerbahçe Maç Takvimi
+X-WR-CALNAME:Fenerbahçe Maç Takvimi (Saat Belli)
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:sofascore-football-14348673-1756321200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250827T220000
-SUMMARY:⚽ Benfica - Fenerbahçe (UEFA Champions League, Playoff Round)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109635-1756656000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250831T190000
-SUMMARY:⚽ Gençlerbirliği - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109643-1757865600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250914T190000
-SUMMARY:⚽ Fenerbahçe - Trabzonspor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14613405-1758128400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250917T200000
-SUMMARY:⚽ Fenerbahçe - Alanyaspor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109646-1758474000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250921T200000
-SUMMARY:⚽ Kasımpaşa - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572652-1758740400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250924T220000
-SUMMARY:⚽ GNK Dinamo Zagreb - Fenerbahçe (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109662-1759078800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20250928T200000
-SUMMARY:⚽ Fenerbahçe - Antalyaspor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572703-1759423500@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251002T194500
-SUMMARY:⚽ Fenerbahçe - Nice (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109668-1759683600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251005T200000
-SUMMARY:⚽ Samsunspor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109681-1760893200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251019T200000
-SUMMARY:⚽ Fenerbahçe - Fatih Karagümrük (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572704-1761237900@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251023T194500
-SUMMARY:⚽ Fenerbahçe - VfB Stuttgart (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109690-1761584400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251027T200000
-SUMMARY:⚽ Gaziantep FK - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109696-1762102800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251102T200000
-SUMMARY:⚽ Beşiktaş JK - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572725-1762459200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251106T230000
-SUMMARY:⚽ Viktoria Plzeň - Fenerbahçe (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109710-1762707600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251109T200000
-SUMMARY:⚽ Fenerbahçe - Kayserispor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109721-1763917200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251123T200000
-SUMMARY:⚽ Çaykur Rizespor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572702-1764265500@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251127T204500
-SUMMARY:⚽ Fenerbahçe - Ferencváros TC (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109730-1764608400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251201T200000
-SUMMARY:⚽ Fenerbahçe - Galatasaray (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109747-1765040400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251206T200000
-SUMMARY:⚽ Başakşehir FK - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572825-1765483200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251211T230000
-SUMMARY:⚽ SK Brann - Fenerbahçe (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109739-1765818000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251215T200000
-SUMMARY:⚽ Fenerbahçe - Konyaspor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109752-1766239200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251220T170000
-SUMMARY:⚽ Eyüpspor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15187130-1766511000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251223T203000
-SUMMARY:⚽ Fenerbahçe - Beşiktaş JK (Turkiye Kupasi, Group C)
-DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15138460-1767720600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260106T203000
-SUMMARY:⚽ Fenerbahçe - Samsunspor (Super Kupa)
-DESCRIPTION:Kanal: TBD\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15326124-1768059900@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260110T184500
-SUMMARY:⚽ Galatasaray - Fenerbahçe (Super Kupa)
-DESCRIPTION:Kanal: TBD\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15187127-1768411800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260114T203000
-SUMMARY:⚽ Beyoğlu Yeni Çarşı FAŞ - Fenerbahçe (Turkiye Kupasi, Group C)
-DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109768-1768755600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260118T200000
-SUMMARY:⚽ Alanyaspor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572701-1769103900@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260122T204500
-SUMMARY:⚽ Fenerbahçe - Aston Villa (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109776-1769360400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260125T200000
-SUMMARY:⚽ Fenerbahçe - Göztepe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14572778-1769716800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260129T230000
-SUMMARY:⚽ FCSB - Fenerbahçe (UEFA Europa League)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109787-1770051600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260202T200000
-SUMMARY:⚽ Kocaelispor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15187132-1770312600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260205T203000
-SUMMARY:⚽ Fenerbahçe - Erzurumspor FK (Turkiye Kupasi, Group C)
-DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109797-1770656400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260209T200000
-SUMMARY:⚽ Fenerbahçe - Gençlerbirliği (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109807-1771088400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260214T200000
-SUMMARY:⚽ Trabzonspor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15453051-1771523100@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260219T204500
-SUMMARY:⚽ Fenerbahçe - Nottingham Forest (UEFA Europa League, Knockout stage)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109811-1771772400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260222T180000
-SUMMARY:⚽ Fenerbahçe - Kasımpaşa (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15453093-1772136000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260226T230000
-SUMMARY:⚽ Nottingham Forest - Fenerbahçe (UEFA Europa League, Knockout stage)
-DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109826-1772377200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260301T180000
-SUMMARY:⚽ Antalyaspor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-15187135-1772452800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260302T150000
-SUMMARY:⚽ Gaziantep FK - Fenerbahçe (Turkiye Kupasi, Group C)
-DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109834-1772982000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260308T180000
-SUMMARY:⚽ Fenerbahçe - Samsunspor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109846-1773586800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260315T180000
-SUMMARY:⚽ Fatih Karagümrük - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109856-1773846000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260318T180000
-SUMMARY:⚽ Fenerbahçe - Gaziantep FK (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109862-1775401200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260405T180000
-SUMMARY:⚽ Fenerbahçe - Beşiktaş JK (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109876-1776006000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260412T180000
-SUMMARY:⚽ Kayserispor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109888-1776610800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260419T180000
-SUMMARY:⚽ Fenerbahçe - Çaykur Rizespor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109897-1777215600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260426T180000
-SUMMARY:⚽ Galatasaray - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109904-1777820400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260503T180000
-SUMMARY:⚽ Fenerbahçe - Başakşehir FK (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109916-1778425200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260510T180000
-SUMMARY:⚽ Konyaspor - Fenerbahçe (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-football-14109918-1779030000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260517T180000
-SUMMARY:⚽ Fenerbahçe - Eyüpspor (Trendyol Süper Lig)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14206415-1761854400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251030T230000
-SUMMARY:🏀 Real Madrid - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500682-1762095600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251102T180000
-SUMMARY:🏀 Mersin Sports Club - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14206419-1762451100@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251106T204500
-SUMMARY:🏀 Fenerbahçe Beko - LDLC ASVEL Lyon-Villeurbanne (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500690-1762596000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251108T130000
-SUMMARY:🏀 Fenerbahçe Beko - Büyükçekmece (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210561-1762887600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251111T220000
-SUMMARY:🏀 Fenerbahçe Beko - Maccabi Tel Aviv (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210573-1763060400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251113T220000
-SUMMARY:🏀 Fenerbahçe Beko - Hapoel Tel-Aviv (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500701-1763314200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251116T203000
-SUMMARY:🏀 Esenler Erokspor - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210587-1763753400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251121T223000
-SUMMARY:🏀 KK Partizan Mozzart Bet - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500714-1763919000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251123T203000
-SUMMARY:🏀 Fenerbahçe Beko - Bursaspor Basketbol (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210588-1764092700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251125T204500
-SUMMARY:🏀 Fenerbahçe Beko - Virtus Bologna (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210604-1764875700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251204T221500
-SUMMARY:🏀 Olympiacos BC - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500730-1765101600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251207T130000
-SUMMARY:🏀 Yukatel Merkezefendi Belediyesi Basket - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210614-1765564200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251212T213000
-SUMMARY:🏀 Monaco Basket - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500744-1765733400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251214T203000
-SUMMARY:🏀 Fenerbahçe Beko - Anadolu Efes (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210620-1765907100@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251216T204500
-SUMMARY:🏀 Fenerbahçe Beko - Panathinaikos BC (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210628-1766086200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251218T223000
-SUMMARY:🏀 EA7 Emporio Armani Milano - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500760-1766242800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251220T180000
-SUMMARY:🏀 Trabzonspor - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210640-1766511900@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251223T204500
-SUMMARY:🏀 Fenerbahçe Beko - Barça Basket (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500771-1766829600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20251227T130000
-SUMMARY:🏀 Fenerbahçe Beko - Manisa Basket (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210654-1767380400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260102T220000
-SUMMARY:🏀 Kosner Baskonia - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500780-1767547800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260104T203000
-SUMMARY:🏀 Beşiktaş Gain - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210658-1767721500@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260106T204500
-SUMMARY:🏀 Fenerbahçe Beko - Olympiacos BC (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210668-1767888000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260108T190000
-SUMMARY:🏀 BC Dubai - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500787-1768143600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260111T180000
-SUMMARY:🏀 Fenerbahçe Beko - Bahçeşehir Koleji (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210688-1768585500@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260116T204500
-SUMMARY:🏀 Fenerbahçe Beko - Valencia Basket (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500797-1768748400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260118T180000
-SUMMARY:🏀 Fenerbahçe Beko - Tofaş Bursa (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210696-1769023800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260121T223000
-SUMMARY:🏀 Virtus Bologna - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210706-1769190300@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260123T204500
-SUMMARY:🏀 Fenerbahçe Beko - Kosner Baskonia (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500805-1769353200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260125T180000
-SUMMARY:🏀 Petkim Spor - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210707-1769708700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260129T204500
-SUMMARY:🏀 Fenerbahçe Beko - Anadolu Efes (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500822-1769862600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260131T153000
-SUMMARY:🏀 Karşıyaka - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210725-1770147000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260203T223000
-SUMMARY:🏀 Barça Basket - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210732-1770320700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260205T224500
-SUMMARY:🏀 Paris Basketball - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500851-1770553800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260208T153000
-SUMMARY:🏀 Fenerbahçe Beko - Galatasaray MCT Technic (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500858-1770994800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260213T180000
-SUMMARY:🏀 Türk Telekom B.K. - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210737-1771010100@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260213T221500
-SUMMARY:🏀 Panathinaikos BC - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-15415948-1771333200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260217T160000
-SUMMARY:🏀 Esenler Erokspor - Fenerbahçe Beko (Türkiye Kupasi, Final Round)
-DESCRIPTION:Kanal: TBD\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210740-1772041500@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260225T204500
-SUMMARY:🏀 Fenerbahçe Beko - KK Partizan Mozzart Bet (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210749-1772732700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260305T204500
-SUMMARY:🏀 Fenerbahçe Beko - Monaco Basket (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500867-1773414000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260313T180000
-SUMMARY:🏀 Büyükçekmece - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14206343-1773428400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260313T220000
-SUMMARY:🏀 KK Crvena zvezda - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500876-1774018800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260320T180000
-SUMMARY:🏀 Fenerbahçe Beko - Esenler Erokspor (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14206350-1774028700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260320T204500
-SUMMARY:🏀 Fenerbahçe Beko - EA7 Emporio Armani Milano (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14206355-1774375200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260324T210000
-SUMMARY:🏀 Maccabi Tel Aviv - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500886-1774537200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260326T180000
-SUMMARY:🏀 Fenerbahçe Beko - Mersin Sports Club (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500893-1774623600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260327T180000
-SUMMARY:🏀 Bursaspor Basketbol - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210766-1774633500@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260327T204500
-SUMMARY:🏀 Fenerbahçe Beko - Kauno Žalgiris (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500903-1775228400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260403T180000
-SUMMARY:🏀 Fenerbahçe Beko - Yukatel Merkezefendi Belediyesi Basket (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210779-1775241000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260403T213000
-SUMMARY:🏀 Bayern München - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210782-1775584800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260407T210000
-SUMMARY:🏀 Hapoel Tel-Aviv - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210790-1775756700@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260409T204500
-SUMMARY:🏀 Fenerbahçe Beko - Real Madrid (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500910-1775833200@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260410T180000
-SUMMARY:🏀 Anadolu Efes - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14210799-1776362400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260416T210000
-SUMMARY:🏀 LDLC ASVEL Lyon-Villeurbanne - Fenerbahçe Beko (Euroleague)
-DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500920-1776438000@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260417T180000
-SUMMARY:🏀 Fenerbahçe Beko - Trabzonspor (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500929-1777042800@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260424T180000
-SUMMARY:🏀 Manisa Basket - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500937-1777647600@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260501T180000
-SUMMARY:🏀 Fenerbahçe Beko - Beşiktaş Gain (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sofascore-basket-14500944-1778252400@lucabalo
-DTSTAMP:20260202T122143Z
-DTSTART;TZID=Europe/Istanbul:20260508T180000
-SUMMARY:🏀 Bahçeşehir Koleji - Fenerbahçe Beko (Turkish Basketball Super League)
-DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-BEGIN:VALARM
-TRIGGER:-PT60M
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 60 dakika önce
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:sofascore-volley-13759660-1744639200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20250414T170000
 SUMMARY:🏐 Fenerbahçe - Galatasaray (VVSL Lig, Women Playoffs)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1291,7 +19,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-13771106-1744905600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20250417T190000
 SUMMARY:🏐 VakıfBank - Fenerbahçe (VVSL Lig, Women Playoffs)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1303,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-13771107-1745168400@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20250420T200000
 SUMMARY:🏐 Fenerbahçe - VakıfBank (VVSL Lig, Women Playoffs)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1315,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-13771099-1745337600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20250422T190000
 SUMMARY:🏐 Fenerbahçe - VakıfBank (VVSL Lig, Women Playoffs)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1326,8 +54,80 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14348673-1756321200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250827T220000
+SUMMARY:⚽ Benfica - Fenerbahçe (UEFA Champions League, Playoff Round)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109635-1756656000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250831T190000
+SUMMARY:⚽ Gençlerbirliği - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109643-1757865600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250914T190000
+SUMMARY:⚽ Fenerbahçe - Trabzonspor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14613405-1758128400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250917T200000
+SUMMARY:⚽ Fenerbahçe - Alanyaspor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109646-1758474000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250921T200000
+SUMMARY:⚽ Kasımpaşa - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14572652-1758740400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250924T220000
+SUMMARY:⚽ GNK Dinamo Zagreb - Fenerbahçe (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14752684-1758814200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20250925T183000
 SUMMARY:🏐 Fenerbahçe - GS Panionios (Sardegna Volleyball Challenge)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1339,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-14770812-1758911400@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20250926T213000
 SUMMARY:🏐 Fenerbahçe - UYBA Volley Busto Arsizio (Sardegna Volleyball Challenge)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1350,8 +150,44 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109662-1759078800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20250928T200000
+SUMMARY:⚽ Fenerbahçe - Antalyaspor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14572703-1759423500@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251002T194500
+SUMMARY:⚽ Fenerbahçe - Nice (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109668-1759683600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251005T200000
+SUMMARY:⚽ Samsunspor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14815932-1759939200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251008T190000
 SUMMARY:🏐 VakıfBank - Fenerbahçe (Sampiyonlar Kupasi, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1363,7 +199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-14499105-1760266800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251012T140000
 SUMMARY:🏐 Aras Kargo - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1375,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-14812380-1760868000@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251019T130000
 SUMMARY:🏐 Fenerbahçe - Türk Hava Yolları (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1386,8 +222,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109681-1760893200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251019T200000
+SUMMARY:⚽ Fenerbahçe - Fatih Karagümrük (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14812385-1761150600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251022T193000
 SUMMARY:🏐 Zeren Spor - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1398,8 +246,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14572704-1761237900@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251023T194500
+SUMMARY:⚽ Fenerbahçe - VfB Stuttgart (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14812384-1761498000@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251026T200000
 SUMMARY:🏐 Fenerbahçe - Beşiktaş (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1410,8 +270,128 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109690-1761584400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251027T200000
+SUMMARY:⚽ Gaziantep FK - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14206415-1761854400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251030T230000
+SUMMARY:🏀 Real Madrid - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500682-1762095600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251102T180000
+SUMMARY:🏀 Mersin Sports Club - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109696-1762102800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251102T200000
+SUMMARY:⚽ Beşiktaş JK - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14206419-1762451100@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251106T204500
+SUMMARY:🏀 Fenerbahçe Beko - LDLC ASVEL Lyon-Villeurbanne (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14572725-1762459200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251106T230000
+SUMMARY:⚽ Viktoria Plzeň - Fenerbahçe (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500690-1762596000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251108T130000
+SUMMARY:🏀 Fenerbahçe Beko - Büyükçekmece (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109710-1762707600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251109T200000
+SUMMARY:⚽ Fenerbahçe - Kayserispor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210561-1762887600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251111T220000
+SUMMARY:🏀 Fenerbahçe Beko - Maccabi Tel Aviv (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210573-1763060400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251113T220000
+SUMMARY:🏀 Fenerbahçe Beko - Hapoel Tel-Aviv (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14984206-1763310600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251116T193000
 SUMMARY:🏐 Eczacıbaşı - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1422,8 +402,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500701-1763314200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251116T203000
+SUMMARY:🏀 Esenler Erokspor - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14984203-1763656200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251120T193000
 SUMMARY:🏐 Fenerbahçe - Galatasaray (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1434,8 +426,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14210587-1763753400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251121T223000
+SUMMARY:🏀 KK Partizan Mozzart Bet - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14984210-1763899200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251123T150000
 SUMMARY:🏐 Aydın Büyükşehir Belediyespor - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1446,8 +450,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109721-1763917200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251123T200000
+SUMMARY:⚽ Çaykur Rizespor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500714-1763919000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251123T203000
+SUMMARY:🏀 Fenerbahçe Beko - Bursaspor Basketbol (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15087617-1764086400@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251125T190000
 SUMMARY:🏐 Fenerbahçe - SL Benfica (Champions League Women, Pool B)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1458,8 +486,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14210588-1764092700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251125T204500
+SUMMARY:🏀 Fenerbahçe Beko - Virtus Bologna (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14572702-1764265500@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251127T204500
+SUMMARY:⚽ Fenerbahçe - Ferencváros TC (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15042941-1764432000@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251129T190000
 SUMMARY:🏐 Fenerbahçe - Kuzeyboru (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1470,8 +522,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109730-1764608400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251201T200000
+SUMMARY:⚽ Fenerbahçe - Galatasaray (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14261381-1764867600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251204T200000
 SUMMARY:🏐 Igor Gorgonzola Novara - Fenerbahçe (Champions League Women, Pool B)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1482,8 +546,44 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14210604-1764875700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251204T221500
+SUMMARY:🏀 Olympiacos BC - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109747-1765040400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251206T200000
+SUMMARY:⚽ Başakşehir FK - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500730-1765101600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251207T130000
+SUMMARY:🏀 Yukatel Merkezefendi Belediyesi Basket - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15042949-1765108800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251207T150000
 SUMMARY:🏐 İlbank - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1495,7 +595,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sofascore-volley-15172943-1765468800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251211T190000
 SUMMARY:🏐 Fenerbahçe - VakıfBank (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1506,8 +606,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14572825-1765483200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251211T230000
+SUMMARY:⚽ SK Brann - Fenerbahçe (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210614-1765564200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251212T213000
+SUMMARY:🏀 Monaco Basket - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15176655-1765717200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251214T160000
 SUMMARY:🏐 Bahcelievler Bld - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1518,8 +642,44 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500744-1765733400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251214T203000
+SUMMARY:🏀 Fenerbahçe Beko - Anadolu Efes (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109739-1765818000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251215T200000
+SUMMARY:⚽ Fenerbahçe - Konyaspor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210620-1765907100@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251216T204500
+SUMMARY:🏀 Fenerbahçe Beko - Panathinaikos BC (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15176672-1765987200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251217T190000
 SUMMARY:🏐 Fenerbahçe - Göztepe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1530,8 +690,44 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14210628-1766086200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251218T223000
+SUMMARY:🏀 EA7 Emporio Armani Milano - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109752-1766239200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251220T170000
+SUMMARY:⚽ Eyüpspor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500760-1766242800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251220T180000
+SUMMARY:🏀 Trabzonspor - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15176678-1766314800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20251221T140000
 SUMMARY:🏐 Fenerbahçe - Nilüfer Belediyespor (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1542,8 +738,56 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-15187130-1766511000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20251223T203000
+SUMMARY:⚽ Fenerbahçe - Beşiktaş JK (Turkiye Kupasi, Group C)
+DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210640-1766511900@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251223T204500
+SUMMARY:🏀 Fenerbahçe Beko - Barça Basket (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500771-1766829600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20251227T130000
+SUMMARY:🏀 Fenerbahçe Beko - Manisa Basket (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210654-1767380400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260102T220000
+SUMMARY:🏀 Kosner Baskonia - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15238314-1767445200@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260103T160000
 SUMMARY:🏐 Fenerbahçe - Aras Kargo (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1554,8 +798,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500780-1767547800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260104T203000
+SUMMARY:🏀 Beşiktaş Gain - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14261385-1767718800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260106T200000
 SUMMARY:🏐 Budowlani Łódź - Fenerbahçe (Champions League Women, Pool B)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1566,8 +822,44 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-15138460-1767720600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260106T203000
+SUMMARY:⚽ Fenerbahçe - Samsunspor (Super Kupa)
+DESCRIPTION:Kanal: TBD\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210658-1767721500@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260106T204500
+SUMMARY:🏀 Fenerbahçe Beko - Olympiacos BC (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210668-1767888000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260108T190000
+SUMMARY:🏀 BC Dubai - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15238306-1768042800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260110T140000
 SUMMARY:🏐 Türk Hava Yolları - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1578,8 +870,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-15326124-1768059900@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260110T184500
+SUMMARY:⚽ Galatasaray - Fenerbahçe (Super Kupa)
+DESCRIPTION:Kanal: TBD\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500787-1768143600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260111T180000
+SUMMARY:🏀 Fenerbahçe Beko - Bahçeşehir Koleji (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14261372-1768320000@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260113T190000
 SUMMARY:🏐 Fenerbahçe - Igor Gorgonzola Novara (Champions League Women, Pool B)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1590,8 +906,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-15187127-1768411800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260114T203000
+SUMMARY:⚽ Beyoğlu Yeni Çarşı FAŞ - Fenerbahçe (Turkiye Kupasi, Group C)
+DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210688-1768585500@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260116T204500
+SUMMARY:🏀 Fenerbahçe Beko - Valencia Basket (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15238301-1768647600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260117T140000
 SUMMARY:🏐 Fenerbahçe - Zeren Spor (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1602,8 +942,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500797-1768748400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260118T180000
+SUMMARY:🏀 Fenerbahçe Beko - Tofaş Bursa (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109768-1768755600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260118T200000
+SUMMARY:⚽ Alanyaspor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15317871-1768924800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260120T190000
 SUMMARY:🏐 Beşiktaş - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1614,8 +978,44 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14210696-1769023800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260121T223000
+SUMMARY:🏀 Virtus Bologna - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14572701-1769103900@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260122T204500
+SUMMARY:⚽ Fenerbahçe - Aston Villa (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210706-1769190300@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260123T204500
+SUMMARY:🏀 Fenerbahçe Beko - Kosner Baskonia (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15317870-1769270400@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260124T190000
 SUMMARY:🏐 Fenerbahçe - Eczacıbaşı (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1626,8 +1026,56 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500805-1769353200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260125T180000
+SUMMARY:🏀 Petkim Spor - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109776-1769360400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260125T200000
+SUMMARY:⚽ Fenerbahçe - Göztepe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210707-1769708700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260129T204500
+SUMMARY:🏀 Fenerbahçe Beko - Anadolu Efes (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14572778-1769716800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260129T230000
+SUMMARY:⚽ FCSB - Fenerbahçe (UEFA Europa League)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15125977-1769716800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260129T230000
 SUMMARY:🏐 SL Benfica - Fenerbahçe (Champions League Women, Pool B)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1638,8 +1086,20 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500822-1769862600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260131T153000
+SUMMARY:🏀 Karşıyaka - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15317862-1769954400@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260201T170000
 SUMMARY:🏐 Galatasaray - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1650,8 +1110,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109787-1770051600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260202T200000
+SUMMARY:⚽ Kocaelispor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210725-1770147000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260203T223000
+SUMMARY:🏀 Barça Basket - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-14261406-1770220800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260204T190000
 SUMMARY:🏐 Fenerbahçe - Budowlani Łódź (Champions League Women, Pool B)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1662,8 +1146,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-15187132-1770312600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260205T203000
+SUMMARY:⚽ Fenerbahçe - Erzurumspor FK (Turkiye Kupasi, Group C)
+DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210732-1770320700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260205T224500
+SUMMARY:🏀 Paris Basketball - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15439441-1770465600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260207T150000
 SUMMARY:🏐 Fenerbahçe - Aydın Büyükşehir Belediyespor (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1674,8 +1182,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500851-1770553800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260208T153000
+SUMMARY:🏀 Fenerbahçe Beko - Galatasaray MCT Technic (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109797-1770656400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260209T200000
+SUMMARY:⚽ Fenerbahçe - Gençlerbirliği (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15439445-1770726600@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260210T153000
 SUMMARY:🏐 Kuzeyboru - Fenerbahçe (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1686,8 +1218,32 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-basket-14500858-1770994800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260213T180000
+SUMMARY:🏀 Türk Telekom B.K. - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210737-1771010100@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260213T221500
+SUMMARY:🏀 Panathinaikos BC - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15441780-1771066800@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260214T140000
 SUMMARY:🏐 Fenerbahçe - İlbank (VVSL Lig, Women)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
@@ -1698,11 +1254,455 @@ DESCRIPTION:Maçtan 60 dakika önce
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:sofascore-football-14109807-1771088400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260214T200000
+SUMMARY:⚽ Trabzonspor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-15415948-1771333200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260217T160000
+SUMMARY:🏀 Esenler Erokspor - Fenerbahçe Beko (Türkiye Kupasi, Final Round)
+DESCRIPTION:Kanal: TBD\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-15453051-1771523100@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260219T204500
+SUMMARY:⚽ Fenerbahçe - Nottingham Forest (UEFA Europa League, Knockout stage)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109811-1771772400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260222T180000
+SUMMARY:⚽ Fenerbahçe - Kasımpaşa (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210740-1772041500@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260225T204500
+SUMMARY:🏀 Fenerbahçe Beko - KK Partizan Mozzart Bet (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-15453093-1772136000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260226T230000
+SUMMARY:⚽ Nottingham Forest - Fenerbahçe (UEFA Europa League, Knockout stage)
+DESCRIPTION:Kanal: Tabii Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109826-1772377200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260301T180000
+SUMMARY:⚽ Antalyaspor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-15187135-1772452800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260302T150000
+SUMMARY:⚽ Gaziantep FK - Fenerbahçe (Turkiye Kupasi, Group C)
+DESCRIPTION:Kanal: ATV / A Spor\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:sofascore-volley-15384065-1772550000@lucabalo
-DTSTAMP:20260202T122144Z
+DTSTAMP:20260215T192636Z
 DTSTART;TZID=Europe/Istanbul:20260303T180000
 SUMMARY:🏐 Fenerbahçe - Aras Kargo (Cup, Women, Knockout Stage)
 DESCRIPTION:Kanal: TRT Spor Yıldız / TVF Voleybol TV (YouTube)\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210749-1772732700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260305T204500
+SUMMARY:🏀 Fenerbahçe Beko - Monaco Basket (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109834-1772982000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260308T180000
+SUMMARY:⚽ Fenerbahçe - Samsunspor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500867-1773414000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260313T180000
+SUMMARY:🏀 Büyükçekmece - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14206343-1773428400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260313T220000
+SUMMARY:🏀 KK Crvena zvezda - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109846-1773586800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260315T180000
+SUMMARY:⚽ Fatih Karagümrük - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109856-1773846000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260318T180000
+SUMMARY:⚽ Fenerbahçe - Gaziantep FK (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500876-1774018800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260320T180000
+SUMMARY:🏀 Fenerbahçe Beko - Esenler Erokspor (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14206350-1774028700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260320T204500
+SUMMARY:🏀 Fenerbahçe Beko - EA7 Emporio Armani Milano (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14206355-1774375200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260324T210000
+SUMMARY:🏀 Maccabi Tel Aviv - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500886-1774537200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260326T180000
+SUMMARY:🏀 Fenerbahçe Beko - Mersin Sports Club (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500893-1774623600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260327T180000
+SUMMARY:🏀 Bursaspor Basketbol - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210766-1774633500@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260327T204500
+SUMMARY:🏀 Fenerbahçe Beko - Kauno Žalgiris (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500903-1775228400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260403T180000
+SUMMARY:🏀 Fenerbahçe Beko - Yukatel Merkezefendi Belediyesi Basket (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210779-1775241000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260403T213000
+SUMMARY:🏀 Bayern München - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109862-1775401200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260405T180000
+SUMMARY:⚽ Fenerbahçe - Beşiktaş JK (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210782-1775584800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260407T210000
+SUMMARY:🏀 Hapoel Tel-Aviv - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210790-1775756700@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260409T204500
+SUMMARY:🏀 Fenerbahçe Beko - Real Madrid (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500910-1775833200@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260410T180000
+SUMMARY:🏀 Anadolu Efes - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109876-1776006000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260412T180000
+SUMMARY:⚽ Kayserispor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14210799-1776362400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260416T210000
+SUMMARY:🏀 LDLC ASVEL Lyon-Villeurbanne - Fenerbahçe Beko (Euroleague)
+DESCRIPTION:Kanal: S Sport\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500920-1776438000@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260417T180000
+SUMMARY:🏀 Fenerbahçe Beko - Trabzonspor (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109888-1776610800@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260419T180000
+SUMMARY:⚽ Fenerbahçe - Çaykur Rizespor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500929-1777042800@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260424T180000
+SUMMARY:🏀 Manisa Basket - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109897-1777215600@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260426T180000
+SUMMARY:⚽ Galatasaray - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500937-1777647600@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260501T180000
+SUMMARY:🏀 Fenerbahçe Beko - Beşiktaş Gain (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109904-1777820400@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260503T180000
+SUMMARY:⚽ Fenerbahçe - Başakşehir FK (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-basket-14500944-1778252400@lucabalo
+DTSTAMP:20260215T192636Z
+DTSTART;TZID=Europe/Istanbul:20260508T180000
+SUMMARY:🏀 Bahçeşehir Koleji - Fenerbahçe Beko (Turkish Basketball Super League)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109916-1778425200@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260510T180000
+SUMMARY:⚽ Konyaspor - Fenerbahçe (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Maçtan 60 dakika önce
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sofascore-football-14109918-1779030000@lucabalo
+DTSTAMP:20260215T192635Z
+DTSTART;TZID=Europe/Istanbul:20260517T180000
+SUMMARY:⚽ Fenerbahçe - Eyüpspor (Trendyol Süper Lig)
+DESCRIPTION:Kanal: beIN SPORTS\nHavacı Fenerbahçeliler Derneği adına Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
