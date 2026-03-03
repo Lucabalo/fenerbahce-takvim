@@ -6,851 +6,476 @@ METHOD:PUBLISH
 X-WR-CALNAME:Fenerbahçe Fikstür
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:15453093-futbol@fenerbahce
+UID:91fe1e26bd1ae6a8@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260226T200000Z
 DTEND:20260226T220000Z
-SUMMARY:Fenerbahçe @ Nottingham Forest (Futbol) - UEFA Europa League\, Knockout stage
-DESCRIPTION:Kategori: Europe\nTurnuva/Lig: UEFA Europa League\, Knockout st
- age\nRound: Playoff round\nSofaScore event id: 15453093\n\nBu Takvim Havac
- ı Fenerbahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşt
- urulmuştur
+ rbahce/osclb
+SUMMARY:⚽ Fenerbahçe @ Nottingham Forest (Futbol) - UEFA Europa League
+ \, Knockout stage
+DESCRIPTION:Kategori: Europe\nTurnuva/Lig: UEFA Europa League\, Knocko
+ l/match/nottingham-forest-fenerbahce/osclb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109826-futbol@fenerbahce
+UID:40aa7e2b661f2e7a@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260301T170000Z
 DTEND:20260301T190000Z
-SUMMARY:Fenerbahçe @ Antalyaspor (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 24\nSofaScore event id: 14109826\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ /clbsglb
+SUMMARY:⚽ Fenerbahçe @ Antalyaspor (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ nerbahce/clbsglb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15187135-futbol@fenerbahce
+UID:53a453df6c227f15@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260302T120000Z
 DTEND:20260302T140000Z
-SUMMARY:Fenerbahçe @ Gaziantep FK (Futbol) - Turkiye Kupasi\, Group C
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkiye Kupasi\, Group C\nRound:
-  Round 4\nSofaScore event id: 15187135\n\nBu Takvim Havacı Fenerbahçelil
- er Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ e/clbsNcc
+SUMMARY:⚽ Fenerbahçe @ Gaziantep FK (Futbol) - Turkiye Kupasi\, Group 
+ C
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkiye Kupasi\, Group C\nR
+ -fk-fenerbahce/clbsNcc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15589484-futbol@fenerbahce
+UID:326cb1571cfd3a86@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260304T173000Z
 DTEND:20260304T193000Z
-SUMMARY:Fenerbahçe @ Gaziantep FK (Futbol) - Turkiye Kupasi\, Group C
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkiye Kupasi\, Group C\nSofaSc
- ore event id: 15589484\n\nBu Takvim Havacı Fenerbahçeliler Derneği içi
- n\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ e/clbsNcc
+SUMMARY:⚽ Fenerbahçe @ Gaziantep FK (Futbol) - Turkiye Kupasi\, Group 
+ C
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkiye Kupasi\, Group C\nY
+ lbsNcc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109834-futbol@fenerbahce
+UID:68187eb0fdd184ae@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260308T170000Z
 DTEND:20260308T190000Z
-SUMMARY:Fenerbahçe vs Samsunspor (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 25\nSofaScore event id: 14109834\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ sunspor/clbsdlb
+SUMMARY:⚽ Fenerbahçe vs Samsunspor (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ port-samsunspor/clbsdlb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109846-futbol@fenerbahce
+UID:c93af9353aad271a@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260315T150000Z
 DTEND:20260315T170000Z
-SUMMARY:Fenerbahçe @ Fatih Karagümrük (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 26\nSofaScore event id: 14109846\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ bahce/clbseZb
+SUMMARY:⚽ Fenerbahçe @ Fatih Karagümrük (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ uk-fenerbahce/clbseZb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109856-futbol@fenerbahce
+UID:f733e1da3cf4ed12@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260318T150000Z
 DTEND:20260318T170000Z
-SUMMARY:Fenerbahçe vs Gaziantep FK (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 27\nSofaScore event id: 14109856\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ k/clbsNcc
+SUMMARY:⚽ Fenerbahçe vs Gaziantep FK (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ iantep-fk/clbsNcc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109862-futbol@fenerbahce
+UID:73c3029087d64bd3@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260405T150000Z
 DTEND:20260405T170000Z
-SUMMARY:Fenerbahçe vs Beşiktaş JK (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 28\nSofaScore event id: 14109862\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ bsclb
+SUMMARY:⚽ Fenerbahçe vs Beşiktaş JK (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ iktas/albsclb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109876-futbol@fenerbahce
+UID:2234c7a7fad8b2e6@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260412T150000Z
 DTEND:20260412T170000Z
-SUMMARY:Fenerbahçe @ Kayserispor (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 29\nSofaScore event id: 14109876\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ /clbsxlb
+SUMMARY:⚽ Fenerbahçe @ Kayserispor (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ nerbahce/clbsxlb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109888-futbol@fenerbahce
+UID:7935cc728d29a165@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260419T150000Z
 DTEND:20260419T170000Z
-SUMMARY:Fenerbahçe vs Çaykur Rizespor (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 30\nSofaScore event id: 14109888\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ spor/clbsolb
+SUMMARY:⚽ Fenerbahçe vs Çaykur Rizespor (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ kur-rizespor/clbsolb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109897-futbol@fenerbahce
+UID:ea16760bcb21a699@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260426T150000Z
 DTEND:20260426T170000Z
-SUMMARY:Fenerbahçe @ Galatasaray (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 31\nSofaScore event id: 14109897\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ /clbsllb
+SUMMARY:⚽ Fenerbahçe @ Galatasaray (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ nerbahce/clbsllb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109904-futbol@fenerbahce
+UID:5f8810e648b5aaa3@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260503T150000Z
 DTEND:20260503T170000Z
-SUMMARY:Fenerbahçe vs Başakşehir FK (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 32\nSofaScore event id: 14109904\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ fk/clbsLlb
+SUMMARY:⚽ Fenerbahçe vs Başakşehir FK (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ aksehir-fk/clbsLlb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109916-futbol@fenerbahce
+UID:688423b3104b2d6d@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260510T150000Z
 DTEND:20260510T170000Z
-SUMMARY:Fenerbahçe @ Konyaspor (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 33\nSofaScore event id: 14109916\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ lbsKlb
+SUMMARY:⚽ Fenerbahçe @ Konyaspor (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ rbahce/clbsKlb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14109918-futbol@fenerbahce
+UID:4bd115242597a834@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260517T150000Z
 DTEND:20260517T170000Z
-SUMMARY:Fenerbahçe vs Eyüpspor (Futbol) - Trendyol Süper Lig
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: Roun
- d 34\nSofaScore event id: 14109918\n\nBu Takvim Havacı Fenerbahçeliler D
- erneği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ bsPPc
+SUMMARY:⚽ Fenerbahçe vs Eyüpspor (Futbol) - Trendyol Süper Lig
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Trendyol Süper Lig\nRound: 
+ pspor/clbsPPc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14210749-basketbol@fenerbahce
+UID:9a6f8ecc2364d133@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260305T174500Z
 DTEND:20260305T194500Z
-SUMMARY:Fenerbahçe Beko vs Monaco Basket (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 30\nSofaScore event id: 14210749\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ co-basket/ovbsvzvb
+SUMMARY:🏀 Fenerbahçe Beko vs Monaco Basket (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ ko-monaco-basket/ovbsvzvb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14206343-basketbol@fenerbahce
+UID:32f148b55461560c@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260313T190000Z
 DTEND:20260313T210000Z
-SUMMARY:Fenerbahçe Beko @ KK Crvena zvezda (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 31\nSofaScore event id: 14206343\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ idianbet-fenerbahce-beko/ovbsITx
+SUMMARY:🏀 Fenerbahçe Beko @ KK Crvena zvezda (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ zda-meridianbet-fenerbahce-beko/ovbsITx
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500867-basketbol@fenerbahce
+UID:82044dc9e7f870e7@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260315T100000Z
 DTEND:20260315T120000Z
-SUMMARY:Fenerbahçe Beko @ Büyükçekmece (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 22\nSofaScore event id: 14500867\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ hce-beko/ovbsuUGb
+SUMMARY:🏀 Fenerbahçe Beko @ Büyükçekmece (Basketbol) - Turkish Basketb
+ all Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /buyukcekmece-fenerbahce-beko/ovbsuUGb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15538345-basketbol@fenerbahce
+UID:77a0f25c57e4790e@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260317T191500Z
 DTEND:20260317T211500Z
-SUMMARY:Fenerbahçe Beko @ Olympiacos BC (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 14\nSofaScore event id: 15538345\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ ahce-beko/bvbsovb
+SUMMARY:🏀 Fenerbahçe Beko @ Olympiacos BC (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ -fenerbahce-beko/bvbsovb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14206350-basketbol@fenerbahce
+UID:4029ec535a257cce@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260320T174500Z
 DTEND:20260320T194500Z
-SUMMARY:Fenerbahçe Beko vs EA7 Emporio Armani Milano (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 32\nSofaScore event id: 14206350\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ emporio-armani-milano/ovbsFwb
+SUMMARY:🏀 Fenerbahçe Beko vs EA7 Emporio Armani Milano (Basketbol) - E
+ uroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ ko-ea7-emporio-armani-milano/ovbsFwb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500876-basketbol@fenerbahce
+UID:e14b5c70c5e29552@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260322T100000Z
 DTEND:20260322T120000Z
-SUMMARY:Fenerbahçe Beko vs Esenler Erokspor (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 23\nSofaScore event id: 14500876\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ ler-erokspor/ovbsHcJd
+SUMMARY:🏀 Fenerbahçe Beko vs Esenler Erokspor (Basketbol) - Turkish Ba
+ sketball Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /fenerbahce-beko-esenler-erokspor/ovbsHcJd
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14206355-basketbol@fenerbahce
+UID:5bc841daeef30247@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260324T180000Z
 DTEND:20260324T200000Z
-SUMMARY:Fenerbahçe Beko @ Maccabi Tel Aviv (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 33\nSofaScore event id: 14206355\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ erbahce-beko/ovbsfIc
+SUMMARY:🏀 Fenerbahçe Beko @ Maccabi Tel Aviv (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ viv-fenerbahce-beko/ovbsfIc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500886-basketbol@fenerbahce
+UID:d2bbb0f4f432ec97@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260326T150000Z
 DTEND:20260326T170000Z
-SUMMARY:Fenerbahçe Beko vs Mersin SC (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 21\nSofaScore event id: 14500886\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ in-buyuksehir-belediyesi/ovbsDik
+SUMMARY:🏀 Fenerbahçe Beko vs Mersin SC (Basketbol) - Turkish Basketbal
+ l Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /fenerbahce-beko-mersin-buyuksehir-belediyesi/ovbsDik
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14210766-basketbol@fenerbahce
+UID:406ca005c191ae7b@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260327T174500Z
 DTEND:20260327T194500Z
-SUMMARY:Fenerbahçe Beko vs Kauno Žalgiris (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 34\nSofaScore event id: 14210766\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ o-zalgiris/ovbsmIc
+SUMMARY:🏀 Fenerbahçe Beko vs Kauno Žalgiris (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ ko-kauno-zalgiris/ovbsmIc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500893-basketbol@fenerbahce
+UID:3d4a755aa94a5959@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260328T160000Z
 DTEND:20260328T180000Z
-SUMMARY:Fenerbahçe Beko @ Bursaspor Basketbol (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 24\nSofaScore event id: 14500893\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ im-fenerbahce-beko/ovbsGAbc
+SUMMARY:🏀 Fenerbahçe Beko @ Bursaspor Basketbol (Basketbol) - Turkish 
+ Basketball Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /bursaspor-info-yatirim-fenerbahce-beko/ovbsGAbc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14210779-basketbol@fenerbahce
+UID:cc5bfd430173137f@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260401T170000Z
 DTEND:20260401T190000Z
-SUMMARY:Fenerbahçe Beko @ Bayern München (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 35\nSofaScore event id: 14210779\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ bahce-beko/ovbswwk
+SUMMARY:🏀 Fenerbahçe Beko @ Bayern München (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ n-fenerbahce-beko/ovbswwk
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500903-basketbol@fenerbahce
+UID:07ca28791ab8f364@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260403T150000Z
 DTEND:20260403T170000Z
-SUMMARY:Fenerbahçe Beko vs Yukatel Merkezefendi Belediyesi Basket (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 25\nSofaScore event id: 14500903\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ tel-merkezefendi-belediyesi-basket/ovbsQOwc
+SUMMARY:🏀 Fenerbahçe Beko vs Yukatel Merkezefendi Belediyesi Basket (B
+ asketbol) - Turkish Basketball Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /fenerbahce-beko-yukatel-merkezefendi-belediyesi-basket/ovbsQOwc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14210782-basketbol@fenerbahce
+UID:7ba012408560e520@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260407T164500Z
 DTEND:20260407T184500Z
-SUMMARY:Fenerbahçe Beko @ Hapoel Tel-Aviv (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 36\nSofaScore event id: 14210782\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ rbahce-beko/ovbsETH
+SUMMARY:🏀 Fenerbahçe Beko @ Hapoel Tel-Aviv (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ iv-fenerbahce-beko/ovbsETH
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14210790-basketbol@fenerbahce
+UID:4af5f64ad8aba10f@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260409T174500Z
 DTEND:20260409T194500Z
-SUMMARY:Fenerbahçe Beko vs Real Madrid (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 37\nSofaScore event id: 14210790\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ -madrid/ovbsPvb
+SUMMARY:🏀 Fenerbahçe Beko vs Real Madrid (Basketbol) - Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ ko-real-madrid/ovbsPvb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500910-basketbol@fenerbahce
+UID:f3d21550ea6fe2cc@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260410T150000Z
 DTEND:20260410T170000Z
-SUMMARY:Fenerbahçe Beko @ Anadolu Efes (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 26\nSofaScore event id: 14500910\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ hce-beko/ovbspvb
+SUMMARY:🏀 Fenerbahçe Beko @ Anadolu Efes (Basketbol) - Turkish Basketb
+ all Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /anadolu-efes-fenerbahce-beko/ovbspvb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14210799-basketbol@fenerbahce
+UID:e5a6e06aa3987eaa@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260416T180000Z
 DTEND:20260416T200000Z
-SUMMARY:Fenerbahçe Beko @ LDLC ASVEL Lyon-Villeurbanne (Basketbol) - Euroleague
-DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: Round 
- 38\nSofaScore event id: 14210799\n\nBu Takvim Havacı Fenerbahçeliler Der
- neği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ eurbanne-fenerbahce-beko/ovbsLvb
+SUMMARY:🏀 Fenerbahçe Beko @ LDLC ASVEL Lyon-Villeurbanne (Basketbol) -
+  Euroleague
+DESCRIPTION:Kategori: International\nTurnuva/Lig: Euroleague\nRound: R
+ on-villeurbanne-fenerbahce-beko/ovbsLvb
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500920-basketbol@fenerbahce
+UID:14b4dc34d9438cc5@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260417T150000Z
 DTEND:20260417T170000Z
-SUMMARY:Fenerbahçe Beko vs Trabzonspor (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 27\nSofaScore event id: 14500920\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ zonspor-bk/ovbsxat
+SUMMARY:🏀 Fenerbahçe Beko vs Trabzonspor (Basketbol) - Turkish Basketb
+ all Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /fenerbahce-beko-trabzonspor-bk/ovbsxat
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500929-basketbol@fenerbahce
+UID:6772ff1c4e1394c9@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260424T150000Z
 DTEND:20260424T170000Z
-SUMMARY:Fenerbahçe Beko @ Manisa Basket (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 28\nSofaScore event id: 14500929\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ ce-beko/ovbsgphc
+SUMMARY:🏀 Fenerbahçe Beko @ Manisa Basket (Basketbol) - Turkish Basket
+ ball Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /manisa-bbsk-fenerbahce-beko/ovbsgphc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500937-basketbol@fenerbahce
+UID:abf3944d51a90c3d@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260501T150000Z
 DTEND:20260501T170000Z
-SUMMARY:Fenerbahçe Beko vs Beşiktaş Gain (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 29\nSofaScore event id: 14500937\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ ktas-emlakjet/ovbsDIc
+SUMMARY:🏀 Fenerbahçe Beko vs Beşiktaş Gain (Basketbol) - Turkish Baske
+ tball Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /fenerbahce-beko-besiktas-emlakjet/ovbsDIc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:14500944-basketbol@fenerbahce
+UID:5514c610bd6c15ec@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260508T150000Z
 DTEND:20260508T170000Z
-SUMMARY:Fenerbahçe Beko @ Bahçeşehir Koleji (Basketbol) - Turkish Basketball Super League
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super League\
- nRound: Round 30\nSofaScore event id: 14500944\n\nBu Takvim Havacı Fenerb
- ahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmuşt
- ur
+ nerbahce-beko/ovbsUrgc
+SUMMARY:🏀 Fenerbahçe Beko @ Bahçeşehir Koleji (Basketbol) - Turkish Ba
+ sketball Super League
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Turkish Basketball Super Le
+ /bahcesehir-koleji-fenerbahce-beko/ovbsUrgc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15501800-voleybol@fenerbahce
+UID:69aff0bc3b456529@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260227T150000Z
 DTEND:20260227T170000Z
-SUMMARY:Fenerbahçe vs Bahcelievler Bld (Voleybol) - VVSL Lig\, Women
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: VVSL Lig\, Women\nRound: Round 2
- 4\nSofaScore event id: 15501800\n\nBu Takvim Havacı Fenerbahçeliler Dern
- eği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ ler-bld/tCpsAJxc
+SUMMARY:🏐 Fenerbahçe vs Bahcelievler Bld (Voleybol) - VVSL Lig\, Women
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: VVSL Lig\, Women\nRound: Ro
+ celievler-bld/tCpsAJxc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15384065-voleybol@fenerbahce
+UID:df82120a1bc4490d@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260303T170000Z
 DTEND:20260303T190000Z
-SUMMARY:Fenerbahçe vs Aras Kargo (Voleybol) - Cup\, Women\, Knockout Stage
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Cup\, Women\, Knockout Stage\nRo
- und: Quarterfinals\nSofaScore event id: 15384065\n\nBu Takvim Havacı Fene
- rbahçeliler Derneği için\nAhmet Saatçıoğlu tarafından oluşturulmu
- ştur
+ o/tCpszrvg
+SUMMARY:🏐 Fenerbahçe vs Aras Kargo (Voleybol) - Cup\, Women\, Knockout
+  Stage
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: Cup\, Women\, Knockout Stag
+ ch/fenerbahce-aras-kargo/tCpszrvg
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15609649-voleybol@fenerbahce
+UID:c33842bca45da2ee@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260307T123000Z
 DTEND:20260307T143000Z
-SUMMARY:Fenerbahçe @ Göztepe (Voleybol) - VVSL Lig\, Women
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: VVSL Lig\, Women\nRound: Round 2
- 5\nSofaScore event id: 15609649\n\nBu Takvim Havacı Fenerbahçeliler Dern
- eği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ CpsvOHc
+SUMMARY:🏐 Fenerbahçe @ Göztepe (Voleybol) - VVSL Lig\, Women
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: VVSL Lig\, Women\nRound: Ro
+ ahce/tCpsvOHc
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:15609652-voleybol@fenerbahce
+UID:016023dfe4a8f148@fenerbahce
 DTSTAMP:20260226T160622Z
 DTSTART:20260314T100000Z
 DTEND:20260314T120000Z
-SUMMARY:Fenerbahçe @ Nilüfer Belediyespor (Voleybol) - VVSL Lig\, Women
-DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: VVSL Lig\, Women\nRound: Round 2
- 6\nSofaScore event id: 15609652\n\nBu Takvim Havacı Fenerbahçeliler Dern
- eği için\nAhmet Saatçıoğlu tarafından oluşturulmuştur
+ -fenerbahce/tCpsway
+SUMMARY:🏐 Fenerbahçe @ Nilüfer Belediyespor (Voleybol) - VVSL Lig\, Wo
+ men
+DESCRIPTION:Kategori: Turkey\nTurnuva/Lig: VVSL Lig\, Women\nRound: Ro
+ yespor-fenerbahce/tCpsway
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 gün önce hatırlatma
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:Maçtan 1 saat önce hatırlatma
-END:VALARM
 END:VEVENT
 END:VCALENDAR
