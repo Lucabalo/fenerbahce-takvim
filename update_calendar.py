@@ -6,7 +6,6 @@ import pytz
 
 WORKER_URL = "https://script.google.com/macros/s/AKfycbzeDzbRWMuANYlSqj-o3PzseBnG68OTSzfxcT9eoe4v8R7TWgZER4tGjn65KYAOG049/exec"
 
-# Yayıncı Kuruluş Eşleşmeleri
 BROADCASTERS = {
     "Trendyol Süper Lig": "beIN SPORTS",
     "Euroleague": "S Sport",
@@ -36,6 +35,11 @@ def fetch_events(team_id, period):
 def update_ics():
     c = Calendar()
     c.creator = "Fenerbahce Takvim Botu"
+    
+    # TAKVİM ADINI BURADAN AYARLIYORUZ
+    calendar_name = "HvFB Fenerbahçe Maç Takvimi"
+    c.extra.append(requests.structures.CaseInsensitiveDict({'X-WR-CALNAME': calendar_name}))
+    
     tr_tz = pytz.timezone('Europe/Istanbul')
     ad_footer = "\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur."
     
@@ -54,23 +58,21 @@ def update_ics():
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
             away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
             
-            # Başlık Ayarı: Takımlar - (Skor) formatı
+            # Skor Sonda Formatı
             status_type = game.get('status', {}).get('type')
             if status_type == 'finished':
                 h_score = game.get('homeScore', {}).get('display', 0)
                 a_score = game.get('awayScore', {}).get('display', 0)
-                # Skor sona alındı
                 e.name = f"{icon} {home_name} - {away_name} ({h_score}-{a_score})"
             else:
                 e.name = f"{icon} {home_name} - {away_name}"
             
-            # Zaman Ayarı
             start_ts = game.get('startTimestamp')
             if not start_ts: continue
             start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
             local_dt = start_dt_utc.astimezone(tr_tz)
             
-            # Kanal Bilgisi Kontrolü
+            # Yayıncı Ayarı
             tournament_name = game.get('tournament', {}).get('name', '')
             channel_text = "Henüz Belli Değil"
             for t_key, broadcaster in BROADCASTERS.items():
@@ -78,11 +80,6 @@ def update_ics():
                     channel_text = broadcaster
                     break
             
-            if channel_text == "Henüz Belli Değil":
-                api_channels = game.get('tvChannels', [])
-                if api_channels:
-                    channel_text = ", ".join([c.get('name') for c in api_channels])
-
             saat_str = local_dt.strftime('%H:%M')
             e.description = (
                 f"Turnuva: {tournament_name}\n"
@@ -91,7 +88,7 @@ def update_ics():
                 f"{ad_footer}"
             )
             
-            # Hatırlatıcılar: 1 gün ve 1 saat önce
+            # 1 gün ve 1 saat önce bildirim
             e.alarms = [DisplayAlarm(trigger=timedelta(days=-1)), DisplayAlarm(trigger=timedelta(hours=-1))]
             
             if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
@@ -104,8 +101,13 @@ def update_ics():
             e.uid = f"{game.get('id')}@fenerbahce-takvim"
             c.events.add(e)
 
+    # Dosyaya yazarken X-WR-CALNAME'i manuel eklemek bazen daha garantidir
+    output = c.serialize()
+    if "X-WR-CALNAME" not in output:
+        output = output.replace("VERSION:2.0", f"VERSION:2.0\nX-WR-CALNAME:{calendar_name}\nX-WR-TIMEZONE:Europe/Istanbul")
+
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
-        f.write(c.serialize())
+        f.write(output)
 
 if __name__ == "__main__":
     update_ics()
