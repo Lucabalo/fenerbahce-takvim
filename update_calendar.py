@@ -1,10 +1,9 @@
 import os
 import requests
 from ics import Calendar, Event
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 
-# Cloudflare Worker URL'in
 WORKER_URL = "https://fb-proxy.asaatci0.workers.dev/"
 
 TEAMS = {
@@ -13,40 +12,59 @@ TEAMS = {
     "Basketbol_Kadin": "10384"
 }
 
-def fetch_data(team_id):
-    target_url = f"https://api.sofascore.com/api/v1/team/{team_id}/events/next/0"
+def fetch_events(team_id, period):
+    target_url = f"https://api.sofascore.com/api/v1/team/{team_id}/events/{period}/0"
     full_proxy_url = f"{WORKER_URL}?url={target_url}"
-    
     try:
-        response = requests.get(full_proxy_url, timeout=15)
-        response.raise_for_status()
-        return response.json().get('events', [])
-    except Exception as e:
-        print(f"Hata ({team_id}): {e}")
-        return []
+        r = requests.get(full_proxy_url, timeout=15)
+        if r.status_code == 200:
+            return r.json().get('events', [])
+    except:
+        pass
+    return []
 
 def update_ics():
     c = Calendar()
-    # Hata veren 'extra' kısımlarını kaldırıp en sade haliyle kuruyoruz
     
     for branch, team_id in TEAMS.items():
-        events = fetch_data(team_id)
-        for game in events:
+        # Hem geçmiş (last) hem gelecek (next) maçları çekiyoruz
+        all_games = fetch_events(team_id, 'last') + fetch_events(team_id, 'next')
+        
+        for game in all_games:
+            if game.get('status', {}).get('type') == 'canceled':
+                continue
+                
             e = Event()
-            home = game['homeTeam']['shortName']
-            away = game['awayTeam']['shortName']
+            home_name = game['homeTeam']['shortName']
+            away_name = game['awayTeam']['shortName']
             
-            e.name = f"FB {branch}: {home}-{away}"
-            # Zaman damgasını UTC olarak ayarla
-            e.begin = datetime.fromtimestamp(game['startTimestamp'], pytz.utc)
-            e.duration = {"hours": 2}
-            e.description = f"Branş: {branch}\nOtomatik güncellenmiştir."
+            # SKOR MANTIĞI
+            # Eğer maç bittiyse (finished) veya skor varsa başlığa ekle
+            status_type = game.get('status', {}).get('type')
+            if status_type == 'finished':
+                home_score = game.get('homeScore', {}).get('display', 0)
+                away_score = game.get('awayScore', {}).get('display', 0)
+                e.name = f"({home_score}-{away_score}) {branch}: {home_name}-{away_name}"
+            else:
+                e.name = f"{branch}: {home_name}-{away_name}"
             
+            # Zaman Ayarı
+            start_ts = game['startTimestamp']
+            start_dt = datetime.fromtimestamp(start_ts, pytz.utc)
+            
+            # Saat onaylı mı kontrolü (SofaScore status code 0 genellikle TBD demektir)
+            if game.get('status', {}).get('code') == 0 and start_dt.hour == 0:
+                e.begin = start_dt.date()
+                e.make_all_day()
+            else:
+                e.begin = start_dt
+                e.duration = timedelta(hours=2)
+
+            e.description = f"Turnuva: {game['tournament']['name']}\nDurum: {game['status']['description']}"
             c.events.add(e)
 
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
-        f.write(c.serialize()) # writelines yerine serialize daha güvenlidir
-    print("fenerbahce.ics başarıyla güncellendi.")
+        f.write(c.serialize())
 
 if __name__ == "__main__":
     update_ics()
