@@ -1,0 +1,4 @@
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Sadece her Pazartesi gece yarısı çalışır
+  workflow_dispatch: # İhtiyaç duyduğunda sen elle basıp güncelleyebilirsin
