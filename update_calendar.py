@@ -1,6 +1,6 @@
 import os
 import requests
-from ics import Calendar, Event
+from ics import Calendar, Event, DisplayAlarm
 from datetime import datetime, timedelta
 import pytz
 
@@ -29,6 +29,9 @@ def update_ics():
     c.creator = "Fenerbahce Takvim Botu"
     tr_tz = pytz.timezone('Europe/Istanbul')
     
+    # REKLAM İMZASI
+    ad_footer = "\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur."
+    
     for branch, data in TEAMS.items():
         team_id = data["id"]
         icon = data["icon"]
@@ -40,13 +43,12 @@ def update_ics():
                 
             e = Event()
             
-            # Takım isimlerini güvenli al
             home_team = game.get('homeTeam', {})
             away_team = game.get('awayTeam', {})
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
             away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
             
-            # FORMAT: [Icon] Ev Sahibi - Deplasman
+            # Başlık Formatı
             status_type = game.get('status', {}).get('type')
             if status_type == 'finished':
                 home_score = game.get('homeScore', {}).get('display', 0)
@@ -55,29 +57,34 @@ def update_ics():
             else:
                 e.name = f"{icon} {home_name} - {away_name}"
             
-            # Zaman damgası ve Türkiye saati ayarı
+            # Zaman Ayarları
             start_ts = game.get('startTimestamp')
             if not start_ts: continue
-            
             start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
             local_dt = start_dt_utc.astimezone(tr_tz)
             
-            # Kanal Bilgisi (tvChannels SofaScore'da varsa)
+            # Kanal ve Açıklama
             channels = game.get('tvChannels', [])
             channel_text = ", ".join([c.get('name') for c in channels]) if channels else "Henüz Belli Değil"
-            
-            # Turnuva ve Açıklama Alanı
-            tournament = game.get('tournament', {}).get('name', 'Turnuva Bilgisi Yok')
+            tournament = game.get('tournament', {}).get('name', 'Turnuva')
             saat_str = local_dt.strftime('%H:%M')
             
-            # İstediğin Formatlı Açıklama
+            # İmzalı Açıklama Formatı
             e.description = (
                 f"{tournament}\n"
                 f"Maç Saati : {saat_str}\n"
                 f"Kanal Bilgisi: {channel_text}"
+                f"{ad_footer}"
             )
             
-            # Takvim Zaman Ayarı
+            # TAKVİM HATIRLATICILARI (Alarms)
+            # 1. Hatırlatıcı: 1 gün önce
+            alarm_1day = DisplayAlarm(trigger=timedelta(days=-1))
+            # 2. Hatırlatıcı: 1 saat önce
+            alarm_1hour = DisplayAlarm(trigger=timedelta(hours=-1))
+            e.alarms = [alarm_1day, alarm_1hour]
+            
+            # Etkinlik Zamanlama
             if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
                 e.begin = start_dt_utc.date()
                 e.make_all_day()
