@@ -1,4 +1,32 @@
+name: FB Calendar Auto Update
+
 on:
   schedule:
-    - cron: '0 0 * * 1' # Sadece her Pazartesi gece yarısı çalışır
-  workflow_dispatch: # İhtiyaç duyduğunda sen elle basıp güncelleyebilirsin
+    - cron: '0 0 * * 1' # Her Pazartesi gece yarısı çalışır
+  workflow_dispatch: # Manuel çalıştırma butonu
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install requests ics pytz
+
+      - name: Run Script
+        run: python update_calendar.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Fenerbahce Bot'
+          git config --global user.email 'bot@fenerbahce.org'
+          git add fenerbahce.ics
+          git commit -m "Takvim güncellendi: $(date)" || echo "Değişiklik yok"
+          git push
