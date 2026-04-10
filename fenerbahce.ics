@@ -1,256 +1,746 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:ics.py - http://git.io/lLljaA
+PRODID:Fenerbahce Takvim Botu
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Club Friendly Games\nDurum: Ended
+DESCRIPTION:Turnuva: Champions League Women\, Playoffs\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260119T160000Z
-SUMMARY:(1-1) Futbol: Portimonense-Radomiak
-UID:641fb1a4-1582-4cc2-b803-d70d22072b42@641f.org
+DTSTART:20260311T180000Z
+SUMMARY:(3-0) Voleybol_Kadin: Scandicci-Fenerbahçe
+UID:15628282@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Postponed
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251102T000000Z
-SUMMARY:Futbol: Porto B-Portimonense
-UID:196f34c0-473d-4150-8bc4-2072cdd6b46b@196f.org
+DTSTART:20260214T110000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-İlbank
+UID:15441780@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Not started
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260516T110000Z
-SUMMARY:Futbol: Portimonense-Farense
-UID:fed1ab46-0d3e-4d5b-b832-644796efcb96@fed1.org
+DTSTART:20260405T170000Z
+SUMMARY:(1-0) Futbol_Erkek: Fenerbahçe-Beşiktaş
+UID:14109862@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251004T143000Z
-SUMMARY:(1-1) Futbol: Portimonense-Leiria
-UID:4b6315c6-5674-448a-9f03-9d6dafff1a54@4b63.org
+DTSTART:20260202T170000Z
+SUMMARY:(0-2) Futbol_Erkek: Kocaelispor-Fenerbahçe
+UID:14109787@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Not started
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260502T110000Z
-SUMMARY:Futbol: Portimonense-Chaves
-UID:52e65fe0-c3ef-4884-998d-87b771714a49@52e6.org
+DTSTART:20260129T174500Z
+SUMMARY:(79-62) Basketbol_Erkek: Fenerbahçe-Anadolu Efes
+UID:14210707@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nDurum: Not started
 DURATION:PT2H
-DTSTART:20260228T180000Z
-SUMMARY:(1-0) Futbol: Leiria-Portimonense
-UID:54490f49-2b8b-494d-8f23-946497ab4bb4@5449.org
+DTSTART:20260413T160000Z
+SUMMARY:Voleybol_Kadin: VakıfBank-Fenerbahçe
+UID:15952442@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260103T203000Z
-SUMMARY:(0-1) Futbol: Farense-Portimonense
-UID:077aaee2-6eeb-4760-85d7-7af458dbf4ca@077a.org
+DTSTART:20251211T160000Z
+SUMMARY:(2-3) Voleybol_Kadin: Fenerbahçe-VakıfBank
+UID:15172943@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260125T110000Z
-SUMMARY:(0-1) Futbol: Portimonense-Feirense
-UID:29824b44-c8ec-406c-95b8-722abc6303ee@2982.org
+DTSTART:20260106T170000Z
+SUMMARY:(0-3) Voleybol_Kadin: Budowlani Łódź-Fenerbahçe
+UID:14261385@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251030T180000Z
-SUMMARY:(0-1) Futbol: Portimonense-Torreense
-UID:65f46ed4-7233-40fc-b122-13e1e6c37b84@65f4.org
+DTSTART:20260201T140000Z
+SUMMARY:(0-3) Voleybol_Kadin: Galatasaray-Fenerbahçe
+UID:15317862@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Cup\, Women\, Knockout Stage\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251207T110000Z
-SUMMARY:(3-2) Futbol: Lusitânia-Portimonense
-UID:2fab3d1b-f70a-49ea-ae11-dc0e11f5cdff@2fab.org
+DTSTART:20260303T170000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-Aras Kargo
+UID:15384065@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Not started
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Knockout stage\nDurum: Not started
 DURATION:PT2H
-DTSTART:20260509T110000Z
-SUMMARY:Futbol: Felgueiras-Portimonense
-UID:792bd2a0-522f-4774-a10a-1ce1e5f953a7@792b.org
+DTSTART:20260421T173000Z
+SUMMARY:Futbol_Erkek: Konyaspor-Fenerbahçe
+UID:15712709@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260215T110000Z
-SUMMARY:(4-3) Futbol: Sporting B U21-Portimonense
-UID:44859f86-46ac-49b1-8173-b7f58532c4f2@4485.org
+DTSTART:20260304T183000Z
+SUMMARY:(0-4) Futbol_Erkek: Gaziantep-Fenerbahçe
+UID:15589484@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260222T153000Z
-SUMMARY:(0-1) Futbol: Portimonense-Académico Viseu
-UID:e3d63995-1c3a-49f2-bbb3-cfb167c32e7b@e3d6.org
+DTSTART:20251223T173000Z
+SUMMARY:(1-2) Futbol_Erkek: Fenerbahçe-Beşiktaş
+UID:15187130@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260131T203000Z
-SUMMARY:(1-1) Futbol: Vizela-Portimonense
-UID:c8b8e7ad-a09d-4e6d-b030-f42ccdf0f488@c8b8.org
+DTSTART:20260313T190000Z
+SUMMARY:(79-73) Basketbol_Erkek: Crvena zvezda-Fenerbahçe
+UID:14206343@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
 DURATION:PT2H
-DTSTART:20250927T130000Z
-SUMMARY:(2-3) Futbol: Académico Viseu-Portimonense
-UID:7e629877-bb87-4996-8b9c-0506467185fd@7e62.org
+DTSTART:20260320T174500Z
+SUMMARY:(79-75) Basketbol_Erkek: Fenerbahçe-EA7 Milano
+UID:14206350@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251108T140000Z
-SUMMARY:(1-1) Futbol: Portimonense-Oliveirense
-UID:19efa162-aaa3-4f69-a937-31c541d5e38e@19ef.org
+DTSTART:20260329T150000Z
+SUMMARY:(0-3) Voleybol_Kadin: Zeren Spor-Fenerbahçe
+UID:15772545@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260316T201500Z
-SUMMARY:(1-0) Futbol: Torreense-Portimonense
-UID:fca1bd57-532c-4109-9839-269f3dbb6a9e@fca1.org
+DTSTART:20251201T170000Z
+SUMMARY:(1-1) Futbol_Erkek: Fenerbahçe-Galatasaray
+UID:14109730@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251025T130000Z
-SUMMARY:(4-1) Futbol: Paços de Ferreira-Portimonense
-UID:fd8d7131-d855-44b4-b16d-e811addbfb84@fd8d.org
+DTSTART:20260103T130000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-Aras Kargo
+UID:15238314@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260307T140000Z
-SUMMARY:(2-3) Futbol: Portimonense-Paços de Ferreira
-UID:cb45ebea-dbb8-47e7-b07f-49deb28af510@cb45.org
+DTSTART:20260324T173000Z
+SUMMARY:(94-89) Basketbol_Erkek: Maccabi Tel-Aviv-Fenerbahçe
+UID:14206355@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260209T180000Z
-SUMMARY:(1-1) Futbol: Portimonense-Benfica B U21
-UID:9a58a005-3980-449b-bb37-67e0813f4c9a@9a58.org
+DTSTART:20251214T130000Z
+SUMMARY:(0-3) Voleybol_Kadin: Bahcelievler Bld-Fenerbahçe
+UID:15176655@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260403T143000Z
-SUMMARY:(1-2) Futbol: Oliveirense-Portimonense
-UID:01b6c067-57e1-40f1-9771-fc810b22b9db@01b6.org
+DTSTART:20260113T160000Z
+SUMMARY:(3-2) Voleybol_Kadin: Fenerbahçe-Novara
+UID:14261372@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
 DURATION:PT2H
-DTSTART:20250914T100000Z
-SUMMARY:(1-2) Futbol: Portimonense-Sporting B U21
-UID:53bbf574-e8c0-4bb2-9b30-f7fb47fcc3d8@53bb.org
+DTSTART:20260225T174500Z
+SUMMARY:(81-78) Basketbol_Erkek: Fenerbahçe-Partizan Mozzart
+UID:14210740@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Taça de Portugal\nDurum: Ended
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251018T153000Z
-SUMMARY:(1-2) Futbol: Portimonense-Arouca
-UID:79d2d167-f919-44c7-b526-080a3b6908d0@79d2.org
+DTSTART:20260204T160000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-Budowlani Łódź
+UID:14261406@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251214T110000Z
-SUMMARY:(1-2) Futbol: Portimonense-Leixões
-UID:95930ac5-2f65-4137-997e-4c16748e1d90@9593.org
+DTSTART:20260314T100000Z
+SUMMARY:(0-3) Voleybol_Kadin: Nilüfer Bld.-Fenerbahçe
+UID:15609652@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Taça de Portugal\nDurum: Ended
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
 DURATION:PT2H
-DTSTART:20250920T150000Z
-SUMMARY:(1-2) Futbol: Vitória Sernache-Portimonense
-UID:1dfbd47d-bff5-496a-9d26-cad645648677@1dfb.org
+DTSTART:20260404T123000Z
+SUMMARY:(82-69) Basketbol_Erkek: Fenerbahçe-Merkezefendi Basket
+UID:14500903@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251123T110000Z
-SUMMARY:(1-0) Futbol: Porto B-Portimonense
-UID:561952ba-f1b4-4536-a2f9-e7cf06122ea2@5619.org
+DTSTART:20260315T100000Z
+SUMMARY:(85-91) Basketbol_Erkek: Büyükçekmece-Fenerbahçe
+UID:14500867@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Postponed
+DESCRIPTION:Turnuva: Champions League Women\, Playoffs\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251228T153000Z
-SUMMARY:Futbol: Portimonense-Felgueiras
-UID:ddfd71bd-7cc2-43b1-9904-3a8aa35e3467@ddfd.org
+DTSTART:20260319T140000Z
+SUMMARY:(3-1) Voleybol_Kadin: Fenerbahçe-Scandicci
+UID:15628286@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: MLS Pre Season\nDurum: Ended
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260121T154500Z
-SUMMARY:(0-4) Futbol: Portimonense-Dallas
-UID:6687b132-ab10-4e69-86e5-a4579bfe9226@6687.org
+DTSTART:20251109T170000Z
+SUMMARY:(4-2) Futbol_Erkek: Fenerbahçe-Kayserispor
+UID:14109710@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Postponed
 DURATION:PT2H
-DTSTART:20260321T180000Z
-SUMMARY:(2-1) Futbol: Portimonense-Porto B
-UID:51b85c31-2231-4b9f-8929-72a7c74e8109@51b8.org
+DTSTART:20260411T150000Z
+SUMMARY:Basketbol_Erkek: Anadolu Efes-Fenerbahçe
+UID:14500910@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
 DURATION:PT2H
-DTSTART:20251130T140000Z
-SUMMARY:(0-2) Futbol: Portimonense-Marítimo
-UID:46ac2059-dd55-4004-9fcf-c2aad8fef3f8@46ac.org
+DTSTART:20260123T174500Z
+SUMMARY:(84-71) Basketbol_Erkek: Fenerbahçe-Baskonia
+UID:14210706@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Not started
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260425T110000Z
-SUMMARY:Futbol: Leixões-Portimonense
-UID:bfaf5b3a-79a4-4a45-99a1-34afae6581c3@bfaf.org
+DTSTART:20251206T170000Z
+SUMMARY:(1-1) Futbol_Erkek: Başakşehir-Fenerbahçe
+UID:14109747@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260117T110000Z
+SUMMARY:(2-3) Voleybol_Kadin: Fenerbahçe-Zeren Spor
+UID:15238301@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260308T170000Z
+SUMMARY:(3-2) Futbol_Erkek: Fenerbahçe-Samsunspor
+UID:14109834@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260114T173000Z
+SUMMARY:(0-1) Futbol_Erkek: Beyoğlu Yeni Çarşı-Fenerbahçe
+UID:15187127@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260308T150000Z
+SUMMARY:(91-78) Basketbol_Erkek: Fenerbahçe-Mersin
+UID:14500886@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260110T110000Z
+SUMMARY:(3-2) Voleybol_Kadin: Türk Hava Yolları-Fenerbahçe
+UID:15238306@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260402T140000Z
+SUMMARY:(3-1) Voleybol_Kadin: Fenerbahçe-Zeren Spor
+UID:15772544@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260203T193000Z
+SUMMARY:(78-82) Basketbol_Erkek: Barça-Fenerbahçe
+UID:14210725@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: AET
+DURATION:PT2H
+DTSTART:20260329T173000Z
+SUMMARY:(75-75) Basketbol_Erkek: Bursaspor-Fenerbahçe
+UID:14500893@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260205T194500Z
+SUMMARY:(90-92) Basketbol_Erkek: Paris Basketball-Fenerbahçe
+UID:14210732@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Türkiye Kupasi\, Final Round\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260222T170000Z
+SUMMARY:(91-74) Basketbol_Erkek: Fenerbahçe-Beşiktaş
+UID:15590781@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: UEFA Europa League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251127T174500Z
+SUMMARY:(1-1) Futbol_Erkek: Fenerbahçe-Ferencváros
+UID:14572702@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260313T170000Z
+SUMMARY:(2-0) Futbol_Erkek: Karagümrük-Fenerbahçe
+UID:14109846@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260207T120000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-Aydın B.Şehir Bld.
+UID:15439441@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260214T170000Z
+SUMMARY:(2-3) Futbol_Erkek: Trabzonspor-Fenerbahçe
+UID:14109807@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: UEFA Europa League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260129T200000Z
+SUMMARY:(1-1) Futbol_Erkek: FCSB-Fenerbahçe
+UID:14572778@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260121T193000Z
+SUMMARY:(80-85) Basketbol_Erkek: V. Bologna-Fenerbahçe
+UID:14210696@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260131T123000Z
+SUMMARY:(55-91) Basketbol_Erkek: Karşıyaka-Fenerbahçe
+UID:14500822@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260213T191500Z
+SUMMARY:(83-85) Basketbol_Erkek: Panathinaikos-Fenerbahçe
+UID:14210737@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260317T191500Z
+SUMMARY:(104-87) Basketbol_Erkek: Olympiacos-Fenerbahçe
+UID:15538345@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Super Kupa\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260106T173000Z
+SUMMARY:(2-0) Futbol_Erkek: Fenerbahçe-Samsunspor
+UID:15138460@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251215T170000Z
+SUMMARY:(4-0) Futbol_Erkek: Fenerbahçe-Konyaspor
+UID:14109739@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260307T123000Z
+SUMMARY:(2-3) Voleybol_Kadin: Göztepe-Fenerbahçe
+UID:15609649@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260426T170000Z
+SUMMARY:Futbol_Erkek: Galatasaray-Fenerbahçe
+UID:14109897@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: UEFA Europa League\, Knockout stage\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260219T174500Z
+SUMMARY:(0-3) Futbol_Erkek: Fenerbahçe-Forest
+UID:15453051@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260409T174500Z
+SUMMARY:(69-74) Basketbol_Erkek: Fenerbahçe-Real Madrid
+UID:14210790@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260301T170000Z
+SUMMARY:(2-2) Futbol_Erkek: Antalyaspor-Fenerbahçe
+UID:14109826@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260413T160000Z
+SUMMARY:Basketbol_Erkek: Anadolu Efes-Fenerbahçe
+UID:15989255@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260305T174500Z
+SUMMARY:(88-70) Basketbol_Erkek: Fenerbahçe-Monaco Basket
+UID:14210749@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251123T170000Z
+SUMMARY:(2-5) Futbol_Erkek: Rizespor-Fenerbahçe
+UID:14109721@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260209T170000Z
+SUMMARY:(3-1) Futbol_Erkek: Fenerbahçe-Gençlerbirliği
+UID:14109797@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251221T110000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-Nilüfer Bld.
+UID:15176678@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260221T170000Z
+SUMMARY:(3-1) Voleybol_Kadin: VakıfBank-Fenerbahçe
+UID:15501778@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251207T120000Z
+SUMMARY:(0-3) Voleybol_Kadin: İlbank-Fenerbahçe
+UID:15042949@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260116T174500Z
+SUMMARY:(82-79) Basketbol_Erkek: Fenerbahçe-Valencia
+UID:14210688@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: UEFA Europa League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260122T174500Z
+SUMMARY:(0-1) Futbol_Erkek: Fenerbahçe-Aston Villa
+UID:14572701@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260517T150000Z
+SUMMARY:Futbol_Erkek: Fenerbahçe-Eyüpspor
+UID:14109918@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260215T150000Z
+SUMMARY:(76-88) Basketbol_Erkek: Türk Telekom-Fenerbahçe
+UID:14500858@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260210T123000Z
+SUMMARY:(1-3) Voleybol_Kadin: Kuzeyboru-Fenerbahçe
+UID:15439445@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260407T160000Z
+SUMMARY:(95-80) Basketbol_Erkek: Hapoel TA-Fenerbahçe
+UID:14210782@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: UEFA Europa League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251211T200000Z
+SUMMARY:(0-4) Futbol_Erkek: Brann-Fenerbahçe
+UID:14572825@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260118T150000Z
+SUMMARY:(90-82) Basketbol_Erkek: Fenerbahçe-Tofaş
+UID:14500797@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251217T160000Z
+SUMMARY:(3-1) Voleybol_Kadin: Fenerbahçe-Göztepe
+UID:15176672@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
 DURATION:PT2H
 DTSTART:20251220T140000Z
-SUMMARY:(0-1) Futbol: Chaves-Portimonense
-UID:5c0271ff-bd4c-4d17-a194-72b0398ada79@5c02.org
+SUMMARY:(0-3) Futbol_Erkek: Eyüpspor-Fenerbahçe
+UID:14109752@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Not started
 DURATION:PT2H
-DTSTART:20260117T140000Z
-SUMMARY:(0-2) Futbol: Penafiel-Portimonense
-UID:57613b34-8e09-484b-ab33-07a91cace807@5761.org
+DTSTART:20260419T123000Z
+SUMMARY:Basketbol_Erkek: Fenerbahçe-Trabzonspor
+UID:14500920@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Not started
+DESCRIPTION:Turnuva: UEFA Europa League\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260419T100000Z
-SUMMARY:Futbol: Portimonense-Lusitânia
-UID:5e2c1abd-3812-492d-a0ba-bf3327b30f20@5e2c.org
+DTSTART:20251106T200000Z
+SUMMARY:(0-0) Futbol_Erkek: Viktoria Plzeň-Fenerbahçe
+UID:14572725@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Ended
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260111T110000Z
-SUMMARY:(0-0) Futbol: Portimonense-Felgueiras
-UID:6b86aa91-1f6e-4d4c-bc8d-60f0f9761a97@6b86.org
+DTSTART:20260205T173000Z
+SUMMARY:(3-1) Futbol_Erkek: Fenerbahçe-Erzurumspor
+UID:15187132@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turnuva: Liga Portugal 2\nDurum: Not started
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
 DURATION:PT2H
-DTSTART:20260412T130000Z
-SUMMARY:Futbol: Marítimo-Portimonense
-UID:1744417c-e0a3-4e25-bc7a-933df4c08ec0@1744.org
+DTSTART:20260120T160000Z
+SUMMARY:(1-3) Voleybol_Kadin: Beşiktaş-Fenerbahçe
+UID:15317871@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260411T170000Z
+SUMMARY:Futbol_Erkek: Kayserispor-Fenerbahçe
+UID:14109876@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Türkiye Kupasi\, Final Round\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260217T173000Z
+SUMMARY:(76-83) Basketbol_Erkek: Esenler Erokspor-Fenerbahçe
+UID:15415948@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260416T180000Z
+SUMMARY:Basketbol_Erkek: ASVEL-Fenerbahçe
+UID:14210799@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260129T200000Z
+SUMMARY:(0-3) Voleybol_Kadin: SL Benfica-Fenerbahçe
+UID:15125977@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Türkiye Kupasi\, Final Round\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260220T174500Z
+SUMMARY:(86-78) Basketbol_Erkek: Fenerbahçe-Türk Telekom
+UID:15566342@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Cup\, Women\, Knockout Stage\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260324T160000Z
+SUMMARY:(1-3) Voleybol_Kadin: Fenerbahçe-Eczacıbaşı
+UID:15673536@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260125T170000Z
+SUMMARY:(1-1) Futbol_Erkek: Fenerbahçe-Göztepe
+UID:14109776@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260417T170000Z
+SUMMARY:Futbol_Erkek: Fenerbahçe-Rizespor
+UID:14109888@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260502T150000Z
+SUMMARY:Basketbol_Erkek: Fenerbahçe-Beşiktaş
+UID:14500937@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260407T140000Z
+SUMMARY:(0-3) Voleybol_Kadin: Fenerbahçe-VakıfBank
+UID:15948284@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260317T170000Z
+SUMMARY:(4-1) Futbol_Erkek: Fenerbahçe-Gaziantep
+UID:14109856@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260227T150000Z
+SUMMARY:(3-0) Voleybol_Kadin: Fenerbahçe-Bahcelievler Bld
+UID:15501800@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260401T170000Z
+SUMMARY:(85-76) Basketbol_Erkek: Bayern-Fenerbahçe
+UID:14210779@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260509T150000Z
+SUMMARY:Basketbol_Erkek: Bahçeşehir Koleji-Fenerbahçe
+UID:14500944@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nDurum: Ended
+DURATION:PT2H
+DTSTART:20251204T170000Z
+SUMMARY:(0-3) Voleybol_Kadin: Novara-Fenerbahçe
+UID:14261381@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260411T140000Z
+SUMMARY:Voleybol_Kadin: VakıfBank-Fenerbahçe
+UID:15952436@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260322T100000Z
+SUMMARY:(88-94) Basketbol_Erkek: Fenerbahçe-Esenler Erokspor
+UID:14500876@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: UEFA Europa League\, Knockout stage\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260226T200000Z
+SUMMARY:(1-2) Futbol_Erkek: Forest-Fenerbahçe
+UID:15453093@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260503T150000Z
+SUMMARY:Futbol_Erkek: Fenerbahçe-Başakşehir
+UID:14109904@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260125T150000Z
+SUMMARY:(70-78) Basketbol_Erkek: Petkim Spor-Fenerbahçe
+UID:14500805@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260124T160000Z
+SUMMARY:(3-1) Voleybol_Kadin: Fenerbahçe-Eczacıbaşı
+UID:15317870@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260208T123000Z
+SUMMARY:(79-77) Basketbol_Erkek: Fenerbahçe-Galatasaray
+UID:14500851@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260510T150000Z
+SUMMARY:Futbol_Erkek: Konyaspor-Fenerbahçe
+UID:14109916@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Euroleague\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260327T174500Z
+SUMMARY:(82-92) Basketbol_Erkek: Fenerbahçe-Žalgiris
+UID:14210766@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260118T170000Z
+SUMMARY:(2-3) Futbol_Erkek: Alanyaspor-Fenerbahçe
+UID:14109768@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Super Kupa\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260110T154500Z
+SUMMARY:(0-2) Futbol_Erkek: Galatasaray-Fenerbahçe
+UID:15326124@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nDurum: Not started
+DURATION:PT2H
+DTSTART:20260425T150000Z
+SUMMARY:Basketbol_Erkek: Manisa-Fenerbahçe
+UID:14500929@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nDurum: Ended
+DURATION:PT2H
+DTSTART:20260223T170000Z
+SUMMARY:(1-1) Futbol_Erkek: Fenerbahçe-Kasımpaşa
+UID:14109811@fenerbahce-takvim
 END:VEVENT
 END:VCALENDAR
