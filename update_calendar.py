@@ -4,7 +4,7 @@ from ics import Calendar, Event
 from datetime import datetime
 import pytz
 
-# Cloudflare Worker URL'in (Tırnakları silme, sadece içini değiştir)
+# Cloudflare Worker URL'in
 WORKER_URL = "https://fb-proxy.asaatci0.workers.dev/"
 
 TEAMS = {
@@ -27,26 +27,25 @@ def fetch_data(team_id):
 
 def update_ics():
     c = Calendar()
-    c.extra.append(('X-WR-CALNAME', 'Fenerbahçe Maç Takvimi'))
-    c.extra.append(('X-WR-TIMEZONE', 'Europe/Istanbul'))
-
+    # Hata veren 'extra' kısımlarını kaldırıp en sade haliyle kuruyoruz
+    
     for branch, team_id in TEAMS.items():
         events = fetch_data(team_id)
         for game in events:
             e = Event()
             home = game['homeTeam']['shortName']
             away = game['awayTeam']['shortName']
-            tournament = game['tournament']['name']
             
             e.name = f"FB {branch}: {home}-{away}"
+            # Zaman damgasını UTC olarak ayarla
             e.begin = datetime.fromtimestamp(game['startTimestamp'], pytz.utc)
             e.duration = {"hours": 2}
-            e.description = f"Turnuva: {tournament}\nOtomatik güncellenmiştir."
+            e.description = f"Branş: {branch}\nOtomatik güncellenmiştir."
             
             c.events.add(e)
 
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
-        f.writelines(c)
+        f.write(c.serialize()) # writelines yerine serialize daha güvenlidir
     print("fenerbahce.ics başarıyla güncellendi.")
 
 if __name__ == "__main__":
