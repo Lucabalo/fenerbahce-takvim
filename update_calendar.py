@@ -27,6 +27,7 @@ def fetch_events(team_id, period):
 def update_ics():
     c = Calendar()
     c.creator = "Fenerbahce Takvim Botu"
+    tr_tz = pytz.timezone('Europe/Istanbul')
     
     for branch, data in TEAMS.items():
         team_id = data["id"]
@@ -38,6 +39,8 @@ def update_ics():
                 continue
                 
             e = Event()
+            
+            # Takım isimlerini güvenli al
             home_team = game.get('homeTeam', {})
             away_team = game.get('awayTeam', {})
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
@@ -52,32 +55,34 @@ def update_ics():
             else:
                 e.name = f"{icon} {home_name} - {away_name}"
             
-            # ZAMAN AYARI (Yerel Saat İçin)
+            # Zaman damgası ve Türkiye saati ayarı
             start_ts = game.get('startTimestamp')
-            start_dt = datetime.fromtimestamp(start_ts, pytz.utc)
-            local_dt = start_dt.astimezone(pytz.timezone('Europe/Istanbul'))
+            if not start_ts: continue
             
-            # KANAL BİLGİSİ (SofaScore bazen sağlar)
+            start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
+            local_dt = start_dt_utc.astimezone(tr_tz)
+            
+            # Kanal Bilgisi (tvChannels SofaScore'da varsa)
             channels = game.get('tvChannels', [])
-            channel_list = ", ".join([c.get('name') for c in channels]) if channels else "Bilgi Yok"
+            channel_text = ", ".join([c.get('name') for c in channels]) if channels else "Henüz Belli Değil"
             
-            # AÇIKLAMA DÜZENLEME
-            tournament = game.get('tournament', {}).get('name', 'Turnuva')
-            maç_saati = local_dt.strftime('%H:%M')
+            # Turnuva ve Açıklama Alanı
+            tournament = game.get('tournament', {}).get('name', 'Turnuva Bilgisi Yok')
+            saat_str = local_dt.strftime('%H:%M')
             
+            # İstediğin Formatlı Açıklama
             e.description = (
                 f"{tournament}\n"
-                f"Maç Saati: {maç_saati}\n"
-                f"Kanal: {channel_list}\n"
-                f"Durum: {game.get('status', {}).get('description', '')}"
+                f"Maç Saati : {saat_str}\n"
+                f"Kanal Bilgisi: {channel_text}"
             )
             
-            # SAAT AYARI
-            if game.get('status', {}).get('code') == 0 and start_dt.hour == 0:
-                e.begin = start_dt.date()
+            # Takvim Zaman Ayarı
+            if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
+                e.begin = start_dt_utc.date()
                 e.make_all_day()
             else:
-                e.begin = start_dt
+                e.begin = start_dt_utc
                 e.duration = timedelta(hours=2)
                 
             e.uid = f"{game.get('id')}@fenerbahce-takvim"
