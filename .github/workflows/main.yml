@@ -2,8 +2,9 @@ name: FB Calendar Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # Her Pazartesi gece yarısı çalışır
-  workflow_dispatch: # Manuel çalıştırma butonu
+    # GitHub Actions UTC kullanır. Türkiye saatiyle 03:00 için UTC 00:00 ayarlanır.
+    - cron: '0 0 * * *' 
+  workflow_dispatch:
 
 jobs:
   build:
@@ -28,5 +29,5 @@ jobs:
           git config --global user.name 'Fenerbahce Bot'
           git config --global user.email 'bot@fenerbahce.org'
           git add fenerbahce.ics
-          git commit -m "Takvim güncellendi: $(date)" || echo "Değişiklik yok"
+          git commit -m "Skorlar ve Fikstür Güncellendi: $(date)" || echo "Değişiklik yok"
           git push
