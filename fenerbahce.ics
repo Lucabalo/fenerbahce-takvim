@@ -12,10 +12,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Playoffs\nMaç Saati : 21:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Playoffs\nMaç Saati: 21:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260311T180000Z
-SUMMARY:🏐 (3-0) Scandicci - Fenerbahçe
+SUMMARY:🏐 Scandicci - Fenerbahçe (3-0)
 UID:15628282@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -29,10 +29,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 14:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 14:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260214T110000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - İlbank
+SUMMARY:🏐 Fenerbahçe - İlbank (3-0)
 UID:15441780@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -46,10 +46,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260405T170000Z
-SUMMARY:⚽ (1-0) Fenerbahçe - Beşiktaş
+SUMMARY:⚽ Fenerbahçe - Beşiktaş (1-0)
 UID:14109862@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -63,10 +63,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260202T170000Z
-SUMMARY:⚽ (0-2) Kocaelispor - Fenerbahçe
+SUMMARY:⚽ Kocaelispor - Fenerbahçe (0-2)
 UID:14109787@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -80,10 +80,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260129T174500Z
-SUMMARY:🏀 (79-62) Fenerbahçe - Anadolu Efes
+SUMMARY:🏀 Fenerbahçe - Anadolu Efes (79-62)
 UID:14210707@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -97,7 +97,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women Playoffs\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260413T160000Z
 SUMMARY:🏐 VakıfBank - Fenerbahçe
@@ -114,10 +114,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251211T160000Z
-SUMMARY:🏐 (2-3) Fenerbahçe - VakıfBank
+SUMMARY:🏐 Fenerbahçe - VakıfBank (2-3)
 UID:15172943@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -131,10 +131,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Pool B\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 20:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260106T170000Z
-SUMMARY:🏐 (0-3) Budowlani Łódź - Fenerbahçe
+SUMMARY:🏐 Budowlani Łódź - Fenerbahçe (0-3)
 UID:14261385@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -148,10 +148,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 17:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 17:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260201T140000Z
-SUMMARY:🏐 (0-3) Galatasaray - Fenerbahçe
+SUMMARY:🏐 Galatasaray - Fenerbahçe (0-3)
 UID:15317862@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -165,10 +165,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Cup\, Women\, Knockout Stage\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Cup\, Women\, Knockout Stage\nMaç Saati: 20:00\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260303T170000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - Aras Kargo
+SUMMARY:🏐 Fenerbahçe - Aras Kargo (3-0)
 UID:15384065@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -182,7 +182,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkiye Kupasi\, Knockout stage\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Knockout stage\nMaç Saati: 20:30\nYayıncı: A Spor\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260421T173000Z
 SUMMARY:⚽ Konyaspor - Fenerbahçe
@@ -199,10 +199,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkiye Kupasi\, Group C\nMaç Saati : 21:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nMaç Saati: 21:30\nYayıncı: A Spor\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260304T183000Z
-SUMMARY:⚽ (0-4) Gaziantep - Fenerbahçe
+SUMMARY:⚽ Gaziantep - Fenerbahçe (0-4)
 UID:15589484@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -216,10 +216,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkiye Kupasi\, Group C\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nMaç Saati: 20:30\nYayıncı: A Spor\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251223T173000Z
-SUMMARY:⚽ (1-2) Fenerbahçe - Beşiktaş
+SUMMARY:⚽ Fenerbahçe - Beşiktaş (1-2)
 UID:15187130@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -233,10 +233,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 22:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260313T190000Z
-SUMMARY:🏀 (79-73) Crvena zvezda - Fenerbahçe
+SUMMARY:🏀 Crvena zvezda - Fenerbahçe (79-73)
 UID:14206343@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -250,10 +250,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260320T174500Z
-SUMMARY:🏀 (79-75) Fenerbahçe - EA7 Milano
+SUMMARY:🏀 Fenerbahçe - EA7 Milano (79-75)
 UID:14206350@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -267,10 +267,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women Playoffs\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 18:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260329T150000Z
-SUMMARY:🏐 (0-3) Zeren Spor - Fenerbahçe
+SUMMARY:🏐 Zeren Spor - Fenerbahçe (0-3)
 UID:15772545@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -284,10 +284,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251201T170000Z
-SUMMARY:⚽ (1-1) Fenerbahçe - Galatasaray
+SUMMARY:⚽ Fenerbahçe - Galatasaray (1-1)
 UID:14109730@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -301,10 +301,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 16:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 16:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260103T130000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - Aras Kargo
+SUMMARY:🏐 Fenerbahçe - Aras Kargo (3-0)
 UID:15238314@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -318,10 +318,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:30\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260324T173000Z
-SUMMARY:🏀 (94-89) Maccabi Tel-Aviv - Fenerbahçe
+SUMMARY:🏀 Maccabi Tel-Aviv - Fenerbahçe (94-89)
 UID:14206355@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -335,10 +335,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 16:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 16:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251214T130000Z
-SUMMARY:🏐 (0-3) Bahcelievler Bld - Fenerbahçe
+SUMMARY:🏐 Bahcelievler Bld - Fenerbahçe (0-3)
 UID:15176655@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -352,10 +352,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Pool B\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 19:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260113T160000Z
-SUMMARY:🏐 (3-2) Fenerbahçe - Novara
+SUMMARY:🏐 Fenerbahçe - Novara (3-2)
 UID:14261372@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -369,10 +369,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260225T174500Z
-SUMMARY:🏀 (81-78) Fenerbahçe - Partizan Mozzart
+SUMMARY:🏀 Fenerbahçe - Partizan Mozzart (81-78)
 UID:14210740@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -386,10 +386,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Pool B\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 19:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260204T160000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - Budowlani Łódź
+SUMMARY:🏐 Fenerbahçe - Budowlani Łódź (3-0)
 UID:14261406@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -403,10 +403,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 13:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 13:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260314T100000Z
-SUMMARY:🏐 (0-3) Nilüfer Bld. - Fenerbahçe
+SUMMARY:🏐 Nilüfer Bld. - Fenerbahçe (0-3)
 UID:15609652@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -420,10 +420,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 15:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 15:30\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260404T123000Z
-SUMMARY:🏀 (82-69) Fenerbahçe - Merkezefendi Basket
+SUMMARY:🏀 Fenerbahçe - Merkezefendi Basket (82-69)
 UID:14500903@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -437,10 +437,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 13:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 13:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260315T100000Z
-SUMMARY:🏀 (85-91) Büyükçekmece - Fenerbahçe
+SUMMARY:🏀 Büyükçekmece - Fenerbahçe (85-91)
 UID:14500867@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -454,10 +454,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Playoffs\nMaç Saati : 17:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Playoffs\nMaç Saati: 17:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260319T140000Z
-SUMMARY:🏐 (3-1) Fenerbahçe - Scandicci
+SUMMARY:🏐 Fenerbahçe - Scandicci (3-1)
 UID:15628286@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -471,10 +471,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251109T170000Z
-SUMMARY:⚽ (4-2) Fenerbahçe - Kayserispor
+SUMMARY:⚽ Fenerbahçe - Kayserispor (4-2)
 UID:14109710@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -488,7 +488,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260411T150000Z
 SUMMARY:🏀 Anadolu Efes - Fenerbahçe
@@ -505,10 +505,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260123T174500Z
-SUMMARY:🏀 (84-71) Fenerbahçe - Baskonia
+SUMMARY:🏀 Fenerbahçe - Baskonia (84-71)
 UID:14210706@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -522,10 +522,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251206T170000Z
-SUMMARY:⚽ (1-1) Başakşehir - Fenerbahçe
+SUMMARY:⚽ Başakşehir - Fenerbahçe (1-1)
 UID:14109747@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -539,10 +539,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 14:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 14:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260117T110000Z
-SUMMARY:🏐 (2-3) Fenerbahçe - Zeren Spor
+SUMMARY:🏐 Fenerbahçe - Zeren Spor (2-3)
 UID:15238301@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -556,10 +556,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260308T170000Z
-SUMMARY:⚽ (3-2) Fenerbahçe - Samsunspor
+SUMMARY:⚽ Fenerbahçe - Samsunspor (3-2)
 UID:14109834@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -573,10 +573,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkiye Kupasi\, Group C\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nMaç Saati: 20:30\nYayıncı: A Spor\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260114T173000Z
-SUMMARY:⚽ (0-1) Beyoğlu Yeni Çarşı - Fenerbahçe
+SUMMARY:⚽ Beyoğlu Yeni Çarşı - Fenerbahçe (0-1)
 UID:15187127@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -590,10 +590,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260308T150000Z
-SUMMARY:🏀 (91-78) Fenerbahçe - Mersin
+SUMMARY:🏀 Fenerbahçe - Mersin (91-78)
 UID:14500886@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -607,10 +607,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 14:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 14:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260110T110000Z
-SUMMARY:🏐 (3-2) Türk Hava Yolları - Fenerbahçe
+SUMMARY:🏐 Türk Hava Yolları - Fenerbahçe (3-2)
 UID:15238306@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -624,10 +624,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women Playoffs\nMaç Saati : 17:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 17:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260402T140000Z
-SUMMARY:🏐 (3-1) Fenerbahçe - Zeren Spor
+SUMMARY:🏐 Fenerbahçe - Zeren Spor (3-1)
 UID:15772544@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -641,10 +641,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 22:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:30\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260203T193000Z
-SUMMARY:🏀 (78-82) Barça - Fenerbahçe
+SUMMARY:🏀 Barça - Fenerbahçe (78-82)
 UID:14210725@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -658,10 +658,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 20:30\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260329T173000Z
-SUMMARY:🏀 (75-75) Bursaspor - Fenerbahçe
+SUMMARY:🏀 Bursaspor - Fenerbahçe (75-75)
 UID:14500893@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -675,10 +675,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 22:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260205T194500Z
-SUMMARY:🏀 (90-92) Paris Basketball - Fenerbahçe
+SUMMARY:🏀 Paris Basketball - Fenerbahçe (90-92)
 UID:14210732@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -692,10 +692,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Türkiye Kupasi\, Final Round\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Türkiye Kupasi\, Final Round\nMaç Saati: 20:00\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260222T170000Z
-SUMMARY:🏀 (91-74) Fenerbahçe - Beşiktaş
+SUMMARY:🏀 Fenerbahçe - Beşiktaş (91-74)
 UID:15590781@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -709,10 +709,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\nMaç Saati: 20:45\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251127T174500Z
-SUMMARY:⚽ (1-1) Fenerbahçe - Ferencváros
+SUMMARY:⚽ Fenerbahçe - Ferencváros (1-1)
 UID:14572702@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -726,10 +726,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260313T170000Z
-SUMMARY:⚽ (2-0) Karagümrük - Fenerbahçe
+SUMMARY:⚽ Karagümrük - Fenerbahçe (2-0)
 UID:14109846@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -743,10 +743,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 15:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 15:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260207T120000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - Aydın B.Şehir Bld.
+SUMMARY:🏐 Fenerbahçe - Aydın B.Şehir Bld. (3-0)
 UID:15439441@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -760,10 +760,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260214T170000Z
-SUMMARY:⚽ (2-3) Trabzonspor - Fenerbahçe
+SUMMARY:⚽ Trabzonspor - Fenerbahçe (2-3)
 UID:14109807@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -777,10 +777,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\nMaç Saati : 23:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\nMaç Saati: 23:00\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260129T200000Z
-SUMMARY:⚽ (1-1) FCSB - Fenerbahçe
+SUMMARY:⚽ FCSB - Fenerbahçe (1-1)
 UID:14572778@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -794,10 +794,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 22:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:30\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260121T193000Z
-SUMMARY:🏀 (80-85) V. Bologna - Fenerbahçe
+SUMMARY:🏀 V. Bologna - Fenerbahçe (80-85)
 UID:14210696@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -811,10 +811,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 15:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 15:30\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260131T123000Z
-SUMMARY:🏀 (55-91) Karşıyaka - Fenerbahçe
+SUMMARY:🏀 Karşıyaka - Fenerbahçe (55-91)
 UID:14500822@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -828,10 +828,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 22:15\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:15\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260213T191500Z
-SUMMARY:🏀 (83-85) Panathinaikos - Fenerbahçe
+SUMMARY:🏀 Panathinaikos - Fenerbahçe (83-85)
 UID:14210737@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -845,10 +845,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 22:15\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:15\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260317T191500Z
-SUMMARY:🏀 (104-87) Olympiacos - Fenerbahçe
+SUMMARY:🏀 Olympiacos - Fenerbahçe (104-87)
 UID:15538345@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -862,10 +862,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Super Kupa\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Super Kupa\nMaç Saati: 20:30\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260106T173000Z
-SUMMARY:⚽ (2-0) Fenerbahçe - Samsunspor
+SUMMARY:⚽ Fenerbahçe - Samsunspor (2-0)
 UID:15138460@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -879,10 +879,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251215T170000Z
-SUMMARY:⚽ (4-0) Fenerbahçe - Konyaspor
+SUMMARY:⚽ Fenerbahçe - Konyaspor (4-0)
 UID:14109739@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -896,10 +896,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 15:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 15:30\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260307T123000Z
-SUMMARY:🏐 (2-3) Göztepe - Fenerbahçe
+SUMMARY:🏐 Göztepe - Fenerbahçe (2-3)
 UID:15609649@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -913,7 +913,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260426T170000Z
 SUMMARY:⚽ Galatasaray - Fenerbahçe
@@ -930,10 +930,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\, Knockout stage\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\, Knockout stage\nMaç Saati: 20:45\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260219T174500Z
-SUMMARY:⚽ (0-3) Fenerbahçe - Forest
+SUMMARY:⚽ Fenerbahçe - Forest (0-3)
 UID:15453051@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -947,10 +947,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260409T174500Z
-SUMMARY:🏀 (69-74) Fenerbahçe - Real Madrid
+SUMMARY:🏀 Fenerbahçe - Real Madrid (69-74)
 UID:14210790@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -964,10 +964,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260301T170000Z
-SUMMARY:⚽ (2-2) Antalyaspor - Fenerbahçe
+SUMMARY:⚽ Antalyaspor - Fenerbahçe (2-2)
 UID:14109826@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -981,7 +981,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 19:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260413T160000Z
 SUMMARY:🏀 Anadolu Efes - Fenerbahçe
@@ -998,10 +998,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260305T174500Z
-SUMMARY:🏀 (88-70) Fenerbahçe - Monaco Basket
+SUMMARY:🏀 Fenerbahçe - Monaco Basket (88-70)
 UID:14210749@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1015,10 +1015,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251123T170000Z
-SUMMARY:⚽ (2-5) Rizespor - Fenerbahçe
+SUMMARY:⚽ Rizespor - Fenerbahçe (2-5)
 UID:14109721@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1032,10 +1032,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260209T170000Z
-SUMMARY:⚽ (3-1) Fenerbahçe - Gençlerbirliği
+SUMMARY:⚽ Fenerbahçe - Gençlerbirliği (3-1)
 UID:14109797@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1049,10 +1049,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 14:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 14:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251221T110000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - Nilüfer Bld.
+SUMMARY:🏐 Fenerbahçe - Nilüfer Bld. (3-0)
 UID:15176678@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1066,10 +1066,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 20:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260221T170000Z
-SUMMARY:🏐 (3-1) VakıfBank - Fenerbahçe
+SUMMARY:🏐 VakıfBank - Fenerbahçe (3-1)
 UID:15501778@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1083,10 +1083,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 15:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 15:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251207T120000Z
-SUMMARY:🏐 (0-3) İlbank - Fenerbahçe
+SUMMARY:🏐 İlbank - Fenerbahçe (0-3)
 UID:15042949@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1100,10 +1100,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260116T174500Z
-SUMMARY:🏀 (82-79) Fenerbahçe - Valencia
+SUMMARY:🏀 Fenerbahçe - Valencia (82-79)
 UID:14210688@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1117,10 +1117,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\nMaç Saati: 20:45\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260122T174500Z
-SUMMARY:⚽ (0-1) Fenerbahçe - Aston Villa
+SUMMARY:⚽ Fenerbahçe - Aston Villa (0-1)
 UID:14572701@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1134,7 +1134,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260517T150000Z
 SUMMARY:⚽ Fenerbahçe - Eyüpspor
@@ -1151,10 +1151,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260215T150000Z
-SUMMARY:🏀 (76-88) Türk Telekom - Fenerbahçe
+SUMMARY:🏀 Türk Telekom - Fenerbahçe (76-88)
 UID:14500858@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1168,10 +1168,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 15:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 15:30\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260210T123000Z
-SUMMARY:🏐 (1-3) Kuzeyboru - Fenerbahçe
+SUMMARY:🏐 Kuzeyboru - Fenerbahçe (1-3)
 UID:15439445@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1185,10 +1185,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 19:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260407T160000Z
-SUMMARY:🏀 (95-80) Hapoel TA - Fenerbahçe
+SUMMARY:🏀 Hapoel TA - Fenerbahçe (95-80)
 UID:14210782@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1202,10 +1202,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\nMaç Saati : 23:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\nMaç Saati: 23:00\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251211T200000Z
-SUMMARY:⚽ (0-4) Brann - Fenerbahçe
+SUMMARY:⚽ Brann - Fenerbahçe (0-4)
 UID:14572825@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1219,10 +1219,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260118T150000Z
-SUMMARY:🏀 (90-82) Fenerbahçe - Tofaş
+SUMMARY:🏀 Fenerbahçe - Tofaş (90-82)
 UID:14500797@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1236,10 +1236,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251217T160000Z
-SUMMARY:🏐 (3-1) Fenerbahçe - Göztepe
+SUMMARY:🏐 Fenerbahçe - Göztepe (3-1)
 UID:15176672@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1253,10 +1253,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 17:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 17:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251220T140000Z
-SUMMARY:⚽ (0-3) Eyüpspor - Fenerbahçe
+SUMMARY:⚽ Eyüpspor - Fenerbahçe (0-3)
 UID:14109752@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1270,7 +1270,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 15:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 15:30\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260419T123000Z
 SUMMARY:🏀 Fenerbahçe - Trabzonspor
@@ -1287,10 +1287,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\nMaç Saati : 23:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\nMaç Saati: 23:00\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251106T200000Z
-SUMMARY:⚽ (0-0) Viktoria Plzeň - Fenerbahçe
+SUMMARY:⚽ Viktoria Plzeň - Fenerbahçe (0-0)
 UID:14572725@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1304,10 +1304,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkiye Kupasi\, Group C\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkiye Kupasi\, Group C\nMaç Saati: 20:30\nYayıncı: A Spor\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260205T173000Z
-SUMMARY:⚽ (3-1) Fenerbahçe - Erzurumspor
+SUMMARY:⚽ Fenerbahçe - Erzurumspor (3-1)
 UID:15187132@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1321,10 +1321,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260120T160000Z
-SUMMARY:🏐 (1-3) Beşiktaş - Fenerbahçe
+SUMMARY:🏐 Beşiktaş - Fenerbahçe (1-3)
 UID:15317871@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1338,7 +1338,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260411T170000Z
 SUMMARY:⚽ Kayserispor - Fenerbahçe
@@ -1355,10 +1355,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Türkiye Kupasi\, Final Round\nMaç Saati : 20:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Türkiye Kupasi\, Final Round\nMaç Saati: 20:30\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260217T173000Z
-SUMMARY:🏀 (76-83) Esenler Erokspor - Fenerbahçe
+SUMMARY:🏀 Esenler Erokspor - Fenerbahçe (76-83)
 UID:15415948@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1372,7 +1372,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 21:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 21:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260416T180000Z
 SUMMARY:🏀 ASVEL - Fenerbahçe
@@ -1389,10 +1389,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Pool B\nMaç Saati : 23:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 23:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260129T200000Z
-SUMMARY:🏐 (0-3) SL Benfica - Fenerbahçe
+SUMMARY:🏐 SL Benfica - Fenerbahçe (0-3)
 UID:15125977@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1406,10 +1406,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Türkiye Kupasi\, Final Round\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Türkiye Kupasi\, Final Round\nMaç Saati: 20:45\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260220T174500Z
-SUMMARY:🏀 (86-78) Fenerbahçe - Türk Telekom
+SUMMARY:🏀 Fenerbahçe - Türk Telekom (86-78)
 UID:15566342@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1423,10 +1423,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Cup\, Women\, Knockout Stage\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Cup\, Women\, Knockout Stage\nMaç Saati: 19:00\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260324T160000Z
-SUMMARY:🏐 (1-3) Fenerbahçe - Eczacıbaşı
+SUMMARY:🏐 Fenerbahçe - Eczacıbaşı (1-3)
 UID:15673536@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1440,10 +1440,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260125T170000Z
-SUMMARY:⚽ (1-1) Fenerbahçe - Göztepe
+SUMMARY:⚽ Fenerbahçe - Göztepe (1-1)
 UID:14109776@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1457,7 +1457,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260417T170000Z
 SUMMARY:⚽ Fenerbahçe - Rizespor
@@ -1474,7 +1474,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260502T150000Z
 SUMMARY:🏀 Fenerbahçe - Beşiktaş
@@ -1491,10 +1491,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women Playoffs\nMaç Saati : 17:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 17:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260407T140000Z
-SUMMARY:🏐 (0-3) Fenerbahçe - VakıfBank
+SUMMARY:🏐 Fenerbahçe - VakıfBank (0-3)
 UID:15948284@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1508,10 +1508,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260317T170000Z
-SUMMARY:⚽ (4-1) Fenerbahçe - Gaziantep
+SUMMARY:⚽ Fenerbahçe - Gaziantep (4-1)
 UID:14109856@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1525,10 +1525,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 18:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260227T150000Z
-SUMMARY:🏐 (3-0) Fenerbahçe - Bahcelievler Bld
+SUMMARY:🏐 Fenerbahçe - Bahcelievler Bld (3-0)
 UID:15501800@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1542,10 +1542,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260401T170000Z
-SUMMARY:🏀 (85-76) Bayern - Fenerbahçe
+SUMMARY:🏀 Bayern - Fenerbahçe (85-76)
 UID:14210779@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1559,7 +1559,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260509T150000Z
 SUMMARY:🏀 Bahçeşehir Koleji - Fenerbahçe
@@ -1576,10 +1576,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Champions League Women\, Pool B\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 20:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20251204T170000Z
-SUMMARY:🏐 (0-3) Novara - Fenerbahçe
+SUMMARY:🏐 Novara - Fenerbahçe (0-3)
 UID:14261381@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1593,7 +1593,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women Playoffs\nMaç Saati : 17:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 17:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260411T140000Z
 SUMMARY:🏐 VakıfBank - Fenerbahçe
@@ -1610,10 +1610,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 13:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 13:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260322T100000Z
-SUMMARY:🏀 (88-94) Fenerbahçe - Esenler Erokspor
+SUMMARY:🏀 Fenerbahçe - Esenler Erokspor (88-94)
 UID:14500876@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1627,10 +1627,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:UEFA Europa League\, Knockout stage\nMaç Saati : 23:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: UEFA Europa League\, Knockout stage\nMaç Saati: 23:00\nYayıncı: TRT / Tabii\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260226T200000Z
-SUMMARY:⚽ (1-2) Forest - Fenerbahçe
+SUMMARY:⚽ Forest - Fenerbahçe (1-2)
 UID:15453093@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1644,7 +1644,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260503T150000Z
 SUMMARY:⚽ Fenerbahçe - Başakşehir
@@ -1661,10 +1661,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260125T150000Z
-SUMMARY:🏀 (70-78) Petkim Spor - Fenerbahçe
+SUMMARY:🏀 Petkim Spor - Fenerbahçe (70-78)
 UID:14500805@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1678,10 +1678,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:VVSL Lig\, Women\nMaç Saati : 19:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260124T160000Z
-SUMMARY:🏐 (3-1) Fenerbahçe - Eczacıbaşı
+SUMMARY:🏐 Fenerbahçe - Eczacıbaşı (3-1)
 UID:15317870@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1695,10 +1695,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 15:30\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 15:30\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260208T123000Z
-SUMMARY:🏀 (79-77) Fenerbahçe - Galatasaray
+SUMMARY:🏀 Fenerbahçe - Galatasaray (79-77)
 UID:14500851@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1712,7 +1712,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260510T150000Z
 SUMMARY:⚽ Konyaspor - Fenerbahçe
@@ -1729,10 +1729,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Euroleague\nMaç Saati : 20:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260327T174500Z
-SUMMARY:🏀 (82-92) Fenerbahçe - Žalgiris
+SUMMARY:🏀 Fenerbahçe - Žalgiris (82-92)
 UID:14210766@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1746,10 +1746,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260118T170000Z
-SUMMARY:⚽ (2-3) Alanyaspor - Fenerbahçe
+SUMMARY:⚽ Alanyaspor - Fenerbahçe (2-3)
 UID:14109768@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1763,10 +1763,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Super Kupa\nMaç Saati : 18:45\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Super Kupa\nMaç Saati: 18:45\nYayıncı: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260110T154500Z
-SUMMARY:⚽ (0-2) Galatasaray - Fenerbahçe
+SUMMARY:⚽ Galatasaray - Fenerbahçe (0-2)
 UID:15326124@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1780,7 +1780,7 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turkish Basketball Super League\nMaç Saati : 18:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260425T150000Z
 SUMMARY:🏀 Manisa - Fenerbahçe
@@ -1797,10 +1797,10 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Trendyol Süper Lig\nMaç Saati : 20:00\nKanal Bilgisi: Henüz Belli Değil\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260223T170000Z
-SUMMARY:⚽ (1-1) Fenerbahçe - Kasımpaşa
+SUMMARY:⚽ Fenerbahçe - Kasımpaşa (1-1)
 UID:14109811@fenerbahce-takvim
 END:VEVENT
 END:VCALENDAR
