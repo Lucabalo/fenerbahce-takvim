@@ -54,12 +54,13 @@ def update_ics():
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
             away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
             
-            # Başlık Skor Kontrolü
+            # Başlık Ayarı: Takımlar - (Skor) formatı
             status_type = game.get('status', {}).get('type')
             if status_type == 'finished':
                 h_score = game.get('homeScore', {}).get('display', 0)
                 a_score = game.get('awayScore', {}).get('display', 0)
-                e.name = f"{icon} ({h_score}-{a_score}) {home_name} - {away_name}"
+                # Skor sona alındı
+                e.name = f"{icon} {home_name} - {away_name} ({h_score}-{a_score})"
             else:
                 e.name = f"{icon} {home_name} - {away_name}"
             
@@ -69,17 +70,14 @@ def update_ics():
             start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
             local_dt = start_dt_utc.astimezone(tr_tz)
             
-            # KANAL BİLGİSİ (Önce bizim listeye bak, yoksa API'ye bak)
+            # Kanal Bilgisi Kontrolü
             tournament_name = game.get('tournament', {}).get('name', '')
-            
-            # Bizim BROADCASTERS listemizde geçiyor mu kontrol et
             channel_text = "Henüz Belli Değil"
             for t_key, broadcaster in BROADCASTERS.items():
                 if t_key.lower() in tournament_name.lower():
                     channel_text = broadcaster
                     break
             
-            # Eğer hala belli değilse ve API'den veri gelmişse onu kullan
             if channel_text == "Henüz Belli Değil":
                 api_channels = game.get('tvChannels', [])
                 if api_channels:
@@ -93,10 +91,9 @@ def update_ics():
                 f"{ad_footer}"
             )
             
-            # Hatırlatıcılar
+            # Hatırlatıcılar: 1 gün ve 1 saat önce
             e.alarms = [DisplayAlarm(trigger=timedelta(days=-1)), DisplayAlarm(trigger=timedelta(hours=-1))]
             
-            # Zamanlama
             if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
                 e.begin = start_dt_utc.date()
                 e.make_all_day()
