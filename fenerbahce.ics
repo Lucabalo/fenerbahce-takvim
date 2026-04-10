@@ -1,5 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
+X-WR-CALNAME:Fenerbahçe Maç Takvimi
+X-WR-TIMEZONE:Europe/Istanbul
 PRODID:Fenerbahce Takvim Botu
 BEGIN:VEVENT
 BEGIN:VALARM
