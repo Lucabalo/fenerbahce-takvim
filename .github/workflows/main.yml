@@ -27,7 +27,7 @@ jobs:
       - name: Commit and Push
         run: |
           git config --global user.name 'Fenerbahce Bot'
-          git config --global user.email 'bot@fenerbahce.org'
+          git config --global user.email 'bot@fenerbahce.com'
           git add fenerbahce.ics
-          git commit -m "Skorlar ve Fikstür Güncellendi: $(date)" || echo "Değişiklik yok"
-          git push
+          git commit -m "Skorlar ve Fikstür Güncellendi" || exit 0
+          git push origin main --force
