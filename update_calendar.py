@@ -4,7 +4,7 @@ from ics import Calendar, Event
 from datetime import datetime, timedelta
 import pytz
 
-WORKER_URL = "https://fb-proxy.asaatci0.workers.dev/"
+WORKER_URL = "https://script.google.com/macros/s/AKfycbzeDzbRWMuANYlSqj-o3PzseBnG68OTSzfxcT9eoe4v8R7TWgZER4tGjn65KYAOG049/exec"
 
 TEAMS = {
     "Futbol": "3026",
