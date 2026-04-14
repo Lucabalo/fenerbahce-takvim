@@ -102,7 +102,7 @@ END:VALARM
 DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260413T160000Z
-SUMMARY:🏐 VakıfBank - Fenerbahçe
+SUMMARY:🏐 VakıfBank - Fenerbahçe (3-1)
 UID:15952442@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1003,7 +1003,7 @@ END:VALARM
 DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 19:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260413T160000Z
-SUMMARY:🏀 Anadolu Efes - Fenerbahçe
+SUMMARY:🏀 Anadolu Efes - Fenerbahçe (73-89)
 UID:15989255@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1090,23 +1090,6 @@ DURATION:PT2H
 DTSTART:20260221T170000Z
 SUMMARY:🏐 VakıfBank - Fenerbahçe (3-1)
 UID:15501778@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
-DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 15:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20251207T120000Z
-SUMMARY:🏐 İlbank - Fenerbahçe (0-3)
-UID:15042949@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -1209,23 +1192,6 @@ DURATION:PT2H
 DTSTART:20251211T200000Z
 SUMMARY:⚽ Brann - Fenerbahçe (0-4)
 UID:14572825@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
-DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20260118T150000Z
-SUMMARY:🏀 Fenerbahçe - Tofaş (90-82)
-UID:14500797@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
