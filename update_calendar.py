@@ -56,7 +56,7 @@ def update_ics():
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
             away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
             
-            # Başlık Ayarı: Takımlar - (Skor)
+            # Skor Sonda Formatı
             status_type = game.get('status', {}).get('type')
             if status_type == 'finished':
                 h_score = game.get('homeScore', {}).get('display', 0)
@@ -70,7 +70,7 @@ def update_ics():
             start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
             local_dt = start_dt_utc.astimezone(tr_tz)
             
-            # Yayıncı ve Turnuva Bilgisi
+            # Yayıncı Ayarı
             tournament_name = game.get('tournament', {}).get('name', 'Turnuva')
             channel_text = "Henüz Belli Değil"
             for t_key, broadcaster in BROADCASTERS.items():
@@ -81,7 +81,6 @@ def update_ics():
             saat_str = local_dt.strftime('%H:%M')
             e.description = f"Turnuva: {tournament_name}\nMaç Saati: {saat_str}\nYayıncı: {channel_text}{ad_footer}"
             
-            # Hatırlatıcılar
             e.alarms = [DisplayAlarm(trigger=timedelta(days=-1)), DisplayAlarm(trigger=timedelta(hours=-1))]
             
             if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
