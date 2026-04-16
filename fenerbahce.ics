@@ -1714,9 +1714,9 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 18:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 19:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
-DTSTART:20260425T150000Z
+DTSTART:20260424T160000Z
 SUMMARY:🏀 Manisa - Fenerbahçe
 UID:14500929@fenerbahce-takvim
 END:VEVENT
