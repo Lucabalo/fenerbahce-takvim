@@ -116,23 +116,6 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20251211T160000Z
-SUMMARY:🏐 Fenerbahçe - VakıfBank (2-3)
-UID:15172943@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
 DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 20:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260106T170000Z
@@ -561,7 +544,7 @@ END:VALARM
 DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260416T160000Z
-SUMMARY:🏐 Fenerbahçe - VakıfBank
+SUMMARY:🏐 Fenerbahçe - VakıfBank (3-2)
 UID:15992666@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -801,23 +784,6 @@ DURATION:PT2H
 DTSTART:20260129T200000Z
 SUMMARY:⚽ FCSB - Fenerbahçe (1-1)
 UID:14572778@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
-DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 22:30\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20260121T193000Z
-SUMMARY:🏀 V. Bologna - Fenerbahçe (80-85)
-UID:14210696@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -1326,25 +1292,8 @@ END:VALARM
 DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 21:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260416T180000Z
-SUMMARY:🏀 ASVEL - Fenerbahçe
+SUMMARY:🏀 ASVEL - Fenerbahçe (76-81)
 UID:14210799@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
-DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 23:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20260129T200000Z
-SUMMARY:🏐 SL Benfica - Fenerbahçe (0-3)
-UID:15125977@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -1362,6 +1311,23 @@ DURATION:PT2H
 DTSTART:20260220T174500Z
 SUMMARY:🏀 Fenerbahçe - Türk Telekom (86-78)
 UID:15566342@fenerbahce-takvim
+END:VEVENT
+BEGIN:VEVENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT1H
+END:VALARM
+DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 23:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DURATION:PT2H
+DTSTART:20260129T200000Z
+SUMMARY:🏐 SL Benfica - Fenerbahçe (0-3)
+UID:15125977@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
