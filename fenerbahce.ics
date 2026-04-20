@@ -320,23 +320,6 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turnuva: VVSL Lig\, Women\nMaç Saati: 16:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20251214T130000Z
-SUMMARY:🏐 Bahcelievler Bld - Fenerbahçe (0-3)
-UID:15176655@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
 DESCRIPTION:Turnuva: Champions League Women\, Pool B\nMaç Saati: 19:00\nYayıncı: S Sport / Tivibu\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260113T160000Z
@@ -461,23 +444,6 @@ DURATION:PT2H
 DTSTART:20260411T150000Z
 SUMMARY:🏀 Anadolu Efes - Fenerbahçe
 UID:14500910@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
-DESCRIPTION:Turnuva: Euroleague\nMaç Saati: 20:45\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
-DTSTART:20260123T174500Z
-SUMMARY:🏀 Fenerbahçe - Baskonia (84-71)
-UID:14210706@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
 BEGIN:VALARM
@@ -1088,7 +1054,7 @@ END:VALARM
 DESCRIPTION:Turnuva: VVSL Lig\, Women Playoffs\nMaç Saati: 19:00\nYayıncı: TRT Spor Yıldız\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260419T160000Z
-SUMMARY:🏐 VakıfBank - Fenerbahçe
+SUMMARY:🏐 VakıfBank - Fenerbahçe (3-1)
 UID:16023644@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -1241,7 +1207,7 @@ END:VALARM
 DESCRIPTION:Turnuva: Turkish Basketball Super League\nMaç Saati: 15:30\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260419T123000Z
-SUMMARY:🏀 Fenerbahçe - Trabzonspor
+SUMMARY:🏀 Fenerbahçe - Trabzonspor (93-90)
 UID:14500920@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
