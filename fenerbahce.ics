@@ -170,7 +170,7 @@ END:VALARM
 DESCRIPTION:Turnuva: Turkiye Kupasi\, Knockout stage\nMaç Saati: 20:30\nYayıncı: A Spor\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
 DTSTART:20260421T173000Z
-SUMMARY:⚽ Konyaspor - Fenerbahçe
+SUMMARY:⚽ Konyaspor - Fenerbahçe (1-0)
 UID:15712709@fenerbahce-takvim
 END:VEVENT
 BEGIN:VEVENT
@@ -968,23 +968,6 @@ TRIGGER:-PT1H
 END:VALARM
 DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
-DTSTART:20251123T170000Z
-SUMMARY:⚽ Rizespor - Fenerbahçe (2-5)
-UID:14109721@fenerbahce-takvim
-END:VEVENT
-BEGIN:VEVENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT1H
-END:VALARM
-DESCRIPTION:Turnuva: Trendyol Süper Lig\nMaç Saati: 20:00\nYayıncı: beIN SPORTS\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
-DURATION:PT2H
 DTSTART:20260209T170000Z
 SUMMARY:⚽ Fenerbahçe - Gençlerbirliği (3-1)
 UID:14109797@fenerbahce-takvim
@@ -1544,9 +1527,9 @@ ACTION:DISPLAY
 DESCRIPTION:
 TRIGGER:-PT1H
 END:VALARM
-DESCRIPTION:Turnuva: Euroleague\, Playoffs\nMaç Saati: 21:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
+DESCRIPTION:Turnuva: Euroleague\, Playoffs\nMaç Saati: 20:00\nYayıncı: S Sport\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur.
 DURATION:PT2H
-DTSTART:20260504T180000Z
+DTSTART:20260505T170000Z
 SUMMARY:🏀 Žalgiris - Fenerbahçe
 UID:16030048@fenerbahce-takvim
 END:VEVENT
