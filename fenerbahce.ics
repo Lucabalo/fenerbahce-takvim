@@ -2,12 +2,5 @@ BEGIN:VCALENDAR
 VERSION:2.0
 X-WR-CALNAME:Fenerbahçe Maç Takvimi
 X-WR-TIMEZONE:Europe/Istanbul
-PRODID:Fenerbahce Takvim Botu
-BEGIN:VEVENT
-DESCRIPTION:Trendyol Süper Lig - Saat Google verisine göre 20:00 olarak işlendi.
-DURATION:PT2H
-DTSTART:20260426T170000Z
-SUMMARY:⚽ Galatasaray - Fenerbahçe
-UID:e09714d8-da66-45c3-bf71-0e491495d3bb@e097.org
-END:VEVENT
+PRODID:ics.py - http://git.io/lLljaA
 END:VCALENDAR
