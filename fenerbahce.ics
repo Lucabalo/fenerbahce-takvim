@@ -3,4 +3,10 @@ VERSION:2.0
 X-WR-CALNAME:Fenerbahçe Maç Takvimi
 X-WR-TIMEZONE:Europe/Istanbul
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DURATION:PT2H
+DTSTART:20260426T170000Z
+SUMMARY:⚽ Galatasaray - Fenerbahçe
+UID:662a8bed-673b-4fbf-810f-ac214d6f4747@662a.org
+END:VEVENT
 END:VCALENDAR
