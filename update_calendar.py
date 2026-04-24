@@ -4,17 +4,8 @@ from ics import Calendar, Event, DisplayAlarm
 from datetime import datetime, timedelta
 import pytz
 
-WORKER_URL = "https://script.google.com/macros/s/AKfycbzeDzbRWMuANYlSqj-o3PzseBnG68OTSzfxcT9eoe4v8R7TWgZER4tGjn65KYAOG049/exec"
-
-BROADCASTERS = {
-    "Trendyol Süper Lig": "beIN SPORTS",
-    "Euroleague": "S Sport",
-    "Turkish Basketball Super League": "beIN SPORTS",
-    "VVSL Lig, Women": "TRT Spor Yıldız",
-    "Champions League Women": "S Sport / Tivibu",
-    "UEFA Europa League": "TRT / Tabii",
-    "Turkiye Kupasi": "A Spor"
-}
+# YENİ DEPLOY URL'SİNİ BURAYA YAPIŞTIR
+WORKER_URL = "BURAYA_YENI_SCRIPT_URL_GELECEK"
 
 TEAMS = {
     "Futbol_Erkek": {"id": "3052", "icon": "⚽"},
@@ -22,20 +13,18 @@ TEAMS = {
     "Basketbol_Erkek": {"id": "3514", "icon": "🏀"}
 }
 
-def fetch_events(team_id, period, branch_name):
+def fetch_events(team_id, period, branch):
+    # Google'ın veriyi çektiği SofaScore ana endpoint'i
     target_url = f"https://api.sofascore.com/api/v1/team/{team_id}/events/{period}/0"
     full_proxy_url = f"{WORKER_URL}?url={target_url}"
-    print(f">>> {branch_name} ({period}) için veri çekiliyor...")
+    
     try:
         r = requests.get(full_proxy_url, timeout=30)
         if r.status_code == 200:
-            events = r.json().get('events', [])
-            print(f"--- Başarılı: {len(events)} maç bulundu.")
-            return events
-        else:
-            print(f"!!! Hata: Google Worker {r.status_code} kodu döndürdü.")
-    except Exception as e:
-        print(f"!!! Bağlantı Hatası: {e}")
+            data = r.json()
+            return data.get('events', [])
+    except:
+        pass
     return []
 
 def update_ics():
@@ -43,80 +32,62 @@ def update_ics():
     c.creator = "Fenerbahce Takvim Botu"
     tr_tz = pytz.timezone('Europe/Istanbul')
     calendar_name = "Fenerbahçe Maç Takvimi"
-    ad_footer = "\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur."
     
-    total_found = 0
+    total = 0
+    # Google'da gördüğümüz o kesinleşmiş saati yakalamak için 'next' (gelecek) odaklı gidiyoruz
     for branch, data in TEAMS.items():
-        team_id = data["id"]
-        icon = data["icon"]
-        
-        # Geçmiş ve Gelecek maçları çek
-        all_games = fetch_events(team_id, 'last', branch) + fetch_events(team_id, 'next', branch)
+        all_games = fetch_events(data["id"], 'last', branch) + fetch_events(data["id"], 'next', branch)
         
         for game in all_games:
-            if game.get('status', {}).get('type') == 'canceled':
-                continue
-            
-            total_found += 1
+            total += 1
             e = Event()
-            home_team = game.get('homeTeam', {})
-            away_team = game.get('awayTeam', {})
-            home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
-            away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
+            home = game.get('homeTeam', {}).get('shortName', 'FB')
+            away = game.get('awayTeam', {}).get('shortName', 'Rakip')
             
-            # Skor Ayarı
-            status_type = game.get('status', {}).get('type')
-            if status_type == 'finished':
-                h_score = game.get('homeScore', {}).get('display', 0)
-                a_score = game.get('awayScore', {}).get('display', 0)
-                e.name = f"{icon} {home_name} - {away_name} ({h_score}-{a_score})"
+            # Başlık Ayarı
+            if game.get('status', {}).get('type') == 'finished':
+                h_s = game.get('homeScore', {}).get('display', 0)
+                a_s = game.get('awayScore', {}).get('display', 0)
+                e.name = f"{data['icon']} {home} - {away} ({h_s}-{a_s})"
             else:
-                e.name = f"{icon} {home_name} - {away_name}"
-            
-            # Zaman Ayarı
+                e.name = f"{data['icon']} {home} - {away}"
+
+            # Google'da görünen 20:00 bilgisini yakalama
             start_ts = game.get('startTimestamp')
             if not start_ts: continue
+            
+            # SofaScore UTC verir, biz bunu Türkiye saatine çeviriyoruz
             start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
             local_dt = start_dt_utc.astimezone(tr_tz)
             
-            # Açıklama ve Yayıncı
-            tournament_name = game.get('tournament', {}).get('name', 'Turnuva')
-            channel_text = "Henüz Belli Değil"
-            for t_key, broadcaster in BROADCASTERS.items():
-                if t_key.lower() in tournament_name.lower():
-                    channel_text = broadcaster
-                    break
-            
-            saat_str = local_dt.strftime('%H:%M')
-            e.description = f"Turnuva: {tournament_name}\nMaç Saati: {saat_str}\nYayıncı: {channel_text}{ad_footer}"
-            e.alarms = [DisplayAlarm(trigger=timedelta(days=-1)), DisplayAlarm(trigger=timedelta(hours=-1))]
-            
-            if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
-                e.begin = start_dt_utc.date()
-                e.make_all_day()
-            else:
+            # Eğer saat bilgisi gelmişse (Gece yarısı değilse)
+            if not (local_dt.hour == 0 and local_dt.minute == 0):
                 e.begin = start_dt_utc
                 e.duration = timedelta(hours=2)
-                
-            e.uid = f"{game.get('id')}@fenerbahce-takvim"
+                e.description = f"Maç Saati: {local_dt.strftime('%H:%M')}\nTurnuva: {game.get('tournament', {}).get('name')}"
+            else:
+                # Saat hala girilmemişse 'Tüm Gün' olarak ekle
+                e.begin = local_dt.date()
+                e.make_all_day()
+                e.description = "Maç saati henüz girilmedi."
+
+            e.uid = f"{game.get('id')}@hvfb-calendar"
             c.events.add(e)
 
-    # Veri gelmediyse süreci durdur (Loglarda görünecek)
-    print(f"\n>>> Toplam çekilen maç sayısı: {total_found}")
-    if total_found == 0:
-        raise Exception("SofaScore'dan hiç maç verisi çekilemedi. Worker veya API bağlantısını kontrol edin.")
+    if total == 0:
+        raise Exception("Veri gelmedi! Google Worker veya SofaScore engelliyor olabilir.")
 
-    # Dosya yazma (Hata veren 'extra' metodunu kullanmıyoruz)
+    # ICS Kayıt
     lines = c.serialize().splitlines()
-    final_output = []
+    final = []
     for line in lines:
-        final_output.append(line)
+        final_lines = final.append(line)
         if line.startswith("VERSION:2.0"):
-            final_output.append(f"X-WR-CALNAME:{calendar_name}")
-            final_output.append("X-WR-TIMEZONE:Europe/Istanbul")
+            final.append(f"X-WR-CALNAME:{calendar_name}")
+            final.append("X-WR-TIMEZONE:Europe/Istanbul")
 
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
-        f.write("\n".join(final_output))
+        f.write("\n".join(final))
 
 if __name__ == "__main__":
     update_ics()
