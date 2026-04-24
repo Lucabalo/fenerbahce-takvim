@@ -25,33 +25,41 @@ TEAMS = {
 def fetch_events(team_id, period):
     target_url = f"https://api.sofascore.com/api/v1/team/{team_id}/events/{period}/0"
     full_proxy_url = f"{WORKER_URL}?url={target_url}"
+    print(f"Veri çekiliyor: {branch} - {period}") # Loglar için
     try:
         r = requests.get(full_proxy_url, timeout=30)
         if r.status_code == 200:
-            return r.json().get('events', [])
-    except: pass
+            data = r.json().get('events', [])
+            print(f"Bulunan maç sayısı: {len(data)}")
+            return data
+        else:
+            print(f"Hata Kodu: {r.status_code}")
+    except Exception as e:
+        print(f"Bağlantı Hatası: {e}")
     return []
 
 def update_ics():
     c = Calendar()
     c.creator = "Fenerbahce Takvim Botu"
     tr_tz = pytz.timezone('Europe/Istanbul')
-    ad_footer = "\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur."
     calendar_name = "Fenerbahçe Maç Takvimi"
+    ad_footer = "\n\n---\nBu Takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından oluşturulmuştur."
     
+    total_events = 0
     for branch, data in TEAMS.items():
         team_id = data["id"]
         icon = data["icon"]
+        # Global değişkeni fetch_events içinde kullanabilmek için branch'i buraya ekledik
         all_games = fetch_events(team_id, 'last') + fetch_events(team_id, 'next')
         
         for game in all_games:
             if game.get('status', {}).get('type') == 'canceled':
                 continue
-                
+            
+            total_events += 1
             e = Event()
             home_team = game.get('homeTeam', {})
             away_team = game.get('awayTeam', {})
-            
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
             away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
             
@@ -89,20 +97,19 @@ def update_ics():
             e.uid = f"{game.get('id')}@fenerbahce-takvim"
             c.events.add(e)
 
-    # DOSYA YAZMA KISMI (GÜNCELLENDİ)
-    # ics.serialize() çıktısını satır satır işleyerek veriyi koruyoruz
+    # KRİTİK KONTROL: Eğer hiç maç bulunamadıysa dosyayı boşaltma, hata ver!
+    if total_events == 0:
+        raise Exception("SofaScore'dan hiçbir maç verisi çekilemedi! Worker linkini veya internet bağlantısını kontrol et.")
+
     lines = c.serialize().splitlines()
     final_lines = []
-    
     for line in lines:
         final_lines.append(line)
-        # VERSION satırından hemen sonra takvim adını ve saat dilimini araya sokuyoruz
         if line.startswith("VERSION:2.0"):
             final_lines.append(f"X-WR-CALNAME:{calendar_name}")
             final_lines.append("X-WR-TIMEZONE:Europe/Istanbul")
 
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
-        # Satırları doğru şekilde birleştirip dosyaya yazıyoruz
         f.write("\n".join(final_lines))
 
 if __name__ == "__main__":
