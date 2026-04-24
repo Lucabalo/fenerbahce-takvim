@@ -18,7 +18,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install requests ics pytz
+        run: pip install requests ics pytz beautifulsoup4
 
       - name: Run Script
         env:
