@@ -2,33 +2,45 @@ name: FB Calendar Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Türkiye saatiyle yaklaşık 09:00 ve 21:00
+    - cron: '0 6,18 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
 
       - name: Install Dependencies
-        run: pip install requests ics pytz beautifulsoup4
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install chromium
 
       - name: Run Script
-        env:
-          APISPORTS_KEY: ${{ secrets.APISPORTS_KEY }}
         run: python update_calendar.py
+
+      - name: Debug output files
+        run: |
+          ls -lah
+          test -f fenerbahce.ics && grep -c "BEGIN:VEVENT" fenerbahce.ics || true
+          test -f fenerbahce_matches.json && wc -c fenerbahce_matches.json || true
 
       - name: Commit and Push
         run: |
           git config --global user.name 'Fenerbahce Bot'
           git config --global user.email 'bot@fenerbahce.com'
-          git add fenerbahce.ics
+          git add fenerbahce.ics fenerbahce_matches.json
           git commit -m "Fikstür ve Skorlar Güncellendi" || exit 0
           git push origin main
