@@ -52,11 +52,9 @@ def update_ics():
             home_team = game.get('homeTeam', {})
             away_team = game.get('awayTeam', {})
             
-            # image_6d574d.png'deki KeyError hatasını önlemek için güvenli veri çekme
             home_name = home_team.get('shortName') or home_team.get('name') or "Fenerbahçe"
             away_name = away_team.get('shortName') or away_team.get('name') or "Rakip"
             
-            # Skor Sonda Formatı
             status_type = game.get('status', {}).get('type')
             if status_type == 'finished':
                 h_score = game.get('homeScore', {}).get('display', 0)
@@ -70,7 +68,6 @@ def update_ics():
             start_dt_utc = datetime.fromtimestamp(start_ts, pytz.utc)
             local_dt = start_dt_utc.astimezone(tr_tz)
             
-            # Yayıncı Ayarı
             tournament_name = game.get('tournament', {}).get('name', 'Turnuva')
             channel_text = "Henüz Belli Değil"
             for t_key, broadcaster in BROADCASTERS.items():
@@ -80,7 +77,6 @@ def update_ics():
             
             saat_str = local_dt.strftime('%H:%M')
             e.description = f"Turnuva: {tournament_name}\nMaç Saati: {saat_str}\nYayıncı: {channel_text}{ad_footer}"
-            
             e.alarms = [DisplayAlarm(trigger=timedelta(days=-1)), DisplayAlarm(trigger=timedelta(hours=-1))]
             
             if game.get('status', {}).get('code') == 0 and local_dt.hour == 0:
@@ -93,13 +89,21 @@ def update_ics():
             e.uid = f"{game.get('id')}@fenerbahce-takvim"
             c.events.add(e)
 
-    # image_6e9ad8.png'deki hatayı önlemek için takvim adını manuel string manipülasyonu ile ekliyoruz
-    output = c.serialize()
-    new_header = f"VERSION:2.0\nX-WR-CALNAME:{calendar_name}\nX-WR-TIMEZONE:Europe/Istanbul"
-    output = output.replace("VERSION:2.0", new_header)
+    # DOSYA YAZMA KISMI (GÜNCELLENDİ)
+    # ics.serialize() çıktısını satır satır işleyerek veriyi koruyoruz
+    lines = c.serialize().splitlines()
+    final_lines = []
+    
+    for line in lines:
+        final_lines.append(line)
+        # VERSION satırından hemen sonra takvim adını ve saat dilimini araya sokuyoruz
+        if line.startswith("VERSION:2.0"):
+            final_lines.append(f"X-WR-CALNAME:{calendar_name}")
+            final_lines.append("X-WR-TIMEZONE:Europe/Istanbul")
 
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
-        f.write(output)
+        # Satırları doğru şekilde birleştirip dosyaya yazıyoruz
+        f.write("\n".join(final_lines))
 
 if __name__ == "__main__":
     update_ics()
