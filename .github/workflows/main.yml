@@ -37,11 +37,11 @@ jobs:
           test -f fenerbahce.ics && grep -c "BEGIN:VEVENT" fenerbahce.ics || true
           test -f fenerbahce_matches.json && wc -c fenerbahce_matches.json || true
 
-            - name: Commit and Push
-            run: |
-              git config --global user.name 'Fenerbahce Bot'
-              git config --global user.email 'bot@fenerbahce.com'
-              git add fenerbahce.ics
-              test -f fenerbahce_matches.json && git add fenerbahce_matches.json || true
-              git commit -m "Fikstür ve Skorlar Güncellendi" || exit 0
-              git push origin main
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Fenerbahce Bot'
+          git config --global user.email 'bot@fenerbahce.com'
+          git add fenerbahce.ics
+          test -f fenerbahce_matches.json && git add fenerbahce_matches.json || true
+          git commit -m "Fikstür ve Skorlar Güncellendi" || exit 0
+          git push origin main
