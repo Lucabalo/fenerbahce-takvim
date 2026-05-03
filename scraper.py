@@ -1,12 +1,12 @@
 import json
+import os
 from scrapling import Fetcher
 from ics import Calendar, Event
 from datetime import datetime
 import pytz
 
 def fenerbahce_verilerini_cek():
-    # SofaScore Fenerbahçe ID'si ve API linki
-    # 'last/0' geçmiş maçları, 'next/0' gelecek maçları getirir.
+    # SofaScore API Linkleri (Gelecek ve Geçmiş Maçlar)
     urls = [
         "https://www.sofascore.com/api/v1/team/2841/events/last/0",
         "https://www.sofascore.com/api/v1/team/2841/events/next/0"
@@ -16,26 +16,36 @@ def fenerbahce_verilerini_cek():
     timezone = pytz.timezone("Europe/Istanbul")
 
     for url in urls:
-        # Scrapling ile 'Stealth' (Gizli) modda istek atıyoruz
+        print(f"Veri çekiliyor: {url}")
+        # Scrapling'in en gelişmiş modunu kullanıyoruz
+        # Bu aşamada arka planda kurduğumuz tüm kütüphaneler devreye girer
         fetcher = Fetcher(url, stealth=True)
         
         if fetcher.status_code != 200:
-            print(f"Hata: {url} adresine ulaşılamadı. Durum kodu: {fetcher.status_code}")
+            print(f"Hata: {fetcher.status_code} - Engel aşılamadı.")
             continue
 
-        data = json.loads(fetcher.page_source)
-        matches = data.get('events', [])
+        try:
+            data = json.loads(fetcher.page_source)
+            events = data.get('events', [])
+        except Exception as e:
+            print(f"Veri ayrıştırma hatası: {e}")
+            continue
 
-        for match in matches:
+        for match in events:
+            # Sadece Futbol maçlarını filtrele (isteğe bağlı)
+            if match.get('sport') and match['sport']['name'] != 'Football':
+                continue
+
             e = Event()
             home = match['homeTeam']['shortName']
             away = match['awayTeam']['shortName']
             status = match['status']['type']
             
-            # Zamanı Türkiye saatine çeviriyoruz
+            # Başlangıç zamanı (UTC'den Türkiye saatine çevrim)
             start_date = datetime.fromtimestamp(match['startTimestamp'], timezone)
             
-            # Maç bittiyse skoru işle, bitmediyse sadece maç adını yaz
+            # Maç durumuna göre isim belirleme
             if status == 'finished':
                 h_score = match['homeScore'].get('display', 0)
                 a_score = match['awayScore'].get('display', 0)
@@ -46,9 +56,10 @@ def fenerbahce_verilerini_cek():
             e.begin = start_date
             calendar.events.add(e)
 
-    # .ics dosyasını UTF-8 formatında kaydediyoruz
+    # .ics dosyasını oluştur ve kaydet
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
+    print("fenerbahce.ics başarıyla güncellendi!")
 
 if __name__ == "__main__":
     fenerbahce_verilerini_cek()
