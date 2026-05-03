@@ -1,11 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Ahmet//Fenerbahce//TR
-X-WR-CALNAME:Fenerbahçe Tüm Branşlar
+X-WR-CALNAME:Fenerbahçe Maç Takvimi
 X-WR-TIMEZONE:Europe/Istanbul
 METHOD:PUBLISH
 BEGIN:VEVENT
-SUMMARY:🔄 Son Senkronizasyon (Tüm Branşlar): 22:21:39
-DTSTART:20260503T192139Z
+SUMMARY:🔄 Son Senkronizasyon (Tüm Branşlar): 22:23:15
+DTSTART:20260503T192315Z
 END:VEVENT
 END:VCALENDAR
