@@ -1,51 +1,60 @@
 import json
-import time
-from scrapling.fetchers import DynamicFetcher
+from scrapling.fetchers import Fetcher
 from ics import Calendar, Event
 from datetime import datetime
 import pytz
 
 def fenerbahce_verilerini_cek():
-    # Google Arama URL'si (Fenerbahçe Fikstürü)
-    url = "https://www.google.com/search?q=fenerbahce+maclari+fikstur"
+    # Google'da direkt fikstür aratıyoruz
+    url = "https://www.google.com/search?q=fenerbahce+mac+fiksturu"
     calendar = Calendar()
     timezone = pytz.timezone("Europe/Istanbul")
 
-    print(f"Google üzerinden veri çekiliyor: {url}")
+    print(f"Veri çekiliyor: {url}")
     try:
-        # DynamicFetcher ile gerçek bir kullanıcı gibi arama yapıyoruz
-        page = DynamicFetcher.fetch(
-            url, 
-            headless=True, 
-            network_idle=True,
-            timeout=60
-        )
-
-        # Google'ın maç kartlarını (match cards) yakalayalım
-        # Google genellikle bu verileri 'div' içinde belirli data-atrr'larla sunar
-        matches = page.css('div[data-ved]') # Genel bir kapsayıcı seçtik
+        # Google bot korumasını aşmak için Chrome 135 gibi davranıyoruz
+        # 'stealthy_headers' gerçek bir kullanıcı izlenimi verir
+        page = Fetcher.get(url, impersonate='chrome135', stealthy_headers=True)
         
-        print(f"Analiz edilen element sayısı: {len(matches)}")
+        if page.status_code != 200:
+            print(f"Hata: {page.status_code}. Google erişimi reddetti.")
+            return
 
-        # Eğer veri gelmezse takvimde görünmesi için test etkinliği
-        if len(matches) < 5: 
-             print("Google sonuçlarında maç kartı bulunamadı.")
+        # Google genellikle maç verilerini 'application/ld+json' tipinde saklar
+        # Sayfadaki tüm JSON-LD bloklarını kontrol edelim
+        scripts = page.css('script[type="application/ld+json"]::text').getall()
         
-        # Google'ın karmaşık yapısında kaybolmamak için metin tabanlı arama yapalım
-        # Bu kısım basitleştirilmiş bir örnektir, Google'ın o anki yapısına göre gelişebilir
-        for match in matches:
-            text_content = match.text
-            if "Fenerbahçe" in text_content and ("-" in text_content or ":" in text_content):
-                # Burada metin içinden tarih ve rakip ayıklama mantığı çalışır
-                # (Daha kesin sonuç için Google'ın JSON-LD verisi varsa o çekilir)
-                pass
+        found_matches = False
+        for script in scripts:
+            try:
+                data = json.loads(script)
+                # Event veya SportsEvent tipindeki verileri arıyoruz
+                if isinstance(data, list):
+                    events = data
+                elif isinstance(data, dict) and '@graph' in data:
+                    events = data['@graph']
+                else:
+                    events = [data]
 
-        # Google Engeli için bir B planı: Dosyanın güncellendiğini teyit edelim
-        e = Event()
-        e.name = "💛💙 Google Veri Kontrol Noktası"
-        e.begin = datetime.now(timezone)
-        e.description = f"Sayfa uzunluğu: {len(page.text)}"
-        calendar.events.add(e)
+                for item in events:
+                    if item.get('@type') in ['Event', 'SportsEvent'] and 'Fenerbahçe' in item.get('name', ''):
+                        found_matches = True
+                        e = Event()
+                        e.name = item['name']
+                        # Tarih formatını ayarla (ISO 8601 -> datetime)
+                        start_str = item['startDate'].replace('Z', '+00:00')
+                        e.begin = datetime.fromisoformat(start_str).astimezone(timezone)
+                        calendar.events.add(e)
+            except:
+                continue
+
+        if not found_matches:
+            print("Uyarı: Google sayfasında yapılandırılmış maç verisi bulunamadı.")
+            # Yedek: Dosyanın değiştiğini anlamak için bir 'Check' etkinliği ekleyelim
+            test = Event()
+            test.name = f"Son Kontrol: {datetime.now(timezone).strftime('%H:%M')}"
+            test.begin = datetime.now(timezone)
+            calendar.events.add(test)
 
     except Exception as e:
         print(f"Sistem Hatası: {e}")
@@ -53,7 +62,7 @@ def fenerbahce_verilerini_cek():
     # Dosyayı kaydet
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
-    print("İşlem bitti.")
+    print(f"İşlem bitti. Eklenen maç: {len(calendar.events)}")
 
 if __name__ == "__main__":
     fenerbahce_verilerini_cek()
