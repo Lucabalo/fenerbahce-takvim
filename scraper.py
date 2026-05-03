@@ -16,6 +16,15 @@ NOW_UTC = datetime.now(UTC)
 PAST_DAYS = 30
 FUTURE_DAYS = 210
 
+SIGNATURE = "Bu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır."
+
+BROADCASTERS = {
+    "EuroLeague": "S Sport",
+    "Süper Lig": "beIN SPORTS",
+    "Turkish Cup": "A Spor",
+}
+
+
 TEAMS = {
     "football": {
         "team_id": "133807",
@@ -31,7 +40,6 @@ TEAMS = {
         "icon": "🏀",
         "duration_hours": 2,
     },
-    # Kadın voleybol ileride ayrı kaynakla eklenecek. Şimdilik sistemi kırmamak için boş bırakıyoruz.
     "volleyball_women": {
         "team_id": None,
         "label": "Fenerbahçe Kadın Voleybol",
@@ -47,21 +55,49 @@ HEADERS = {
 }
 
 
+def simplify_competition(name: str) -> str:
+    if not name:
+        return "Organizasyon bilgisi yok"
+
+    replacements = {
+        "EuroLeague Basketball": "EuroLeague",
+        "Turkish Super Lig": "Süper Lig",
+        "Turkey Super Lig": "Süper Lig",
+    }
+
+    return replacements.get(name, name)
+
+
+def get_broadcaster(competition: str) -> str:
+    return BROADCASTERS.get(competition, "Yayın bilgisi eklenecek")
+
+
+def build_description(match: Dict[str, Any]) -> str:
+    competition = simplify_competition(match.get("competition") or "")
+    broadcaster = get_broadcaster(competition)
+
+    return f"""{competition}
+Yayıncı: {broadcaster}
+
+{SIGNATURE}"""
+
+
 def stable_hash(*parts: str) -> str:
     raw = "|".join(str(p or "") for p in parts)
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
 def parse_event_datetime(event: Dict[str, Any]) -> Optional[datetime]:
-    """TheSportsDB V1 uses dateEvent + strTime. The team page labels times as UTC, so convert to Istanbul."""
     date_value = event.get("dateEvent") or event.get("dateEventLocal")
     if not date_value:
         return None
 
     time_value = event.get("strTime") or "12:00:00"
     time_value = time_value.replace("Z", "").strip()
+
     if len(time_value) == 5:
         time_value += ":00"
+
     if not time_value:
         time_value = "12:00:00"
 
@@ -96,6 +132,7 @@ def fetch_team_events(branch: str, config: Dict[str, Any]) -> List[Dict[str, Any
         return []
 
     raw_events: List[Dict[str, Any]] = []
+
     for endpoint in ("eventsnext.php", "eventslast.php"):
         try:
             payload = api_get(endpoint, {"id": team_id})
@@ -104,6 +141,7 @@ def fetch_team_events(branch: str, config: Dict[str, Any]) -> List[Dict[str, Any
             print(f"[{branch}] {endpoint} hata: {exc}")
 
     normalized: List[Dict[str, Any]] = []
+
     for event in raw_events:
         dt_ist = parse_event_datetime(event)
         if not dt_ist or not in_window(dt_ist):
@@ -113,6 +151,7 @@ def fetch_team_events(branch: str, config: Dict[str, Any]) -> List[Dict[str, Any
         away = event.get("strAwayTeam") or ""
         score_home = event.get("intHomeScore")
         score_away = event.get("intAwayScore")
+
         status = "finished" if score_home not in (None, "") or score_away not in (None, "") else "scheduled"
         event_id = event.get("idEvent") or stable_hash(branch, dt_ist.isoformat(), home, away)
 
@@ -147,20 +186,25 @@ def fetch_team_events(branch: str, config: Dict[str, Any]) -> List[Dict[str, Any
 
 def fetch_all_matches() -> List[Dict[str, Any]]:
     matches: List[Dict[str, Any]] = []
+
     for branch, config in TEAMS.items():
         matches.extend(fetch_team_events(branch, config))
+
     return dedupe_matches(matches)
 
 
 def dedupe_matches(matches: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     seen = set()
     output = []
+
     for match in sorted(matches, key=lambda item: item["startTimeUtc"]):
         key = (match["branch"], match["sourceEventId"])
         if key in seen:
             continue
+
         seen.add(key)
         output.append(match)
+
     return output
 
 
@@ -170,7 +214,6 @@ def build_calendar(matches: List[Dict[str, Any]]) -> str:
     for match in matches:
         config = TEAMS[match["branch"]]
         start_utc = datetime.fromisoformat(match["startTimeUtc"]).astimezone(UTC)
-        start_ist = start_utc.astimezone(IST)
 
         event = Event()
         event.uid = f"fenerbahce-{match['branch']}-{match['sourceEventId']}@fenerbahce-takvim"
@@ -178,30 +221,18 @@ def build_calendar(matches: List[Dict[str, Any]]) -> str:
         event.begin = start_utc
         event.duration = timedelta(hours=config["duration_hours"])
         event.location = match.get("venue") or ""
+        event.description = build_description(match)
 
-        score = match.get("score") or {}
-        score_text = ""
-        if score.get("home") is not None or score.get("away") is not None:
-            score_text = f"\nSkor: {score.get('home')} - {score.get('away')}"
-
-        event.description = (
-            f"Branş: {config['label']}\n"
-            f"Organizasyon: {match.get('competition') or '-'}\n"
-            f"Durum: {match.get('status') or '-'}{score_text}\n"
-            f"Yer: {match.get('venue') or '-'}\n"
-            f"Türkiye saati: {start_ist.strftime('%d.%m.%Y %H:%M')}\n"
-            f"Saat güveni: {match.get('timeConfidence') or '-'}\n"
-            f"Kaynak: {match.get('source')}\n"
-            f"Kaynak URL: {match.get('sourceUrl') or '-'}"
-        )
         calendar.events.add(event)
 
     text = calendar.serialize()
     lines = text.splitlines()
     final_lines = []
     inserted = False
+
     for line in lines:
         final_lines.append(line)
+
         if line.startswith("VERSION:2.0") and not inserted:
             final_lines.extend([
                 "X-WR-CALNAME:Fenerbahçe Maç Takvimi",
@@ -210,7 +241,14 @@ def build_calendar(matches: List[Dict[str, Any]]) -> str:
             ])
             inserted = True
 
-    alarm = "BEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:Fenerbahçe maçı 60 dakika sonra\nTRIGGER:-PT60M\nEND:VALARM\n"
+    alarm = (
+        "BEGIN:VALARM\n"
+        "ACTION:DISPLAY\n"
+        "DESCRIPTION:Fenerbahçe maçı 60 dakika sonra\n"
+        "TRIGGER:-PT60M\n"
+        "END:VALARM\n"
+    )
+
     return "\n".join(final_lines).replace("END:VEVENT", alarm + "END:VEVENT")
 
 
@@ -222,7 +260,7 @@ def write_outputs(matches: List[Dict[str, Any]]) -> None:
         file.write(build_calendar(matches))
 
     print(f"✅ fenerbahce_matches.json yazıldı: {len(matches)} maç")
-    print(f"✅ fenerbahce.ics yazıldı")
+    print("✅ fenerbahce.ics yazıldı")
 
 
 def main() -> int:
