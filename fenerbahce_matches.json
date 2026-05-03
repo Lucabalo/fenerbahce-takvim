@@ -1,0 +1,50 @@
+[
+  {
+    "id": "basketball_men-2466680",
+    "sourceEventId": "2466680",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "BC Žalgiris",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "BC Žalgiris",
+    "competition": "EuroLeague Basketball",
+    "season": "2025",
+    "startTimeUtc": "2026-05-06T17:00:00+00:00",
+    "startTimeTurkey": "2026-05-06T20:00:00+03:00",
+    "venue": "Žalgiris Arena",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2466680",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-05-03T20:43:09.072382+00:00"
+  },
+  {
+    "id": "football-2283073",
+    "sourceEventId": "2283073",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Konyaspor",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Konyaspor",
+    "competition": "Turkish Super Lig",
+    "season": "2025-2026",
+    "startTimeUtc": "2026-05-09T17:00:00+00:00",
+    "startTimeTurkey": "2026-05-09T20:00:00+03:00",
+    "venue": "Konya Büyükşehir Belediye Stadyumu",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2283073",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-05-03T20:43:09.072382+00:00"
+  }
+]

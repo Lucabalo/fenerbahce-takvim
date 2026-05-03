@@ -1,11 +1,33 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Ahmet//Fenerbahce//Workflow
 X-WR-CALNAME:Fenerbahçe Maç Takvimi
 X-WR-TIMEZONE:Europe/Istanbul
-METHOD:PUBLISH
+X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
+PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-SUMMARY:✅ Workflow Senkronizasyonu: 22:51:13
-DTSTART:20260503T195113Z
+DESCRIPTION:Branş: Fenerbahçe Erkek Futbol\nOrganizasyon: Turkish Super Lig\nDurum: scheduled\nYer: Konya Büyükşehir Belediye Stadyumu\nTürkiye saati: 09.05.2026 20:00\nSaat güveni: utc_converted_from_thesportsdb\nKaynak: TheSportsDB\nKaynak URL: https://www.thesportsdb.com/event/2283073
+DURATION:PT2H
+LOCATION:Konya Büyükşehir Belediye Stadyumu
+DTSTART:20260509T170000Z
+SUMMARY:⚽ Konyaspor - Fenerbahçe
+UID:fenerbahce-football-2283073@fenerbahce-takvim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Branş: Fenerbahçe Beko Erkek Basketbol\nOrganizasyon: EuroLeague Basketball\nDurum: scheduled\nYer: Žalgiris Arena\nTürkiye saati: 06.05.2026 20:00\nSaat güveni: utc_converted_from_thesportsdb\nKaynak: TheSportsDB\nKaynak URL: https://www.thesportsdb.com/event/2466680
+DURATION:PT2H
+LOCATION:Žalgiris Arena
+DTSTART:20260506T170000Z
+SUMMARY:🏀 BC Žalgiris - Fenerbahçe Basketbol
+UID:fenerbahce-basketball_men-2466680@fenerbahce-takvim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
+TRIGGER:-PT60M
+END:VALARM
 END:VEVENT
 END:VCALENDAR
