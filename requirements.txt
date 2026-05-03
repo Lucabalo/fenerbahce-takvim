@@ -1,3 +1,2 @@
-scrapling[all]
+requests
 ics
-pytz
