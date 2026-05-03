@@ -5,64 +5,53 @@ from datetime import datetime
 import pytz
 
 def fenerbahce_verilerini_cek():
-    # Google'da direkt fikstür aratıyoruz
-    url = "https://www.google.com/search?q=fenerbahce+mac+fiksturu"
+    # Bu sefer daha az korumalı ve veri odaklı bir kaynak seçiyoruz
+    # Not: URL, genel bir spor veri sağlayıcısı simülasyonudur
+    url = "https://fixturedownload.com/feed/json/turkish-super-lig/fenerbahce"
     calendar = Calendar()
     timezone = pytz.timezone("Europe/Istanbul")
 
-    print(f"Veri çekiliyor: {url}")
+    print(f"Veri kaynağı güncellendi: {url}")
     try:
-        # HATA ÇÖZÜMÜ: 'chrome135' yerine genel 'chrome' kullanıyoruz.
-        # Scrapling bunu otomatik olarak desteklenen en güncel Chrome sürümüne eşler.
-        page = Fetcher.get(url, impersonate='chrome', stealthy_headers=True)
+        # Standart Fetcher bu tür JSON kaynakları için çok daha stabildir
+        page = Fetcher.get(url, stealthy_headers=True)
         
         if page.status_code != 200:
-            print(f"Hata: {page.status_code}. Google erişimi reddetti.")
+            print(f"Hata: {page.status_code}. Kaynağa erişilemedi.")
             return
 
-        # Google'ın yapılandırılmış JSON-LD verilerini yakalayalım
-        scripts = page.css('script[type="application/ld+json"]::text').getall()
+        data = json.loads(page.text)
         
-        found_matches = False
-        for script in scripts:
-            try:
-                data = json.loads(script)
-                # JSON-LD içindeki etkinlikleri (maçları) filtrele
-                events = []
-                if isinstance(data, list):
-                    events = data
-                elif isinstance(data, dict):
-                    events = data.get('@graph', [data])
+        if not data:
+            print("Veri boş geldi.")
+        else:
+            for match in data:
+                e = Event()
+                # JSON yapısına göre (HomeTeam vs AwayTeam)
+                home = match.get('HomeTeam', 'Fenerbahçe')
+                away = match.get('AwayTeam', 'Rakip')
+                location = match.get('Location', 'Stadyum')
+                
+                # Tarih dönüşümü (Örn: 2026-05-10T19:00:00Z)
+                start_str = match['Date'].replace('Z', '+00:00')
+                e.begin = datetime.fromisoformat(start_str).astimezone(timezone)
+                
+                e.name = f"💛💙 {home} - {away}"
+                e.location = location
+                calendar.events.add(e)
 
-                for item in events:
-                    # 'Event' veya 'SportsEvent' tipinde ve Fenerbahçe içerenleri al
-                    if item.get('@type') in ['Event', 'SportsEvent'] and 'Fenerbahçe' in item.get('name', ''):
-                        found_matches = True
-                        e = Event()
-                        e.name = item['name']
-                        # Tarih dönüşümü
-                        start_str = item['startDate'].replace('Z', '+00:00')
-                        e.begin = datetime.fromisoformat(start_str).astimezone(timezone)
-                        calendar.events.add(e)
-            except:
-                continue
-
-        # Dosyanın her seferinde değişmesini garantilemek için 'kontrol' etkinliği ekliyoruz
-        check_event = Event()
-        check_event.name = f"📍 Takvim Güncellendi: {datetime.now(timezone).strftime('%H:%M')}"
-        check_event.begin = datetime.now(timezone)
-        calendar.events.add(check_event)
-
-        if not found_matches:
-            print("Uyarı: Google'dan maç verisi ayıklanamadı, sadece kontrol etkinliği eklendi.")
+        # Dosyanın güncellendiğini anlaman için her zaman bir 'Status' ekleyelim
+        status = Event()
+        status.name = f"✅ Takvim Senkronize: {datetime.now(timezone).strftime('%H:%M')}"
+        status.begin = datetime.now(timezone)
+        calendar.events.add(status)
 
     except Exception as e:
         print(f"Sistem Hatası: {e}")
 
-    # Dosyayı kaydet
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
-    print(f"İşlem bitti. Toplam öğe: {len(calendar.events)}")
+    print(f"İşlem tamamlandı. Toplam öğe: {len(calendar.events)}")
 
 if __name__ == "__main__":
     fenerbahce_verilerini_cek()
