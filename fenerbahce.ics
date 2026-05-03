@@ -5,7 +5,7 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Branş: Fenerbahçe Erkek Futbol\nOrganizasyon: Turkish Super Lig\nDurum: scheduled\nYer: Konya Büyükşehir Belediye Stadyumu\nTürkiye saati: 09.05.2026 20:00\nSaat güveni: utc_converted_from_thesportsdb\nKaynak: TheSportsDB\nKaynak URL: https://www.thesportsdb.com/event/2283073
+DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
 LOCATION:Konya Büyükşehir Belediye Stadyumu
 DTSTART:20260509T170000Z
@@ -18,7 +18,7 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Branş: Fenerbahçe Beko Erkek Basketbol\nOrganizasyon: EuroLeague Basketball\nDurum: scheduled\nYer: Žalgiris Arena\nTürkiye saati: 06.05.2026 20:00\nSaat güveni: utc_converted_from_thesportsdb\nKaynak: TheSportsDB\nKaynak URL: https://www.thesportsdb.com/event/2466680
+DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
 LOCATION:Žalgiris Arena
 DTSTART:20260506T170000Z
