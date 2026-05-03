@@ -1,47 +1,32 @@
-name: FB Calendar Auto Update
+name: FB Takvim Guncelleme
 
 on:
   schedule:
-    # Türkiye saatiyle yaklaşık 09:00 ve 21:00
-    - cron: '0 6,18 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 08,20 * * *' # Türkiye saatiyle sabah ve akşam çalışır
+  workflow_dispatch: # İstediğin an elle başlatabilmen için düğme ekler
 
 jobs:
-  build:
+  run-scraper:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
+      - name: Kodu Cek
+        uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Python Kur
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Gerecleri Yukle
+        run: pip install -r requirements.txt
+
+      - name: Scraperi Calistir
+        run: python scraper.py
+
+      - name: Degisiklikleri Kaydet
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          python -m playwright install chromium
-
-      - name: Run Script
-        run: python update_calendar.py
-
-      - name: Debug output files
-        run: |
-          ls -lah
-          test -f fenerbahce.ics && grep -c "BEGIN:VEVENT" fenerbahce.ics || true
-          test -f fenerbahce_matches.json && wc -c fenerbahce_matches.json || true
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name 'Fenerbahce Bot'
-          git config --global user.email 'bot@fenerbahce.com'
+          git config --global user.name 'Ahmet-Vibecoder'
+          git config --global user.email 'ahmet@example.com'
           git add fenerbahce.ics
-          test -f fenerbahce_matches.json && git add fenerbahce_matches.json || true
-          git commit -m "Fikstür ve Skorlar Güncellendi" || exit 0
-          git push origin main
+          git commit -m "Takvim güncellendi (Skorlar ve yeni maçlar)" || exit 0
+          git push
