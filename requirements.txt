@@ -2,3 +2,4 @@ scrapling
 curl_cffi
 ics
 pytz
+playwright
