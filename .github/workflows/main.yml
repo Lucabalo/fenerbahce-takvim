@@ -20,6 +20,9 @@ jobs:
       - name: Gerecleri Yukle
         run: pip install -r requirements.txt
 
+      - name: Playwright Tarayicilarini Kur
+        run: playwright install chromium --with-deps
+
       - name: Scraperi Calistir
         run: python scraper.py
 
