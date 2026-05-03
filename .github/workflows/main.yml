@@ -28,8 +28,10 @@ jobs:
 
       - name: Degisiklikleri Kaydet
         run: |
-          git config --global user.name 'Ahmet-Vibecoder'
-          git config --global user.email 'ahmet@example.com'
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add fenerbahce.ics
-          git commit -m "Takvim güncellendi (Skorlar ve yeni maçlar)" || exit 0
-          git push
+          # Değişiklik varsa commit et, yoksa süreci devam ettir
+          git commit -m "Takvim guncellendi: $(date)" || echo "Degisiklik yok, devam ediliyor..."
+          # Zorunlu push
+          git push origin main
