@@ -1,6 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-X-WR-CALNAME:Fenerbahçe Maç Takvimi
-X-WR-TIMEZONE:Europe/Istanbul
 PRODID:ics.py - http://git.io/lLljaA
 END:VCALENDAR
