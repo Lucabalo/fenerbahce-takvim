@@ -3,3 +3,5 @@ curl_cffi
 ics
 pytz
 playwright
+browserforge
+camoufox
