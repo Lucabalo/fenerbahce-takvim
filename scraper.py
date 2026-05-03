@@ -13,18 +13,16 @@ def fenerbahce_verilerini_cek():
     calendar = Calendar()
     timezone = pytz.timezone("Europe/Istanbul")
 
-    # Fetcher'ı bir kez oluşturuyoruz
+    # Fetcher'ı varsayılan ayarlarla başlatıyoruz
     fetcher = Fetcher()
-    
-    # HATA ÇÖZÜMÜ: Stealth ayarını get() içinde değil, burada yapılandırıyoruz
-    # Bu sayede 'multiple values' hatası ortadan kalkar.
-    fetcher.configure(stealth=True)
 
     for url in urls:
         print(f"Veri çekiliyor: {url}")
         
-        # Artık get() içinde stealth=True yazmıyoruz, configure ile zaten aktif ettik
-        response = fetcher.get(url)
+        # HATA ÇÖZÜMÜ: Stealth ayarını get içerisinde 'stealthy_headers' 
+        # parametresiyle veya doğrudan kütüphanenin yeni standartlarına uygun çağırıyoruz.
+        # Scrapling v0.3+ için en güvenli yol budur:
+        response = fetcher.get(url, stealthy_headers=True)
         
         if response.status_code != 200:
             print(f"Hata: {response.status_code} - Veri alınamadı.")
@@ -38,7 +36,7 @@ def fenerbahce_verilerini_cek():
             continue
 
         for match in events:
-            # Sadece futbol maçlarını alalım
+            # Sadece futbol branşını filtrele
             if match.get('sport') and match['sport']['name'] != 'Football':
                 continue
 
@@ -47,8 +45,10 @@ def fenerbahce_verilerini_cek():
             away = match['awayTeam']['shortName']
             status = match['status']['type']
             
+            # Zaman damgasını Türkiye saatine çevir
             start_date = datetime.fromtimestamp(match['startTimestamp'], timezone)
             
+            # Maç bittiyse skoru, bitmediyse sadece takımları yaz
             if status == 'finished':
                 h_score = match['homeScore'].get('display', 0)
                 a_score = match['awayScore'].get('display', 0)
@@ -59,7 +59,7 @@ def fenerbahce_verilerini_cek():
             e.begin = start_date
             calendar.events.add(e)
 
-    # Dosyayı kaydet
+    # Takvim dosyasını oluştur
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
     print("fenerbahce.ics başarıyla güncellendi!")
