@@ -10,6 +10,8 @@ from ics import Calendar, Event
 
 API_KEY = os.getenv("THESPORTSDB_API_KEY", "123")
 BASE_URL = f"https://www.thesportsdb.com/api/v1/json/{API_KEY}"
+CURRENT_SEASON = os.getenv("SEASON", "2025-2026")
+
 IST = ZoneInfo("Europe/Istanbul")
 UTC = timezone.utc
 NOW_UTC = datetime.now(UTC)
@@ -23,7 +25,6 @@ BROADCASTERS = {
     "Süper Lig": "beIN SPORTS",
     "Turkish Cup": "A Spor",
 }
-
 
 TEAMS = {
     "football": {
@@ -55,6 +56,11 @@ HEADERS = {
 }
 
 
+def stable_hash(*parts: str) -> str:
+    raw = "|".join(str(p or "") for p in parts)
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
+
+
 def simplify_competition(name: str) -> str:
     if not name:
         return "Organizasyon bilgisi yok"
@@ -63,6 +69,7 @@ def simplify_competition(name: str) -> str:
         "EuroLeague Basketball": "EuroLeague",
         "Turkish Super Lig": "Süper Lig",
         "Turkey Super Lig": "Süper Lig",
+        "Turkish Süper Lig": "Süper Lig",
     }
 
     return replacements.get(name, name)
@@ -80,11 +87,6 @@ def build_description(match: Dict[str, Any]) -> str:
 Yayıncı: {broadcaster}
 
 {SIGNATURE}"""
-
-
-def stable_hash(*parts: str) -> str:
-    raw = "|".join(str(p or "") for p in parts)
-    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
 def parse_event_datetime(event: Dict[str, Any]) -> Optional[datetime]:
@@ -133,12 +135,24 @@ def fetch_team_events(branch: str, config: Dict[str, Any]) -> List[Dict[str, Any
 
     raw_events: List[Dict[str, Any]] = []
 
-    for endpoint in ("eventsnext.php", "eventslast.php"):
-        try:
-            payload = api_get(endpoint, {"id": team_id})
-            raw_events.extend(payload.get("events") or [])
-        except Exception as exc:
-            print(f"[{branch}] {endpoint} hata: {exc}")
+    try:
+        payload = api_get("eventsseason.php", {
+            "id": team_id,
+            "s": CURRENT_SEASON,
+        })
+        raw_events = payload.get("events") or []
+        print(f"[{branch}] sezon maçları alındı: {len(raw_events)}")
+    except Exception as exc:
+        print(f"[{branch}] eventsseason.php hata: {exc}")
+        raw_events = []
+
+    if not raw_events:
+        for endpoint in ("eventsnext.php", "eventslast.php"):
+            try:
+                payload = api_get(endpoint, {"id": team_id})
+                raw_events.extend(payload.get("events") or [])
+            except Exception as exc:
+                print(f"[{branch}] {endpoint} hata: {exc}")
 
     normalized: List[Dict[str, Any]] = []
 
@@ -149,6 +163,10 @@ def fetch_team_events(branch: str, config: Dict[str, Any]) -> List[Dict[str, Any
 
         home = event.get("strHomeTeam") or ""
         away = event.get("strAwayTeam") or ""
+
+        if "Fenerbah" not in home and "Fenerbah" not in away:
+            continue
+
         score_home = event.get("intHomeScore")
         score_away = event.get("intAwayScore")
 
