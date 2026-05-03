@@ -1,5 +1,5 @@
 import json
-from scrapling import Fetcher
+from scrapling.fetchers import Fetcher
 from ics import Calendar, Event
 from datetime import datetime
 import pytz
@@ -13,30 +13,27 @@ def fenerbahce_verilerini_cek():
     calendar = Calendar()
     timezone = pytz.timezone("Europe/Istanbul")
 
-    # Fetcher'ı varsayılan ayarlarla başlatıyoruz
-    fetcher = Fetcher()
-
     for url in urls:
         print(f"Veri çekiliyor: {url}")
         
-        # HATA ÇÖZÜMÜ: Stealth ayarını get içerisinde 'stealthy_headers' 
-        # parametresiyle veya doğrudan kütüphanenin yeni standartlarına uygun çağırıyoruz.
-        # Scrapling v0.3+ için en güvenli yol budur:
-        response = fetcher.get(url, stealthy_headers=True)
-        
-        if response.status_code != 200:
-            print(f"Hata: {response.status_code} - Veri alınamadı.")
-            continue
-
+        # DOKÜMANTASYON ÇÖZÜMÜ: One-off request stilini kullanıyoruz.
+        # 'stealthy_headers=True' ile gerçek bir tarayıcı parmak izi gönderiyoruz.
         try:
-            data = json.loads(response.text)
+            page = Fetcher.get(url, stealthy_headers=True)
+            
+            if page.status_code != 200:
+                print(f"Hata: {page.status_code} - Erişim reddedildi.")
+                continue
+
+            # Scrapling page nesnesi üzerinden doğrudan metni alıyoruz
+            data = json.loads(page.text)
             events = data.get('events', [])
         except Exception as e:
-            print(f"Veri ayrıştırma hatası: {e}")
+            print(f"Bir hata oluştu: {e}")
             continue
 
         for match in events:
-            # Sadece futbol branşını filtrele
+            # Branş kontrolü
             if match.get('sport') and match['sport']['name'] != 'Football':
                 continue
 
@@ -45,10 +42,8 @@ def fenerbahce_verilerini_cek():
             away = match['awayTeam']['shortName']
             status = match['status']['type']
             
-            # Zaman damgasını Türkiye saatine çevir
             start_date = datetime.fromtimestamp(match['startTimestamp'], timezone)
             
-            # Maç bittiyse skoru, bitmediyse sadece takımları yaz
             if status == 'finished':
                 h_score = match['homeScore'].get('display', 0)
                 a_score = match['awayScore'].get('display', 0)
@@ -59,7 +54,6 @@ def fenerbahce_verilerini_cek():
             e.begin = start_date
             calendar.events.add(e)
 
-    # Takvim dosyasını oluştur
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
     print("fenerbahce.ics başarıyla güncellendi!")
