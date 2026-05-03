@@ -13,21 +13,24 @@ def fenerbahce_verilerini_cek():
     calendar = Calendar()
     timezone = pytz.timezone("Europe/Istanbul")
 
+    # Fetcher'ı bir kez oluşturuyoruz
+    fetcher = Fetcher()
+    
+    # HATA ÇÖZÜMÜ: Stealth ayarını get() içinde değil, burada yapılandırıyoruz
+    # Bu sayede 'multiple values' hatası ortadan kalkar.
+    fetcher.configure(stealth=True)
+
     for url in urls:
         print(f"Veri çekiliyor: {url}")
         
-        # Yeni kurallara göre yapılandırma ve çekme işlemi
-        fetcher = Fetcher()
-        # Stealth modunu yeni yöntemle aktif ediyoruz
-        response = fetcher.get(url, stealth=True)
+        # Artık get() içinde stealth=True yazmıyoruz, configure ile zaten aktif ettik
+        response = fetcher.get(url)
         
-        # Yeni yapıda status_code response nesnesinin içindedir
         if response.status_code != 200:
             print(f"Hata: {response.status_code} - Veri alınamadı.")
             continue
 
         try:
-            # Sayfa kaynağını JSON olarak okuyoruz
             data = json.loads(response.text)
             events = data.get('events', [])
         except Exception as e:
@@ -35,6 +38,10 @@ def fenerbahce_verilerini_cek():
             continue
 
         for match in events:
+            # Sadece futbol maçlarını alalım
+            if match.get('sport') and match['sport']['name'] != 'Football':
+                continue
+
             e = Event()
             home = match['homeTeam']['shortName']
             away = match['awayTeam']['shortName']
@@ -52,6 +59,7 @@ def fenerbahce_verilerini_cek():
             e.begin = start_date
             calendar.events.add(e)
 
+    # Dosyayı kaydet
     with open('fenerbahce.ics', 'w', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
     print("fenerbahce.ics başarıyla güncellendi!")
