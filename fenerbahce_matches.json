@@ -1,7 +1,7 @@
 [
   {
-    "id": "basketball_men-2466680",
-    "sourceEventId": "2466680",
+    "id": "basketball_men-2470474",
+    "sourceEventId": "2470474",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
@@ -10,18 +10,18 @@
     "opponent": "BC Žalgiris",
     "competition": "EuroLeague Basketball",
     "season": "2025",
-    "startTimeUtc": "2026-05-06T17:00:00+00:00",
-    "startTimeTurkey": "2026-05-06T20:00:00+03:00",
+    "startTimeUtc": "2026-05-08T17:00:00+00:00",
+    "startTimeTurkey": "2026-05-08T20:00:00+03:00",
     "venue": "Žalgiris Arena",
-    "status": "finished",
+    "status": "scheduled",
     "score": {
-      "home": 81,
-      "away": 78
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2466680",
+    "sourceUrl": "https://www.thesportsdb.com/event/2470474",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-06T22:00:56.737981+00:00"
+    "updatedAt": "2026-05-07T22:04:25.249556+00:00"
   },
   {
     "id": "football-2283073",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2283073",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-06T22:00:56.737981+00:00"
+    "updatedAt": "2026-05-07T22:04:25.249556+00:00"
   }
 ]
