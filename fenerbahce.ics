@@ -5,12 +5,12 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Konya Büyükşehir Belediye Stadyumu
-DTSTART:20260509T170000Z
-SUMMARY:⚽ Konyaspor - Fenerbahçe
-UID:fenerbahce-football-2283073@fenerbahce-takvim
+LOCATION:Sinan Erdem Dome
+DTSTART:20260510T150000Z
+SUMMARY:🏀 Bahçeşehir Koleji SK - Fenerbahçe Basketbol
+UID:fenerbahce-basketball_men-2384925@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
@@ -18,12 +18,12 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Žalgiris Arena
-DTSTART:20260508T170000Z
-SUMMARY:🏀 BC Žalgiris - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2470474@fenerbahce-takvim
+LOCATION:Konya Büyükşehir Belediye Stadyumu
+DTSTART:20260509T170000Z
+SUMMARY:⚽ Konyaspor - Fenerbahçe
+UID:fenerbahce-football-2283073@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra

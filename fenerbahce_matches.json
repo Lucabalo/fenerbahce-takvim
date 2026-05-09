@@ -1,29 +1,5 @@
 [
   {
-    "id": "basketball_men-2470474",
-    "sourceEventId": "2470474",
-    "branch": "basketball_men",
-    "sport": "basketball_men",
-    "team": "Fenerbahçe Beko",
-    "homeTeam": "BC Žalgiris",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "BC Žalgiris",
-    "competition": "EuroLeague Basketball",
-    "season": "2025",
-    "startTimeUtc": "2026-05-08T17:00:00+00:00",
-    "startTimeTurkey": "2026-05-08T20:00:00+03:00",
-    "venue": "Žalgiris Arena",
-    "status": "finished",
-    "score": {
-      "home": 90,
-      "away": 94
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2470474",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-08T22:01:41.417388+00:00"
-  },
-  {
     "id": "football-2283073",
     "sourceEventId": "2283073",
     "branch": "football",
@@ -37,14 +13,38 @@
     "startTimeUtc": "2026-05-09T17:00:00+00:00",
     "startTimeTurkey": "2026-05-09T20:00:00+03:00",
     "venue": "Konya Büyükşehir Belediye Stadyumu",
+    "status": "finished",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2283073",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-05-09T21:51:45.168545+00:00"
+  },
+  {
+    "id": "basketball_men-2384925",
+    "sourceEventId": "2384925",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "Bahçeşehir Koleji SK",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "Bahçeşehir Koleji SK",
+    "competition": "Turkish Basketbol Super Ligi",
+    "season": "2025-2026",
+    "startTimeUtc": "2026-05-10T15:00:00+00:00",
+    "startTimeTurkey": "2026-05-10T18:00:00+03:00",
+    "venue": "Sinan Erdem Dome",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2283073",
+    "sourceUrl": "https://www.thesportsdb.com/event/2384925",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-08T22:01:41.417388+00:00"
+    "updatedAt": "2026-05-09T21:51:45.168545+00:00"
   }
 ]
