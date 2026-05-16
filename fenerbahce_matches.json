@@ -13,15 +13,15 @@
     "startTimeUtc": "2026-05-16T12:30:00+00:00",
     "startTimeTurkey": "2026-05-16T15:30:00+03:00",
     "venue": "Sinan Erdem Dome",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 86,
+      "away": 96
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2384925",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-15T22:02:54.560635+00:00"
+    "updatedAt": "2026-05-16T21:54:48.415043+00:00"
   },
   {
     "id": "football-2283075",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2283075",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-15T22:02:54.560635+00:00"
+    "updatedAt": "2026-05-16T21:54:48.415043+00:00"
   }
 ]
