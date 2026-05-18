@@ -17,17 +17,4 @@ DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
 TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
-DURATION:PT2H
-LOCATION:Ülker Stadium
-DTSTART:20260517T170000Z
-SUMMARY:⚽ Fenerbahçe - Eyüpspor
-UID:fenerbahce-football-2283075@fenerbahce-takvim
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
-TRIGGER:-PT60M
-END:VALARM
-END:VEVENT
 END:VCALENDAR

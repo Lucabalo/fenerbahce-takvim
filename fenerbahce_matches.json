@@ -1,29 +1,5 @@
 [
   {
-    "id": "football-2283075",
-    "sourceEventId": "2283075",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Fenerbahçe",
-    "awayTeam": "Eyüpspor",
-    "opponent": "Eyüpspor",
-    "competition": "Turkish Super Lig",
-    "season": "2025-2026",
-    "startTimeUtc": "2026-05-17T17:00:00+00:00",
-    "startTimeTurkey": "2026-05-17T20:00:00+03:00",
-    "venue": "Ülker Stadium",
-    "status": "finished",
-    "score": {
-      "home": 3,
-      "away": 3
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2283075",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-17T21:59:03.474384+00:00"
-  },
-  {
     "id": "basketball_men-2471094",
     "sourceEventId": "2471094",
     "branch": "basketball_men",
@@ -45,6 +21,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2471094",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-17T21:59:03.474384+00:00"
+    "updatedAt": "2026-05-18T22:06:35.235884+00:00"
   }
 ]
