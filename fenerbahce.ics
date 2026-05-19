@@ -7,7 +7,7 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Peace and Friendship Stadium
+LOCATION:Telekom Center Athens
 DTSTART:20260522T150000Z
 SUMMARY:🏀 Olympiacos BC - Fenerbahçe Basketbol
 UID:fenerbahce-basketball_men-2471094@fenerbahce-takvim

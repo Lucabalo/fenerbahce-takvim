@@ -12,7 +12,7 @@
     "season": "2025",
     "startTimeUtc": "2026-05-22T15:00:00+00:00",
     "startTimeTurkey": "2026-05-22T18:00:00+03:00",
-    "venue": "Peace and Friendship Stadium",
+    "venue": "Telekom Center Athens",
     "status": "scheduled",
     "score": {
       "home": null,
@@ -21,6 +21,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2471094",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-18T22:06:35.235884+00:00"
+    "updatedAt": "2026-05-19T22:19:10.621209+00:00"
   }
 ]
