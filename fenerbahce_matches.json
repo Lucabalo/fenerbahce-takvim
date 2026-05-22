@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-05-22T15:00:00+00:00",
     "startTimeTurkey": "2026-05-22T18:00:00+03:00",
     "venue": "Telekom Center Athens",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 79,
+      "away": 61
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2471094",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-21T22:23:02.574239+00:00"
+    "updatedAt": "2026-05-22T22:11:27.660895+00:00"
   }
 ]
