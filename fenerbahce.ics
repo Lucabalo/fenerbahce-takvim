@@ -5,12 +5,12 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Telekom Center Athens
-DTSTART:20260522T150000Z
-SUMMARY:🏀 Olympiacos BC - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2471094@fenerbahce-takvim
+LOCATION:Ülker Sports Arena
+DTSTART:20260527T173000Z
+SUMMARY:🏀 Fenerbahçe Basketbol - Esenler Erokspor Basketball
+UID:fenerbahce-basketball_men-2474785@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra

@@ -1,26 +1,26 @@
 [
   {
-    "id": "basketball_men-2471094",
-    "sourceEventId": "2471094",
+    "id": "basketball_men-2474785",
+    "sourceEventId": "2474785",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Olympiacos BC",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Olympiacos BC",
-    "competition": "EuroLeague Basketball",
-    "season": "2025",
-    "startTimeUtc": "2026-05-22T15:00:00+00:00",
-    "startTimeTurkey": "2026-05-22T18:00:00+03:00",
-    "venue": "Telekom Center Athens",
-    "status": "finished",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "Esenler Erokspor Basketball",
+    "opponent": "Esenler Erokspor Basketball",
+    "competition": "Turkish Basketbol Super Ligi",
+    "season": "2025-2026",
+    "startTimeUtc": "2026-05-27T17:30:00+00:00",
+    "startTimeTurkey": "2026-05-27T20:30:00+03:00",
+    "venue": "Ülker Sports Arena",
+    "status": "scheduled",
     "score": {
-      "home": 79,
-      "away": 61
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2471094",
+    "sourceUrl": "https://www.thesportsdb.com/event/2474785",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-22T22:11:27.660895+00:00"
+    "updatedAt": "2026-05-23T21:58:19.390648+00:00"
   }
 ]
