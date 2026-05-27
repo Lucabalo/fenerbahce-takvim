@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-05-27T17:30:00+00:00",
     "startTimeTurkey": "2026-05-27T20:30:00+03:00",
     "venue": "Ülker Sports Arena",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 94,
+      "away": 72
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2474785",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-26T22:22:58.070489+00:00"
+    "updatedAt": "2026-05-27T22:44:11.159046+00:00"
   }
 ]
