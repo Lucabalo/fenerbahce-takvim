@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-05-29T17:30:00+00:00",
     "startTimeTurkey": "2026-05-29T20:30:00+03:00",
     "venue": "Ahmet Cömert Sport Hall",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 73,
+      "away": 96
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2474789",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-28T22:42:17.212611+00:00"
+    "updatedAt": "2026-05-29T22:38:58.426400+00:00"
   }
 ]
