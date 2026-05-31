@@ -1,26 +1,26 @@
 [
   {
-    "id": "basketball_men-2474789",
-    "sourceEventId": "2474789",
+    "id": "basketball_men-2478594",
+    "sourceEventId": "2478594",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Esenler Erokspor Basketball",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Esenler Erokspor Basketball",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "Anadolu Efes SK",
+    "opponent": "Anadolu Efes SK",
     "competition": "Turkish Basketbol Super Ligi",
     "season": "2025-2026",
-    "startTimeUtc": "2026-05-29T17:30:00+00:00",
-    "startTimeTurkey": "2026-05-29T20:30:00+03:00",
-    "venue": "Ahmet Cömert Sport Hall",
-    "status": "finished",
+    "startTimeUtc": "2026-06-01T17:00:00+00:00",
+    "startTimeTurkey": "2026-06-01T20:00:00+03:00",
+    "venue": "Ülker Sports Arena",
+    "status": "scheduled",
     "score": {
-      "home": 73,
-      "away": 96
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2474789",
+    "sourceUrl": "https://www.thesportsdb.com/event/2478594",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-29T22:38:58.426400+00:00"
+    "updatedAt": "2026-05-31T22:03:37.600471+00:00"
   }
 ]

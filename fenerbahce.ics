@@ -7,10 +7,10 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Ahmet Cömert Sport Hall
-DTSTART:20260529T173000Z
-SUMMARY:🏀 Esenler Erokspor Basketball - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2474789@fenerbahce-takvim
+LOCATION:Ülker Sports Arena
+DTSTART:20260601T170000Z
+SUMMARY:🏀 Fenerbahçe Basketbol - Anadolu Efes SK
+UID:fenerbahce-basketball_men-2478594@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
