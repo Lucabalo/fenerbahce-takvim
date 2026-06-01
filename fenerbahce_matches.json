@@ -1,7 +1,7 @@
 [
   {
-    "id": "basketball_men-2478594",
-    "sourceEventId": "2478594",
+    "id": "basketball_men-2478595",
+    "sourceEventId": "2478595",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
@@ -10,8 +10,8 @@
     "opponent": "Anadolu Efes SK",
     "competition": "Turkish Basketbol Super Ligi",
     "season": "2025-2026",
-    "startTimeUtc": "2026-06-01T17:00:00+00:00",
-    "startTimeTurkey": "2026-06-01T20:00:00+03:00",
+    "startTimeUtc": "2026-06-03T17:00:00+00:00",
+    "startTimeTurkey": "2026-06-03T20:00:00+03:00",
     "venue": "Ülker Sports Arena",
     "status": "scheduled",
     "score": {
@@ -19,8 +19,8 @@
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2478594",
+    "sourceUrl": "https://www.thesportsdb.com/event/2478595",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-05-31T22:03:37.600471+00:00"
+    "updatedAt": "2026-06-01T23:03:39.456198+00:00"
   }
 ]
