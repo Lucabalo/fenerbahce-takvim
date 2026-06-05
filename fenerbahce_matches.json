@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-06-05T17:00:00+00:00",
     "startTimeTurkey": "2026-06-05T20:00:00+03:00",
     "venue": "Basketbol Gelişim Merkezi",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 102,
+      "away": 93
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2478596",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-06-04T22:23:22.215195+00:00"
+    "updatedAt": "2026-06-05T22:18:25.131338+00:00"
   }
 ]
