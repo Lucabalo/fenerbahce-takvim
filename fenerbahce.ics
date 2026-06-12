@@ -7,10 +7,10 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Basketbol Gelişim Merkezi
-DTSTART:20260607T170000Z
-SUMMARY:🏀 Anadolu Efes SK - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2481934@fenerbahce-takvim
+LOCATION:Ülker Sports Arena
+DTSTART:20260613T170000Z
+SUMMARY:🏀 Fenerbahçe Basketbol - Besiktas Basketbol
+UID:fenerbahce-basketball_men-2488703@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
