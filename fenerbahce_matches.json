@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-06-13T17:00:00+00:00",
     "startTimeTurkey": "2026-06-13T20:00:00+03:00",
     "venue": "Ülker Sports Arena",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 80,
+      "away": 88
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2488703",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-06-12T22:26:58.562229+00:00"
+    "updatedAt": "2026-06-13T22:08:27.411120+00:00"
   }
 ]
