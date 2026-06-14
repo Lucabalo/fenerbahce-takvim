@@ -8,9 +8,9 @@ BEGIN:VEVENT
 DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
 LOCATION:Ülker Sports Arena
-DTSTART:20260613T170000Z
+DTSTART:20260615T170000Z
 SUMMARY:🏀 Fenerbahçe Basketbol - Besiktas Basketbol
-UID:fenerbahce-basketball_men-2488703@fenerbahce-takvim
+UID:fenerbahce-basketball_men-2488704@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
