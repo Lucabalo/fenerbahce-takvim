@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-06-17T17:00:00+00:00",
     "startTimeTurkey": "2026-06-17T20:00:00+03:00",
     "venue": "Besiktas Akatlar Arena",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 71,
+      "away": 82
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2488705",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-06-16T22:54:26.239248+00:00"
+    "updatedAt": "2026-06-17T22:46:56.760270+00:00"
   }
 ]
