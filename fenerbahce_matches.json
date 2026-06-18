@@ -1,7 +1,7 @@
 [
   {
-    "id": "basketball_men-2488705",
-    "sourceEventId": "2488705",
+    "id": "basketball_men-2491123",
+    "sourceEventId": "2491123",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
@@ -10,17 +10,41 @@
     "opponent": "Besiktas Basketbol",
     "competition": "Turkish Basketbol Super Ligi",
     "season": "2025-2026",
-    "startTimeUtc": "2026-06-17T17:00:00+00:00",
-    "startTimeTurkey": "2026-06-17T20:00:00+03:00",
+    "startTimeUtc": "2026-06-19T17:00:00+00:00",
+    "startTimeTurkey": "2026-06-19T20:00:00+03:00",
     "venue": "Besiktas Akatlar Arena",
-    "status": "finished",
+    "status": "scheduled",
     "score": {
-      "home": 71,
-      "away": 82
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2488705",
+    "sourceUrl": "https://www.thesportsdb.com/event/2491123",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-06-17T22:46:56.760270+00:00"
+    "updatedAt": "2026-06-18T22:57:29.702220+00:00"
+  },
+  {
+    "id": "football-2492198",
+    "sourceEventId": "2492198",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Admira Wacker",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Admira Wacker",
+    "competition": "Club Friendlies",
+    "season": "2026",
+    "startTimeUtc": "2026-07-08T17:30:00+00:00",
+    "startTimeTurkey": "2026-07-08T20:30:00+03:00",
+    "venue": "Datenpol Arena",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2492198",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-06-18T22:57:29.702220+00:00"
   }
 ]

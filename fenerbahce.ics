@@ -5,12 +5,25 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Club Friendlies\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DURATION:PT2H
+LOCATION:Datenpol Arena
+DTSTART:20260708T173000Z
+SUMMARY:⚽ Admira Wacker - Fenerbahçe
+UID:fenerbahce-football-2492198@fenerbahce-takvim
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
 LOCATION:Besiktas Akatlar Arena
-DTSTART:20260617T170000Z
+DTSTART:20260619T170000Z
 SUMMARY:🏀 Besiktas Basketbol - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2488705@fenerbahce-takvim
+UID:fenerbahce-basketball_men-2491123@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
