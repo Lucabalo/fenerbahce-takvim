@@ -1,29 +1,5 @@
 [
   {
-    "id": "basketball_men-2491123",
-    "sourceEventId": "2491123",
-    "branch": "basketball_men",
-    "sport": "basketball_men",
-    "team": "Fenerbahçe Beko",
-    "homeTeam": "Besiktas Basketbol",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Besiktas Basketbol",
-    "competition": "Turkish Basketbol Super Ligi",
-    "season": "2025-2026",
-    "startTimeUtc": "2026-06-19T17:00:00+00:00",
-    "startTimeTurkey": "2026-06-19T20:00:00+03:00",
-    "venue": "Besiktas Akatlar Arena",
-    "status": "finished",
-    "score": {
-      "home": 75,
-      "away": 77
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2491123",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-06-19T22:07:57.443736+00:00"
-  },
-  {
     "id": "football-2492198",
     "sourceEventId": "2492198",
     "branch": "football",
@@ -45,6 +21,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2492198",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-06-19T22:07:57.443736+00:00"
+    "updatedAt": "2026-06-20T22:13:36.913424+00:00"
   }
 ]
