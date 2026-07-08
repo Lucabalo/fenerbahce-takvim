@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-07-08T17:30:00+00:00",
     "startTimeTurkey": "2026-07-08T20:30:00+03:00",
     "venue": "Datenpol Arena",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 5
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2492198",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-07T22:13:31.316102+00:00"
+    "updatedAt": "2026-07-08T22:11:16.249539+00:00"
   }
 ]
