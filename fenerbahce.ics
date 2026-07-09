@@ -7,10 +7,10 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Club Friendlies\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Datenpol Arena
-DTSTART:20260708T173000Z
-SUMMARY:⚽ Admira Wacker - Fenerbahçe
-UID:fenerbahce-football-2492198@fenerbahce-takvim
+LOCATION:Ülker Stadium
+DTSTART:20260711T173000Z
+SUMMARY:⚽ Fenerbahçe - Pogoń Szczecin
+UID:fenerbahce-football-2492246@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
