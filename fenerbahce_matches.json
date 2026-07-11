@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-07-11T17:30:00+00:00",
     "startTimeTurkey": "2026-07-11T20:30:00+03:00",
     "venue": "Ülker Stadium",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 4,
+      "away": 0
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2492246",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-10T22:08:45.308933+00:00"
+    "updatedAt": "2026-07-11T21:54:42.327074+00:00"
   }
 ]
