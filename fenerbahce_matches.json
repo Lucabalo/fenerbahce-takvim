@@ -1,26 +1,26 @@
 [
   {
-    "id": "football-2492246",
-    "sourceEventId": "2492246",
+    "id": "football-2492323",
+    "sourceEventId": "2492323",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Fenerbahçe",
-    "awayTeam": "Pogoń Szczecin",
-    "opponent": "Pogoń Szczecin",
+    "homeTeam": "LASK",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "LASK",
     "competition": "Club Friendlies",
     "season": "2026",
-    "startTimeUtc": "2026-07-11T17:30:00+00:00",
-    "startTimeTurkey": "2026-07-11T20:30:00+03:00",
-    "venue": "Ülker Stadium",
-    "status": "finished",
+    "startTimeUtc": "2026-07-14T17:30:00+00:00",
+    "startTimeTurkey": "2026-07-14T20:30:00+03:00",
+    "venue": "Raiffeisen Arena Linz",
+    "status": "scheduled",
     "score": {
-      "home": 4,
-      "away": 0
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2492246",
+    "sourceUrl": "https://www.thesportsdb.com/event/2492323",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-11T21:54:42.327074+00:00"
+    "updatedAt": "2026-07-12T21:55:53.785975+00:00"
   }
 ]
