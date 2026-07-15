@@ -1,26 +1,26 @@
 [
   {
-    "id": "football-2492323",
-    "sourceEventId": "2492323",
+    "id": "football-2492396",
+    "sourceEventId": "2492396",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "LASK",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "LASK",
-    "competition": "Club Friendlies",
-    "season": "2026",
-    "startTimeUtc": "2026-07-14T17:30:00+00:00",
-    "startTimeTurkey": "2026-07-14T20:30:00+03:00",
-    "venue": "Raiffeisen Arena Linz",
-    "status": "finished",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Górnik Zabrze",
+    "opponent": "Górnik Zabrze",
+    "competition": "UEFA Champions League",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-07-21T17:00:00+00:00",
+    "startTimeTurkey": "2026-07-21T20:00:00+03:00",
+    "venue": "Chobani Stadyumu",
+    "status": "scheduled",
     "score": {
-      "home": 1,
-      "away": 2
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2492323",
+    "sourceUrl": "https://www.thesportsdb.com/event/2492396",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-14T22:01:43.400001+00:00"
+    "updatedAt": "2026-07-15T22:04:54.681356+00:00"
   }
 ]
