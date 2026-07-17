@@ -10,8 +10,8 @@
     "opponent": "Górnik Zabrze",
     "competition": "UEFA Champions League",
     "season": "2026-2027",
-    "startTimeUtc": "2026-07-21T17:00:00+00:00",
-    "startTimeTurkey": "2026-07-21T20:00:00+03:00",
+    "startTimeUtc": "2026-07-21T18:00:00+00:00",
+    "startTimeTurkey": "2026-07-21T21:00:00+03:00",
     "venue": "Chobani Stadyumu",
     "status": "scheduled",
     "score": {
@@ -21,6 +21,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2492396",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-16T22:05:42.982291+00:00"
+    "updatedAt": "2026-07-17T21:57:11.048311+00:00"
   }
 ]

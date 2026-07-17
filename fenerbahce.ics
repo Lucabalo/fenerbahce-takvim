@@ -8,7 +8,7 @@ BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
 LOCATION:Chobani Stadyumu
-DTSTART:20260721T170000Z
+DTSTART:20260721T180000Z
 SUMMARY:⚽ Fenerbahçe - Górnik Zabrze
 UID:fenerbahce-football-2492396@fenerbahce-takvim
 BEGIN:VALARM
