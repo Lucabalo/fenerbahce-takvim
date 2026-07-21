@@ -13,14 +13,14 @@
     "startTimeUtc": "2026-07-21T18:00:00+00:00",
     "startTimeTurkey": "2026-07-21T21:00:00+03:00",
     "venue": "Chobani Stadyumu",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2492396",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-20T22:03:22.516278+00:00"
+    "updatedAt": "2026-07-21T22:05:58.085331+00:00"
   }
 ]
