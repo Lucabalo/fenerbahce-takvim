@@ -10,8 +10,8 @@
     "opponent": "Sturm Graz",
     "competition": "UEFA Champions League",
     "season": "2026-2027",
-    "startTimeUtc": "2026-08-04T17:00:00+00:00",
-    "startTimeTurkey": "2026-08-04T20:00:00+03:00",
+    "startTimeUtc": "2026-08-05T18:00:00+00:00",
+    "startTimeTurkey": "2026-08-05T21:00:00+03:00",
     "venue": "Chobani Stadyumu",
     "status": "scheduled",
     "score": {
@@ -21,6 +21,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2552933",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-07-30T22:09:04.374245+00:00"
+    "updatedAt": "2026-07-31T22:08:48.183346+00:00"
   }
 ]
