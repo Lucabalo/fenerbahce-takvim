@@ -7,10 +7,10 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:UEFA Champions League\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Chobani Stadyumu
-DTSTART:20260805T180000Z
-SUMMARY:⚽ Fenerbahçe - Sturm Graz
-UID:fenerbahce-football-2552933@fenerbahce-takvim
+LOCATION:Merkur Arena Graz
+DTSTART:20260811T183000Z
+SUMMARY:⚽ Sturm Graz - Fenerbahçe
+UID:fenerbahce-football-2552938@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
