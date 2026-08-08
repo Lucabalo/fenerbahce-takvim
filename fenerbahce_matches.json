@@ -21,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2552938",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-07T21:42:03.451802+00:00"
+    "updatedAt": "2026-08-08T21:33:57.408753+00:00"
+  },
+  {
+    "id": "basketball_men-2565454",
+    "sourceEventId": "2565454",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "Virtus Pallacanestro Bologna",
+    "opponent": "Virtus Pallacanestro Bologna",
+    "competition": "EuroLeague Basketball",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-09-25T17:45:00+00:00",
+    "startTimeTurkey": "2026-09-25T20:45:00+03:00",
+    "venue": "Ülker Sports Arena",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565454",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-08-08T21:33:57.408753+00:00"
   }
 ]
