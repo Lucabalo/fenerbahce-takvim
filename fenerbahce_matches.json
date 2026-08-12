@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2552938",
-    "sourceEventId": "2552938",
+    "id": "football-2527728",
+    "sourceEventId": "2527728",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Sturm Graz",
+    "homeTeam": "Gençlerbirliği",
     "awayTeam": "Fenerbahçe",
-    "opponent": "Sturm Graz",
-    "competition": "UEFA Champions League",
+    "opponent": "Gençlerbirliği",
+    "competition": "Turkish Super Lig",
     "season": "2026-2027",
-    "startTimeUtc": "2026-08-11T18:30:00+00:00",
-    "startTimeTurkey": "2026-08-11T21:30:00+03:00",
-    "venue": "Merkur Arena Graz",
-    "status": "finished",
+    "startTimeUtc": "2026-08-15T18:30:00+00:00",
+    "startTimeTurkey": "2026-08-15T21:30:00+03:00",
+    "venue": "Eryaman Stadyumu",
+    "status": "scheduled",
     "score": {
-      "home": 0,
-      "away": 1
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2552938",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527728",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-11T21:52:36.034607+00:00"
+    "updatedAt": "2026-08-12T21:50:54.664933+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-11T21:52:36.034607+00:00"
+    "updatedAt": "2026-08-12T21:50:54.664933+00:00"
   }
 ]
