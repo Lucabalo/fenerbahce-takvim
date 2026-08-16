@@ -5,12 +5,12 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:UEFA Champions League\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Eryaman Stadyumu
-DTSTART:20260815T183000Z
-SUMMARY:⚽ Gençlerbirliği - Fenerbahçe
-UID:fenerbahce-football-2527728@fenerbahce-takvim
+LOCATION:Chobani Stadyumu
+DTSTART:20260818T190000Z
+SUMMARY:⚽ Fenerbahçe - Lyon
+UID:fenerbahce-football-2570473@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
