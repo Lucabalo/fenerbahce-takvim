@@ -21,7 +21,7 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527733",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-19T21:28:25.876865+00:00"
+    "updatedAt": "2026-08-20T21:31:32.984874+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-19T21:28:25.876865+00:00"
+    "updatedAt": "2026-08-20T21:31:32.984874+00:00"
   }
 ]
