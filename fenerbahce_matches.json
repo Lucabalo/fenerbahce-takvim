@@ -13,15 +13,15 @@
     "startTimeUtc": "2026-08-22T18:30:00+00:00",
     "startTimeTurkey": "2026-08-22T21:30:00+03:00",
     "venue": "Chobani Stadyumu",
-    "status": "scheduled",
+    "status": "finished",
     "score": {
-      "home": null,
-      "away": null
+      "home": 4,
+      "away": 2
     },
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527733",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-21T21:27:55.264333+00:00"
+    "updatedAt": "2026-08-22T21:25:15.387338+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-21T21:27:55.264333+00:00"
+    "updatedAt": "2026-08-22T21:25:15.387338+00:00"
   }
 ]
