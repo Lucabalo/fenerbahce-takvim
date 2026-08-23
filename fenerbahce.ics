@@ -5,12 +5,12 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:UEFA Champions League\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Ülker Sports Arena
-DTSTART:20260925T174500Z
-SUMMARY:🏀 Fenerbahçe Basketbol - Virtus Pallacanestro Bologna
-UID:fenerbahce-basketball_men-2565454@fenerbahce-takvim
+LOCATION:Groupama Stadium
+DTSTART:20260826T190000Z
+SUMMARY:⚽ Lyon - Fenerbahçe
+UID:fenerbahce-football-2570482@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
@@ -18,12 +18,12 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Chobani Stadyumu
-DTSTART:20260822T183000Z
-SUMMARY:⚽ Fenerbahçe - Konyaspor
-UID:fenerbahce-football-2527733@fenerbahce-takvim
+LOCATION:Ülker Sports Arena
+DTSTART:20260925T174500Z
+SUMMARY:🏀 Fenerbahçe Basketbol - Virtus Pallacanestro Bologna
+UID:fenerbahce-basketball_men-2565454@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra

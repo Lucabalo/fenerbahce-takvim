@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2527733",
-    "sourceEventId": "2527733",
+    "id": "football-2570482",
+    "sourceEventId": "2570482",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Fenerbahçe",
-    "awayTeam": "Konyaspor",
-    "opponent": "Konyaspor",
-    "competition": "Turkish Super Lig",
+    "homeTeam": "Lyon",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Lyon",
+    "competition": "UEFA Champions League",
     "season": "2026-2027",
-    "startTimeUtc": "2026-08-22T18:30:00+00:00",
-    "startTimeTurkey": "2026-08-22T21:30:00+03:00",
-    "venue": "Chobani Stadyumu",
-    "status": "finished",
+    "startTimeUtc": "2026-08-26T19:00:00+00:00",
+    "startTimeTurkey": "2026-08-26T22:00:00+03:00",
+    "venue": "Groupama Stadium",
+    "status": "scheduled",
     "score": {
-      "home": 4,
-      "away": 2
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527733",
+    "sourceUrl": "https://www.thesportsdb.com/event/2570482",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-22T21:25:15.387338+00:00"
+    "updatedAt": "2026-08-23T21:25:11.093201+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-22T21:25:15.387338+00:00"
+    "updatedAt": "2026-08-23T21:25:11.093201+00:00"
   }
 ]
