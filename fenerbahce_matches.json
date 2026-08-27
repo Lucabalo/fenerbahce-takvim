@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2570482",
-    "sourceEventId": "2570482",
+    "id": "football-2527750",
+    "sourceEventId": "2527750",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Lyon",
+    "homeTeam": "Samsunspor",
     "awayTeam": "Fenerbahçe",
-    "opponent": "Lyon",
-    "competition": "UEFA Champions League",
+    "opponent": "Samsunspor",
+    "competition": "Turkish Super Lig",
     "season": "2026-2027",
-    "startTimeUtc": "2026-08-26T19:00:00+00:00",
-    "startTimeTurkey": "2026-08-26T22:00:00+03:00",
-    "venue": "Groupama Stadium",
+    "startTimeUtc": "2026-08-30T18:30:00+00:00",
+    "startTimeTurkey": "2026-08-30T21:30:00+03:00",
+    "venue": "Samsun 19 Mayıs Stadyumu",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2570482",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527750",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-25T21:31:55.652050+00:00"
+    "updatedAt": "2026-08-27T00:33:56.464182+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-25T21:31:55.652050+00:00"
+    "updatedAt": "2026-08-27T00:33:56.464182+00:00"
   }
 ]
