@@ -20,10 +20,10 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Samsun 19 Mayıs Stadyumu
-DTSTART:20260830T183000Z
-SUMMARY:⚽ Samsunspor - Fenerbahçe
-UID:fenerbahce-football-2527750@fenerbahce-takvim
+LOCATION:Chobani Stadyumu
+DTSTART:20260905T170000Z
+SUMMARY:⚽ Fenerbahçe - Beşiktaş
+UID:fenerbahce-football-2527752@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra

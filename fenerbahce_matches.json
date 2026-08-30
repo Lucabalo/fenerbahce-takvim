@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2527750",
-    "sourceEventId": "2527750",
+    "id": "football-2527752",
+    "sourceEventId": "2527752",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Samsunspor",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Samsunspor",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Beşiktaş",
+    "opponent": "Beşiktaş",
     "competition": "Turkish Super Lig",
     "season": "2026-2027",
-    "startTimeUtc": "2026-08-30T18:30:00+00:00",
-    "startTimeTurkey": "2026-08-30T21:30:00+03:00",
-    "venue": "Samsun 19 Mayıs Stadyumu",
+    "startTimeUtc": "2026-09-05T17:00:00+00:00",
+    "startTimeTurkey": "2026-09-05T20:00:00+03:00",
+    "venue": "Chobani Stadyumu",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527750",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527752",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-29T23:07:22.278880+00:00"
+    "updatedAt": "2026-08-30T23:18:22.392495+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-08-29T23:07:22.278880+00:00"
+    "updatedAt": "2026-08-30T23:18:22.392495+00:00"
   }
 ]
