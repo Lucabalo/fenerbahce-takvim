@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2527752",
-    "sourceEventId": "2527752",
+    "id": "football-2594652",
+    "sourceEventId": "2594652",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
     "homeTeam": "Fenerbahçe",
-    "awayTeam": "Beşiktaş",
-    "opponent": "Beşiktaş",
-    "competition": "Turkish Super Lig",
+    "awayTeam": "Roma",
+    "opponent": "Roma",
+    "competition": "UEFA Champions League",
     "season": "2026-2027",
-    "startTimeUtc": "2026-09-05T17:00:00+00:00",
-    "startTimeTurkey": "2026-09-05T20:00:00+03:00",
+    "startTimeUtc": "2026-09-10T16:45:00+00:00",
+    "startTimeTurkey": "2026-09-10T19:45:00+03:00",
     "venue": "Chobani Stadyumu",
-    "status": "finished",
+    "status": "scheduled",
     "score": {
-      "home": 1,
-      "away": 2
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527752",
+    "sourceUrl": "https://www.thesportsdb.com/event/2594652",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-05T22:42:45.899251+00:00"
+    "updatedAt": "2026-09-06T22:48:07.451544+00:00"
   },
   {
     "id": "basketball_men-2565454",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565454",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-05T22:42:45.899251+00:00"
+    "updatedAt": "2026-09-06T22:48:07.451544+00:00"
   }
 ]
