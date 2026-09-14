@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2527765",
-    "sourceEventId": "2527765",
+    "id": "football-2527770",
+    "sourceEventId": "2527770",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Gaziantep",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Gaziantep",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Eyüpspor",
+    "opponent": "Eyüpspor",
     "competition": "Turkish Super Lig",
     "season": "2026-2027",
-    "startTimeUtc": "2026-09-14T17:00:00+00:00",
-    "startTimeTurkey": "2026-09-14T20:00:00+03:00",
-    "venue": "Gaziantep Stadyumu",
+    "startTimeUtc": "2026-09-20T14:00:00+00:00",
+    "startTimeTurkey": "2026-09-20T17:00:00+03:00",
+    "venue": "Chobani Stadyumu",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527765",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527770",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-13T23:01:07.493921+00:00"
+    "updatedAt": "2026-09-14T23:44:48.177678+00:00"
   },
   {
     "id": "basketball_men-2603486",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2603486",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-13T23:01:07.493921+00:00"
+    "updatedAt": "2026-09-14T23:44:48.177678+00:00"
   }
 ]

@@ -7,10 +7,10 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Gaziantep Stadyumu
-DTSTART:20260914T170000Z
-SUMMARY:⚽ Gaziantep - Fenerbahçe
-UID:fenerbahce-football-2527765@fenerbahce-takvim
+LOCATION:Chobani Stadyumu
+DTSTART:20260920T140000Z
+SUMMARY:⚽ Fenerbahçe - Eyüpspor
+UID:fenerbahce-football-2527770@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
