@@ -1,29 +1,5 @@
 [
   {
-    "id": "football-2527770",
-    "sourceEventId": "2527770",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Fenerbahçe",
-    "awayTeam": "Eyüpspor",
-    "opponent": "Eyüpspor",
-    "competition": "Turkish Super Lig",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-09-20T14:00:00+00:00",
-    "startTimeTurkey": "2026-09-20T17:00:00+03:00",
-    "venue": "Chobani Stadyumu",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527770",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-19T22:47:10.777938+00:00"
-  },
-  {
     "id": "basketball_men-2603486",
     "sourceEventId": "2603486",
     "branch": "basketball_men",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2603486",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-19T22:47:10.777938+00:00"
+    "updatedAt": "2026-09-20T23:04:53.989579+00:00"
+  },
+  {
+    "id": "football-2527783",
+    "sourceEventId": "2527783",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Rizespor",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Rizespor",
+    "competition": "Turkish Super Lig",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-10T16:00:00+00:00",
+    "startTimeTurkey": "2026-10-10T19:00:00+03:00",
+    "venue": "Çaykur Didi Stadyumu",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527783",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-09-20T23:04:53.989579+00:00"
   }
 ]
