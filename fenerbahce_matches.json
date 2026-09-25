@@ -1,27 +1,27 @@
 [
   {
-    "id": "basketball_men-2565454",
-    "sourceEventId": "2565454",
+    "id": "basketball_men-2571208",
+    "sourceEventId": "2571208",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Fenerbahçe Basketbol",
-    "awayTeam": "Virtus Pallacanestro Bologna",
-    "opponent": "Virtus Pallacanestro Bologna",
-    "competition": "EuroLeague Basketball",
+    "homeTeam": "Bahçeşehir Koleji SK",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "Bahçeşehir Koleji SK",
+    "competition": "Turkish Basketbol Super Ligi",
     "season": "2026-2027",
-    "startTimeUtc": "2026-09-25T17:45:00+00:00",
-    "startTimeTurkey": "2026-09-25T20:45:00+03:00",
-    "venue": "Ülker Sports Arena",
+    "startTimeUtc": "2026-09-27T15:00:00+00:00",
+    "startTimeTurkey": "2026-09-27T18:00:00+03:00",
+    "venue": "Sinan Erdem Dome",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565454",
+    "sourceUrl": "https://www.thesportsdb.com/event/2571208",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-24T23:48:13.988651+00:00"
+    "updatedAt": "2026-09-25T23:53:36.056233+00:00"
   },
   {
     "id": "football-2527783",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527783",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-24T23:48:13.988651+00:00"
+    "updatedAt": "2026-09-25T23:53:36.056233+00:00"
   }
 ]
