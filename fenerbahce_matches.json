@@ -21,30 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565459",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-27T23:42:22.668163+00:00"
+    "updatedAt": "2026-09-29T00:52:41.466508+00:00"
   },
   {
-    "id": "football-2527783",
-    "sourceEventId": "2527783",
+    "id": "football-2611328",
+    "sourceEventId": "2611328",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Rizespor",
+    "homeTeam": "Turan Tovuz",
     "awayTeam": "Fenerbahçe",
-    "opponent": "Rizespor",
-    "competition": "Turkish Super Lig",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-10T16:00:00+00:00",
-    "startTimeTurkey": "2026-10-10T19:00:00+03:00",
-    "venue": "Çaykur Didi Stadyumu",
+    "opponent": "Turan Tovuz",
+    "competition": "Club Friendlies",
+    "season": "2026",
+    "startTimeUtc": "2026-10-03T16:00:00+00:00",
+    "startTimeTurkey": "2026-10-03T19:00:00+03:00",
+    "venue": "Tovuz City Stadium",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527783",
+    "sourceUrl": "https://www.thesportsdb.com/event/2611328",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-09-27T23:42:22.668163+00:00"
+    "updatedAt": "2026-09-29T00:52:41.466508+00:00"
   }
 ]
