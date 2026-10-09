@@ -1,29 +1,5 @@
 [
   {
-    "id": "basketball_men-2565478",
-    "sourceEventId": "2565478",
-    "branch": "basketball_men",
-    "sport": "basketball_men",
-    "team": "Fenerbahçe Beko",
-    "homeTeam": "Panathinaikos BC",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Panathinaikos BC",
-    "competition": "EuroLeague Basketball",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-08T18:15:00+00:00",
-    "startTimeTurkey": "2026-10-08T21:15:00+03:00",
-    "venue": "Telekom Center Athens",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565478",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-08T00:50:23.904393+00:00"
-  },
-  {
     "id": "football-2527783",
     "sourceEventId": "2527783",
     "branch": "football",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527783",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-08T00:50:23.904393+00:00"
+    "updatedAt": "2026-10-09T01:03:31.148126+00:00"
+  },
+  {
+    "id": "basketball_men-2571219",
+    "sourceEventId": "2571219",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "Çayirova",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "Çayirova",
+    "competition": "Turkish Basketbol Super Ligi",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-10T17:30:00+00:00",
+    "startTimeTurkey": "2026-10-10T20:30:00+03:00",
+    "venue": "",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2571219",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-10-09T01:03:31.148126+00:00"
   }
 ]
