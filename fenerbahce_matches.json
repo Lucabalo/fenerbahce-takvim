@@ -1,50 +1,50 @@
 [
   {
-    "id": "football-2527783",
-    "sourceEventId": "2527783",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Rizespor",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Rizespor",
-    "competition": "Turkish Super Lig",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-10T16:00:00+00:00",
-    "startTimeTurkey": "2026-10-10T19:00:00+03:00",
-    "venue": "Çaykur Didi Stadyumu",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527783",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-10T00:36:21.587627+00:00"
-  },
-  {
-    "id": "basketball_men-2571219",
-    "sourceEventId": "2571219",
+    "id": "basketball_men-2565486",
+    "sourceEventId": "2565486",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Çayirova",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Çayirova",
-    "competition": "Turkish Basketbol Super Ligi",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "BC Žalgiris",
+    "opponent": "BC Žalgiris",
+    "competition": "EuroLeague Basketball",
     "season": "2026-2027",
-    "startTimeUtc": "2026-10-10T17:30:00+00:00",
-    "startTimeTurkey": "2026-10-10T20:30:00+03:00",
-    "venue": "",
+    "startTimeUtc": "2026-10-13T17:45:00+00:00",
+    "startTimeTurkey": "2026-10-13T20:45:00+03:00",
+    "venue": "Ülker Sports Arena",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2571219",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565486",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-10T00:36:21.587627+00:00"
+    "updatedAt": "2026-10-11T00:09:13.249466+00:00"
+  },
+  {
+    "id": "football-2594553",
+    "sourceEventId": "2594553",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Aston Villa",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Aston Villa",
+    "competition": "UEFA Champions League",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-14T19:00:00+00:00",
+    "startTimeTurkey": "2026-10-14T22:00:00+03:00",
+    "venue": "Villa Park",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2594553",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-10-11T00:09:13.249466+00:00"
   }
 ]
