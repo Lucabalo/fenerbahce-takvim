@@ -18,12 +18,12 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Villa Park
-DTSTART:20261014T190000Z
-SUMMARY:⚽ Aston Villa - Fenerbahçe
-UID:fenerbahce-football-2594553@fenerbahce-takvim
+LOCATION:Chobani Stadyumu
+DTSTART:20261017T160000Z
+SUMMARY:⚽ Fenerbahçe - Alanyaspor
+UID:fenerbahce-football-2527788@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra

@@ -1,29 +1,5 @@
 [
   {
-    "id": "football-2594553",
-    "sourceEventId": "2594553",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Aston Villa",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Aston Villa",
-    "competition": "UEFA Champions League",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-14T19:00:00+00:00",
-    "startTimeTurkey": "2026-10-14T22:00:00+03:00",
-    "venue": "Villa Park",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2594553",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-14T00:11:58.203566+00:00"
-  },
-  {
     "id": "basketball_men-2565496",
     "sourceEventId": "2565496",
     "branch": "basketball_men",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565496",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-14T00:11:58.203566+00:00"
+    "updatedAt": "2026-10-14T23:46:17.264117+00:00"
+  },
+  {
+    "id": "football-2527788",
+    "sourceEventId": "2527788",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Alanyaspor",
+    "opponent": "Alanyaspor",
+    "competition": "Turkish Super Lig",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-17T16:00:00+00:00",
+    "startTimeTurkey": "2026-10-17T19:00:00+03:00",
+    "venue": "Chobani Stadyumu",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527788",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-10-14T23:46:17.264117+00:00"
   }
 ]
