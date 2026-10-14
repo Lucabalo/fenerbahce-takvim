@@ -1,29 +1,5 @@
 [
   {
-    "id": "basketball_men-2565486",
-    "sourceEventId": "2565486",
-    "branch": "basketball_men",
-    "sport": "basketball_men",
-    "team": "Fenerbahçe Beko",
-    "homeTeam": "Fenerbahçe Basketbol",
-    "awayTeam": "BC Žalgiris",
-    "opponent": "BC Žalgiris",
-    "competition": "EuroLeague Basketball",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-13T17:45:00+00:00",
-    "startTimeTurkey": "2026-10-13T20:45:00+03:00",
-    "venue": "Ülker Sports Arena",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565486",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-13T02:28:35.685360+00:00"
-  },
-  {
     "id": "football-2594553",
     "sourceEventId": "2594553",
     "branch": "football",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2594553",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-13T02:28:35.685360+00:00"
+    "updatedAt": "2026-10-14T00:11:58.203566+00:00"
+  },
+  {
+    "id": "basketball_men-2565496",
+    "sourceEventId": "2565496",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "KK Partizan",
+    "opponent": "KK Partizan",
+    "competition": "EuroLeague Basketball",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-15T17:45:00+00:00",
+    "startTimeTurkey": "2026-10-15T20:45:00+03:00",
+    "venue": "Ülker Sports Arena",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565496",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-10-14T00:11:58.203566+00:00"
   }
 ]
