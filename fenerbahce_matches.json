@@ -1,29 +1,5 @@
 [
   {
-    "id": "football-2594654",
-    "sourceEventId": "2594654",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Fenerbahçe",
-    "awayTeam": "Slavia Prague",
-    "opponent": "Slavia Prague",
-    "competition": "UEFA Champions League",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-20T16:45:00+00:00",
-    "startTimeTurkey": "2026-10-20T19:45:00+03:00",
-    "venue": "Chobani Stadyumu",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2594654",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-20T00:09:23.445551+00:00"
-  },
-  {
     "id": "basketball_men-2565514",
     "sourceEventId": "2565514",
     "branch": "basketball_men",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565514",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-20T00:09:23.445551+00:00"
+    "updatedAt": "2026-10-20T23:41:03.245623+00:00"
+  },
+  {
+    "id": "football-2527798",
+    "sourceEventId": "2527798",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Galatasaray",
+    "competition": "Turkish Super Lig",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-26T18:30:00+00:00",
+    "startTimeTurkey": "2026-10-26T21:30:00+03:00",
+    "venue": "Rams Park",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527798",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-10-20T23:41:03.245623+00:00"
   }
 ]
