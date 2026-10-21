@@ -21,7 +21,7 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565514",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-20T23:41:03.245623+00:00"
+    "updatedAt": "2026-10-21T23:56:06.415868+00:00"
   },
   {
     "id": "football-2527798",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527798",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-20T23:41:03.245623+00:00"
+    "updatedAt": "2026-10-21T23:56:06.415868+00:00"
   }
 ]
