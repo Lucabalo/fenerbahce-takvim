@@ -18,12 +18,12 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Peace and Friendship Stadium
-DTSTART:20261023T181500Z
-SUMMARY:🏀 Olympiacos BC - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2565514@fenerbahce-takvim
+LOCATION:Karşıyaka Arena
+DTSTART:20261025T123000Z
+SUMMARY:🏀 Karşıyaka Basket - Fenerbahçe Basketbol
+UID:fenerbahce-basketball_men-2571237@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
