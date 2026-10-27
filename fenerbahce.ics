@@ -5,12 +5,12 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Rams Park
-DTSTART:20261026T183000Z
-SUMMARY:⚽ Galatasaray - Fenerbahçe
-UID:fenerbahce-football-2527798@fenerbahce-takvim
+LOCATION:Roig Arena
+DTSTART:20261027T193000Z
+SUMMARY:🏀 Valencia Basket - Fenerbahçe Basketbol
+UID:fenerbahce-basketball_men-2565520@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
@@ -18,12 +18,12 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Karşıyaka Arena
-DTSTART:20261025T123000Z
-SUMMARY:🏀 Karşıyaka Basket - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2571237@fenerbahce-takvim
+LOCATION:Chobani Stadyumu
+DTSTART:20261031T160000Z
+SUMMARY:⚽ Fenerbahçe - Göztepe
+UID:fenerbahce-football-2527807@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra

@@ -1,50 +1,50 @@
 [
   {
-    "id": "basketball_men-2571237",
-    "sourceEventId": "2571237",
+    "id": "basketball_men-2565520",
+    "sourceEventId": "2565520",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Karşıyaka Basket",
+    "homeTeam": "Valencia Basket",
     "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Karşıyaka Basket",
-    "competition": "Turkish Basketbol Super Ligi",
+    "opponent": "Valencia Basket",
+    "competition": "EuroLeague Basketball",
     "season": "2026-2027",
-    "startTimeUtc": "2026-10-25T12:30:00+00:00",
-    "startTimeTurkey": "2026-10-25T15:30:00+03:00",
-    "venue": "Karşıyaka Arena",
-    "status": "finished",
-    "score": {
-      "home": 72,
-      "away": 97
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2571237",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-25T23:05:56.291242+00:00"
-  },
-  {
-    "id": "football-2527798",
-    "sourceEventId": "2527798",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Galatasaray",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Galatasaray",
-    "competition": "Turkish Super Lig",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-10-26T18:30:00+00:00",
-    "startTimeTurkey": "2026-10-26T21:30:00+03:00",
-    "venue": "Rams Park",
+    "startTimeUtc": "2026-10-27T19:30:00+00:00",
+    "startTimeTurkey": "2026-10-27T22:30:00+03:00",
+    "venue": "Roig Arena",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527798",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565520",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-25T23:05:56.291242+00:00"
+    "updatedAt": "2026-10-27T00:16:35.259875+00:00"
+  },
+  {
+    "id": "football-2527807",
+    "sourceEventId": "2527807",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Göztepe",
+    "opponent": "Göztepe",
+    "competition": "Turkish Super Lig",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-10-31T16:00:00+00:00",
+    "startTimeTurkey": "2026-10-31T19:00:00+03:00",
+    "venue": "Chobani Stadyumu",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527807",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-10-27T00:16:35.259875+00:00"
   }
 ]
