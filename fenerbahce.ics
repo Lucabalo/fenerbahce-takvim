@@ -7,10 +7,10 @@ PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Roig Arena
-DTSTART:20261027T193000Z
-SUMMARY:🏀 Valencia Basket - Fenerbahçe Basketbol
-UID:fenerbahce-basketball_men-2565520@fenerbahce-takvim
+LOCATION:Palacio de Deportes de la Comunidad de Madrid
+DTSTART:20261029T194500Z
+SUMMARY:🏀 Real Madrid Baloncesto - Fenerbahçe Basketbol
+UID:fenerbahce-basketball_men-2565528@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
