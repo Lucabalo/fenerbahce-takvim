@@ -1,41 +1,41 @@
 [
   {
-    "id": "football-2527807",
-    "sourceEventId": "2527807",
+    "id": "football-2594651",
+    "sourceEventId": "2594651",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
     "homeTeam": "Fenerbahçe",
-    "awayTeam": "Göztepe",
-    "opponent": "Göztepe",
-    "competition": "Turkish Super Lig",
+    "awayTeam": "Liverpool",
+    "opponent": "Liverpool",
+    "competition": "UEFA Champions League",
     "season": "2026-2027",
-    "startTimeUtc": "2026-10-31T16:00:00+00:00",
-    "startTimeTurkey": "2026-10-31T19:00:00+03:00",
+    "startTimeUtc": "2026-11-04T17:45:00+00:00",
+    "startTimeTurkey": "2026-11-04T20:45:00+03:00",
     "venue": "Chobani Stadyumu",
-    "status": "finished",
+    "status": "scheduled",
     "score": {
-      "home": 1,
-      "away": 2
+      "home": null,
+      "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527807",
+    "sourceUrl": "https://www.thesportsdb.com/event/2594651",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-31T23:58:31.215514+00:00"
+    "updatedAt": "2026-11-02T00:25:36.626450+00:00"
   },
   {
-    "id": "basketball_men-2571245",
-    "sourceEventId": "2571245",
+    "id": "basketball_men-2565536",
+    "sourceEventId": "2565536",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
     "homeTeam": "Fenerbahçe Basketbol",
-    "awayTeam": "Tofaş SK",
-    "opponent": "Tofaş SK",
-    "competition": "Turkish Basketbol Super Ligi",
+    "awayTeam": "Baskonia",
+    "opponent": "Baskonia",
+    "competition": "EuroLeague Basketball",
     "season": "2026-2027",
-    "startTimeUtc": "2026-11-01T12:30:00+00:00",
-    "startTimeTurkey": "2026-11-01T15:30:00+03:00",
+    "startTimeUtc": "2026-11-05T18:00:00+00:00",
+    "startTimeTurkey": "2026-11-05T21:00:00+03:00",
     "venue": "Ülker Sports Arena",
     "status": "scheduled",
     "score": {
@@ -43,8 +43,8 @@
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2571245",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565536",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-10-31T23:58:31.215514+00:00"
+    "updatedAt": "2026-11-02T00:25:36.626450+00:00"
   }
 ]
