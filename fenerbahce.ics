@@ -5,12 +5,12 @@ X-WR-TIMEZONE:Europe/Istanbul
 X-WR-CALDESC:Fenerbahçe futbol ve erkek basketbol maç takvimi
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:UEFA Champions League\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Süper Lig\nYayıncı: beIN SPORTS\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Chobani Stadyumu
-DTSTART:20261104T174500Z
-SUMMARY:⚽ Fenerbahçe - Liverpool
-UID:fenerbahce-football-2594651@fenerbahce-takvim
+LOCATION:Çorum Şehir Stadyumu
+DTSTART:20261108T130000Z
+SUMMARY:⚽ Çorum - Fenerbahçe
+UID:fenerbahce-football-2527822@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
