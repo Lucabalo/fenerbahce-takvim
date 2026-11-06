@@ -1,27 +1,27 @@
 [
   {
-    "id": "basketball_men-2565536",
-    "sourceEventId": "2565536",
+    "id": "basketball_men-2571251",
+    "sourceEventId": "2571251",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Fenerbahçe Basketbol",
-    "awayTeam": "Baskonia",
-    "opponent": "Baskonia",
-    "competition": "EuroLeague Basketball",
+    "homeTeam": "Bursaspor Basketbol",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "Bursaspor Basketbol",
+    "competition": "Turkish Basketbol Super Ligi",
     "season": "2026-2027",
-    "startTimeUtc": "2026-11-05T18:00:00+00:00",
-    "startTimeTurkey": "2026-11-05T21:00:00+03:00",
-    "venue": "Ülker Sports Arena",
+    "startTimeUtc": "2026-11-07T17:30:00+00:00",
+    "startTimeTurkey": "2026-11-07T20:30:00+03:00",
+    "venue": "Tofaş Spor Salonu",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565536",
+    "sourceUrl": "https://www.thesportsdb.com/event/2571251",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-05T01:22:34.597636+00:00"
+    "updatedAt": "2026-11-06T01:25:53.332347+00:00"
   },
   {
     "id": "football-2527822",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527822",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-05T01:22:34.597636+00:00"
+    "updatedAt": "2026-11-06T01:25:53.332347+00:00"
   }
 ]

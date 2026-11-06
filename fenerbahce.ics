@@ -18,12 +18,12 @@ TRIGGER:-PT60M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:EuroLeague\nYayıncı: S Sport\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
+DESCRIPTION:Turkish Basketbol Super Ligi\nYayıncı: Yayın bilgisi eklenecek\n\nBu takvim HvFB Derneği için Ahmet Saatçıoğlu tarafından hazırlanmıştır.
 DURATION:PT2H
-LOCATION:Ülker Sports Arena
-DTSTART:20261105T180000Z
-SUMMARY:🏀 Fenerbahçe Basketbol - Baskonia
-UID:fenerbahce-basketball_men-2565536@fenerbahce-takvim
+LOCATION:Tofaş Spor Salonu
+DTSTART:20261107T173000Z
+SUMMARY:🏀 Bursaspor Basketbol - Fenerbahçe Basketbol
+UID:fenerbahce-basketball_men-2571251@fenerbahce-takvim
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Fenerbahçe maçı 60 dakika sonra
