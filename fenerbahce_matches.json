@@ -1,27 +1,27 @@
 [
   {
-    "id": "basketball_men-2565546",
-    "sourceEventId": "2565546",
+    "id": "basketball_men-2571261",
+    "sourceEventId": "2571261",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Paris Basketball",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Paris Basketball",
-    "competition": "EuroLeague Basketball",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "Anadolu Efes SK",
+    "opponent": "Anadolu Efes SK",
+    "competition": "Turkish Basketbol Super Ligi",
     "season": "2026-2027",
-    "startTimeUtc": "2026-11-11T19:45:00+00:00",
-    "startTimeTurkey": "2026-11-11T22:45:00+03:00",
-    "venue": "Adidas Arena",
+    "startTimeUtc": "2026-11-15T17:30:00+00:00",
+    "startTimeTurkey": "2026-11-15T20:30:00+03:00",
+    "venue": "Ülker Sports Arena",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565546",
+    "sourceUrl": "https://www.thesportsdb.com/event/2571261",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-11T01:06:22.217963+00:00"
+    "updatedAt": "2026-11-12T02:09:24.696814+00:00"
   },
   {
     "id": "football-2527831",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527831",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-11T01:06:22.217963+00:00"
+    "updatedAt": "2026-11-12T02:09:24.696814+00:00"
   }
 ]
