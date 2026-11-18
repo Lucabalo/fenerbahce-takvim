@@ -1,27 +1,27 @@
 [
   {
-    "id": "basketball_men-2565557",
-    "sourceEventId": "2565557",
+    "id": "basketball_men-2565569",
+    "sourceEventId": "2565569",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Fenerbahçe Basketbol",
-    "awayTeam": "Lyon-Villeurbanne",
-    "opponent": "Lyon-Villeurbanne",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "Olimpia Milano",
     "competition": "EuroLeague Basketball",
     "season": "2026-2027",
-    "startTimeUtc": "2026-11-17T18:00:00+00:00",
-    "startTimeTurkey": "2026-11-17T21:00:00+03:00",
-    "venue": "Ülker Sports Arena",
+    "startTimeUtc": "2026-11-19T19:30:00+00:00",
+    "startTimeTurkey": "2026-11-19T22:30:00+03:00",
+    "venue": "Forum di Milano",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565557",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565569",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-17T03:31:29.025349+00:00"
+    "updatedAt": "2026-11-18T02:47:20.304545+00:00"
   },
   {
     "id": "football-2527831",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527831",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-17T03:31:29.025349+00:00"
+    "updatedAt": "2026-11-18T02:47:20.304545+00:00"
   }
 ]
