@@ -1,29 +1,5 @@
 [
   {
-    "id": "basketball_men-2565569",
-    "sourceEventId": "2565569",
-    "branch": "basketball_men",
-    "sport": "basketball_men",
-    "team": "Fenerbahçe Beko",
-    "homeTeam": "Olimpia Milano",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Olimpia Milano",
-    "competition": "EuroLeague Basketball",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-11-19T19:30:00+00:00",
-    "startTimeTurkey": "2026-11-19T22:30:00+03:00",
-    "venue": "Forum di Milano",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565569",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-19T02:23:21.402980+00:00"
-  },
-  {
     "id": "football-2527831",
     "sourceEventId": "2527831",
     "branch": "football",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2527831",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-19T02:23:21.402980+00:00"
+    "updatedAt": "2026-11-20T02:07:39.355971+00:00"
+  },
+  {
+    "id": "basketball_men-2571266",
+    "sourceEventId": "2571266",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "Besiktas Basketbol",
+    "awayTeam": "Fenerbahçe Basketbol",
+    "opponent": "Besiktas Basketbol",
+    "competition": "Turkish Basketbol Super Ligi",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-11-22T17:30:00+00:00",
+    "startTimeTurkey": "2026-11-22T20:30:00+03:00",
+    "venue": "Besiktas Akatlar Arena",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2571266",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-11-20T02:07:39.355971+00:00"
   }
 ]
