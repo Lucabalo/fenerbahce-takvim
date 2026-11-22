@@ -1,29 +1,5 @@
 [
   {
-    "id": "football-2527831",
-    "sourceEventId": "2527831",
-    "branch": "football",
-    "sport": "football",
-    "team": "Fenerbahçe",
-    "homeTeam": "Kocaelispor",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Kocaelispor",
-    "competition": "Turkish Super Lig",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-11-21T16:00:00+00:00",
-    "startTimeTurkey": "2026-11-21T19:00:00+03:00",
-    "venue": "Kocaeli Stadyumu",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2527831",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-21T02:01:10.064322+00:00"
-  },
-  {
     "id": "basketball_men-2571266",
     "sourceEventId": "2571266",
     "branch": "basketball_men",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2571266",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-21T02:01:10.064322+00:00"
+    "updatedAt": "2026-11-22T01:03:08.396655+00:00"
+  },
+  {
+    "id": "football-2594638",
+    "sourceEventId": "2594638",
+    "branch": "football",
+    "sport": "football",
+    "team": "Fenerbahçe",
+    "homeTeam": "Shakhtar Donetsk",
+    "awayTeam": "Fenerbahçe",
+    "opponent": "Shakhtar Donetsk",
+    "competition": "UEFA Champions League",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-11-25T20:00:00+00:00",
+    "startTimeTurkey": "2026-11-25T23:00:00+03:00",
+    "venue": "Stamford Bridge",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2594638",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-11-22T01:03:08.396655+00:00"
   }
 ]
