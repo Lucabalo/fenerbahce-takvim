@@ -1,27 +1,27 @@
 [
   {
-    "id": "basketball_men-2571266",
-    "sourceEventId": "2571266",
+    "id": "basketball_men-2565581",
+    "sourceEventId": "2565581",
     "branch": "basketball_men",
     "sport": "basketball_men",
     "team": "Fenerbahçe Beko",
-    "homeTeam": "Besiktas Basketbol",
+    "homeTeam": "FC Barcelona Basquet",
     "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "Besiktas Basketbol",
-    "competition": "Turkish Basketbol Super Ligi",
+    "opponent": "FC Barcelona Basquet",
+    "competition": "EuroLeague Basketball",
     "season": "2026-2027",
-    "startTimeUtc": "2026-11-22T17:30:00+00:00",
-    "startTimeTurkey": "2026-11-22T20:30:00+03:00",
-    "venue": "Besiktas Akatlar Arena",
+    "startTimeUtc": "2026-11-24T20:00:00+00:00",
+    "startTimeTurkey": "2026-11-24T23:00:00+03:00",
+    "venue": "Palau Blaugrana",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2571266",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565581",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-22T01:03:08.396655+00:00"
+    "updatedAt": "2026-11-23T01:27:57.059013+00:00"
   },
   {
     "id": "football-2594638",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2594638",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-22T01:03:08.396655+00:00"
+    "updatedAt": "2026-11-23T01:27:57.059013+00:00"
   }
 ]
