@@ -1,29 +1,5 @@
 [
   {
-    "id": "basketball_men-2565581",
-    "sourceEventId": "2565581",
-    "branch": "basketball_men",
-    "sport": "basketball_men",
-    "team": "Fenerbahçe Beko",
-    "homeTeam": "FC Barcelona Basquet",
-    "awayTeam": "Fenerbahçe Basketbol",
-    "opponent": "FC Barcelona Basquet",
-    "competition": "EuroLeague Basketball",
-    "season": "2026-2027",
-    "startTimeUtc": "2026-11-24T20:00:00+00:00",
-    "startTimeTurkey": "2026-11-24T23:00:00+03:00",
-    "venue": "Palau Blaugrana",
-    "status": "scheduled",
-    "score": {
-      "home": null,
-      "away": null
-    },
-    "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2565581",
-    "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-24T05:10:36.190974+00:00"
-  },
-  {
     "id": "football-2594638",
     "sourceEventId": "2594638",
     "branch": "football",
@@ -45,6 +21,30 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2594638",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-24T05:10:36.190974+00:00"
+    "updatedAt": "2026-11-25T03:59:59.978595+00:00"
+  },
+  {
+    "id": "basketball_men-2565587",
+    "sourceEventId": "2565587",
+    "branch": "basketball_men",
+    "sport": "basketball_men",
+    "team": "Fenerbahçe Beko",
+    "homeTeam": "Fenerbahçe Basketbol",
+    "awayTeam": "KK Crvena zvezda",
+    "opponent": "KK Crvena zvezda",
+    "competition": "EuroLeague Basketball",
+    "season": "2026-2027",
+    "startTimeUtc": "2026-12-03T17:45:00+00:00",
+    "startTimeTurkey": "2026-12-03T20:45:00+03:00",
+    "venue": "Ülker Sports Arena",
+    "status": "scheduled",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "source": "TheSportsDB",
+    "sourceUrl": "https://www.thesportsdb.com/event/2565587",
+    "timeConfidence": "utc_converted_from_thesportsdb",
+    "updatedAt": "2026-11-25T03:59:59.978595+00:00"
   }
 ]
