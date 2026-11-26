@@ -1,27 +1,27 @@
 [
   {
-    "id": "football-2594638",
-    "sourceEventId": "2594638",
+    "id": "football-2527833",
+    "sourceEventId": "2527833",
     "branch": "football",
     "sport": "football",
     "team": "Fenerbahçe",
-    "homeTeam": "Shakhtar Donetsk",
-    "awayTeam": "Fenerbahçe",
-    "opponent": "Shakhtar Donetsk",
-    "competition": "UEFA Champions League",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Erzurumspor",
+    "opponent": "Erzurumspor",
+    "competition": "Turkish Super Lig",
     "season": "2026-2027",
-    "startTimeUtc": "2026-11-25T20:00:00+00:00",
-    "startTimeTurkey": "2026-11-25T23:00:00+03:00",
-    "venue": "Stamford Bridge",
+    "startTimeUtc": "2026-11-29T16:00:00+00:00",
+    "startTimeTurkey": "2026-11-29T19:00:00+03:00",
+    "venue": "Chobani Stadyumu",
     "status": "scheduled",
     "score": {
       "home": null,
       "away": null
     },
     "source": "TheSportsDB",
-    "sourceUrl": "https://www.thesportsdb.com/event/2594638",
+    "sourceUrl": "https://www.thesportsdb.com/event/2527833",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-25T03:59:59.978595+00:00"
+    "updatedAt": "2026-11-26T03:24:46.827873+00:00"
   },
   {
     "id": "basketball_men-2565587",
@@ -45,6 +45,6 @@
     "source": "TheSportsDB",
     "sourceUrl": "https://www.thesportsdb.com/event/2565587",
     "timeConfidence": "utc_converted_from_thesportsdb",
-    "updatedAt": "2026-11-25T03:59:59.978595+00:00"
+    "updatedAt": "2026-11-26T03:24:46.827873+00:00"
   }
 ]
